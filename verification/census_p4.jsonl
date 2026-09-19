@@ -1,0 +1,5 @@
+{"source": "census", "name": "K8_242", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_266", "crossings": 69, "genus": 32, "tau": 32, "signature": -40, "det": 5, "bound": 41, "holds": true}
+{"source": "census", "name": "K8_290", "crossings": 27, "genus": 12, "tau": -12, "signature": 16, "det": 1, "bound": 17, "holds": true}
+{"source": "census", "name": "K9_13", "crossings": 158, "genus": 76, "tau": -76, "signature": 92, "det": 5, "bound": 93, "holds": true}
+{"source": "census", "name": "K9_25", "error": "ValueError('Girth number exceeds 20')"}

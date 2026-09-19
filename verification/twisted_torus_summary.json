@@ -1,0 +1,22 @@
+{
+  "candidate": "K33 and K32",
+  "family": "twisted torus knots K(p,q;r,s)",
+  "parameters": {
+    "p": [
+      3,
+      8
+    ],
+    "q": [
+      2,
+      11
+    ],
+    "r": "2..p",
+    "s": "-7..7, nonzero",
+    "max_braid_length": 40
+  },
+  "L_space_test": "knot Floer homology L_space_knot flag, not a cited classification",
+  "distinct_knots_built": 632,
+  "l_space_knots": 549,
+  "l_space_with_negative_twisting": 215,
+  "note": "hyperbolicity recorded per knot"
+}

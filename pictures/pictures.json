@@ -1,0 +1,99 @@
+[
+ {
+  "name": "T(2,7)_equality",
+  "braid": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "crossings": 7,
+  "genus": 3,
+  "L_space": true
+ },
+ {
+  "name": "T(3,4)_definite",
+  "braid": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2
+  ],
+  "crossings": 8,
+  "genus": 3,
+  "L_space": true
+ },
+ {
+  "name": "T(3,5)_definite",
+  "braid": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2
+  ],
+  "crossings": 10,
+  "genus": 4,
+  "L_space": true
+ },
+ {
+  "name": "BakerKegel_K1_o9_30634",
+  "braid": [
+   2,
+   1,
+   3,
+   2,
+   2,
+   1,
+   3,
+   2,
+   2,
+   1,
+   3,
+   2,
+   -1,
+   2,
+   1,
+   1,
+   2
+  ],
+  "crossings": 17,
+  "genus": 6,
+  "L_space": true
+ },
+ {
+  "name": "cable_2_3_of_trefoil",
+  "braid": [
+   2,
+   1,
+   3,
+   2,
+   2,
+   1,
+   3,
+   2,
+   2,
+   1,
+   3,
+   2,
+   -1,
+   -1,
+   -1
+  ],
+  "crossings": 15,
+  "genus": 3,
+  "L_space": true
+ }
+]

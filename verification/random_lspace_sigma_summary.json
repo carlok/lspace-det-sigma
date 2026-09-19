@@ -1,0 +1,14 @@
+{
+  "candidate": "K33",
+  "family": "unbiased random search, L-space knots only",
+  "available": 14452,
+  "tested": 14452,
+  "violations": 0,
+  "det_mismatches": [],
+  "congruence_failures": [],
+  "hyperbolic": 5409,
+  "equalities": 2147,
+  "hyperbolic_equalities": 0,
+  "max_genus": 11,
+  "signature": "exact, congruence diagonalisation over Q of V + V^T"
+}

@@ -1,0 +1,51 @@
+{"source": "census (Baker-Kegel braids)", "name": "m004", "L_space": false, "genus": 1, "tau": 0, "signature": 0, "det": 5, "bound": 1, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m015", "L_space": false, "genus": 1, "tau": 1, "signature": -2, "det": 7, "bound": 3, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m016", "L_space": true, "genus": 5, "tau": -5, "signature": 8, "det": 1, "bound": 9, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m032", "L_space": false, "genus": 1, "tau": 0, "signature": 0, "det": 9, "bound": 1, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m053", "L_space": false, "genus": 1, "tau": 1, "signature": -2, "det": 11, "bound": 3, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m071", "L_space": true, "genus": 11, "tau": 11, "signature": -16, "det": 1, "bound": 17, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m074", "L_space": false, "genus": 1, "tau": 0, "signature": 0, "det": 13, "bound": 1, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m082", "L_space": true, "genus": 8, "tau": 8, "signature": -12, "det": 5, "bound": 13, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m094", "L_space": false, "genus": 1, "tau": 1, "signature": -2, "det": 15, "bound": 3, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m103", "L_space": true, "genus": 15, "tau": -15, "signature": 22, "det": 3, "bound": 23, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m118", "L_space": true, "genus": 10, "tau": 10, "signature": -16, "det": 1, "bound": 17, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m144", "L_space": true, "genus": 11, "tau": -11, "signature": 16, "det": 1, "bound": 17, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m194", "L_space": true, "genus": 13, "tau": -13, "signature": 18, "det": 7, "bound": 19, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m198", "L_space": true, "genus": 13, "tau": 13, "signature": -18, "det": 3, "bound": 19, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m199", "L_space": false, "genus": 2, "tau": 0, "signature": -2, "det": 7, "bound": -1, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m201", "L_space": false, "genus": 2, "tau": 1, "signature": 0, "det": 5, "bound": 1, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m211", "L_space": true, "genus": 9, "tau": -9, "signature": 14, "det": 11, "bound": 15, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m222", "L_space": false, "genus": 2, "tau": 0, "signature": 0, "det": 9, "bound": 1, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m223", "L_space": true, "genus": 6, "tau": -6, "signature": 10, "det": 3, "bound": 11, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m224", "L_space": false, "genus": 2, "tau": 0, "signature": -2, "det": 3, "bound": -1, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m239", "L_space": true, "genus": 11, "tau": -11, "signature": 16, "det": 1, "bound": 17, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m240", "L_space": true, "genus": 12, "tau": -12, "signature": 16, "det": 5, "bound": 17, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m270", "L_space": true, "genus": 16, "tau": -16, "signature": 22, "det": 3, "bound": 23, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m276", "L_space": true, "genus": 18, "tau": -18, "signature": 24, "det": 1, "bound": 25, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m281", "L_space": true, "genus": 16, "tau": -16, "signature": 24, "det": 1, "bound": 25, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "m289", "L_space": false, "genus": 2, "tau": -1, "signature": 2, "det": 11, "bound": 3, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m340", "L_space": false, "genus": 2, "tau": -2, "signature": 4, "det": 13, "bound": 5, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m372", "L_space": false, "genus": 1, "tau": 0, "signature": 0, "det": 9, "bound": 1, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "m389", "L_space": false, "genus": 4, "tau": -4, "signature": 6, "det": 3, "bound": 7, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_00017", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census (Baker-Kegel braids)", "name": "o9_00022", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census (Baker-Kegel braids)", "name": "o9_00133", "L_space": true, "genus": 51, "tau": 51, "signature": -64, "det": 1, "bound": 65, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_00168", "L_space": true, "genus": 55, "tau": 55, "signature": -70, "det": 3, "bound": 71, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_00644", "L_space": true, "genus": 23, "tau": -23, "signature": 32, "det": 1, "bound": 33, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_00797", "L_space": true, "genus": 89, "tau": -89, "signature": 104, "det": 1, "bound": 105, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_00815", "L_space": true, "genus": 94, "tau": 94, "signature": -112, "det": 1, "bound": 113, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01024", "L_space": false, "genus": 6, "tau": 1, "signature": 0, "det": 5, "bound": 1, "holds": false}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01035", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01079", "L_space": true, "genus": 46, "tau": -46, "signature": 56, "det": 45, "bound": 57, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01175", "L_space": true, "genus": 54, "tau": -54, "signature": 68, "det": 53, "bound": 69, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01436", "L_space": true, "genus": 65, "tau": -65, "signature": 78, "det": 3, "bound": 79, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01496", "L_space": true, "genus": 76, "tau": -76, "signature": 92, "det": 5, "bound": 93, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01584", "L_space": true, "genus": 92, "tau": -92, "signature": 108, "det": 41, "bound": 109, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01621", "L_space": true, "genus": 97, "tau": -97, "signature": 114, "det": 43, "bound": 115, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01680", "L_space": true, "genus": 89, "tau": 89, "signature": -104, "det": 13, "bound": 105, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01765", "L_space": true, "genus": 100, "tau": 100, "signature": -118, "det": 15, "bound": 119, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01936", "L_space": true, "genus": 22, "tau": 22, "signature": -30, "det": 3, "bound": 31, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01953", "L_space": true, "genus": 53, "tau": -53, "signature": 66, "det": 7, "bound": 67, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_01955", "L_space": true, "genus": 53, "tau": 53, "signature": -66, "det": 3, "bound": 67, "holds": true}
+{"source": "census (Baker-Kegel braids)", "name": "o9_02030", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census (Baker-Kegel braids)", "name": "o9_02163", "L_space": false, "genus": 5, "tau": -1, "signature": 2, "det": 7, "bound": 3, "holds": false}

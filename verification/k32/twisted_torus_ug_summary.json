@@ -1,0 +1,13 @@
+{
+  "candidate": "K32",
+  "statement": "For every prime knot that is l space: g = u.",
+  "family": "twisted torus knots K(p,q;r,s), L-space knots, non-positive braid word",
+  "source": "twisted_torus.jsonl",
+  "per_knot_seconds": 150.0,
+  "max_genus": 10,
+  "attempted": 186,
+  "u_equals_g_certified": 186,
+  "not_certified_in_time": 0,
+  "counterexamples": 0,
+  "note": "u >= g is automatic for L-space knots; failure to certify u <= g within the cap is a search failure, not a counterexample"
+}

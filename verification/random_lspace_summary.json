@@ -1,0 +1,9 @@
+{
+  "candidate": "K33 and K32",
+  "method": "random braid words, closed, filtered by the L_space_knot flag of knot Floer homology",
+  "seed": 90210,
+  "minutes": 25.0,
+  "words_tried": 339432,
+  "distinct_knots": 47474,
+  "l_space_knots": 14452
+}

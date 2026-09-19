@@ -1,0 +1,98 @@
+{"source": "census", "name": "K2_1", "L_space": false}
+{"source": "census", "name": "K5_2", "L_space": false}
+{"source": "census", "name": "K6_20", "L_space": false}
+{"source": "census", "name": "K6_28", "L_space": false}
+{"source": "census", "name": "K7_1", "L_space": false}
+{"source": "census", "name": "K7_9", "crossings": 53, "genus": 24, "tau": 24, "signature": -32, "det": 25, "bound": 33, "holds": true}
+{"source": "census", "name": "K7_17", "crossings": 95, "genus": 44, "tau": -44, "signature": 54, "det": 7, "bound": 55, "holds": true}
+{"source": "census", "name": "K7_25", "L_space": false}
+{"source": "census", "name": "K7_33", "crossings": 70, "genus": 32, "tau": 32, "signature": -40, "det": 9, "bound": 41, "holds": true}
+{"source": "census", "name": "K7_41", "L_space": false}
+{"source": "census", "name": "K7_49", "L_space": false}
+{"source": "census", "name": "K7_57", "crossings": 51, "genus": 24, "tau": -24, "signature": 32, "det": 13, "bound": 33, "holds": true}
+{"source": "census", "name": "K7_65", "L_space": false}
+{"source": "census", "name": "K7_73", "crossings": 105, "genus": 49, "tau": 49, "signature": -58, "det": 11, "bound": 59, "holds": true}
+{"source": "census", "name": "K7_81", "L_space": false}
+{"source": "census", "name": "K7_89", "L_space": false}
+{"source": "census", "name": "K7_97", "L_space": false}
+{"source": "census", "name": "K7_105", "L_space": false}
+{"source": "census", "name": "K7_113", "L_space": false}
+{"source": "census", "name": "K7_121", "L_space": false}
+{"source": "census", "name": "K7_129", "L_space": false}
+{"source": "census", "name": "K8_8", "crossings": 67, "genus": 31, "tau": 31, "signature": -38, "det": 31, "bound": 39, "holds": true}
+{"source": "census", "name": "K8_16", "crossings": 129, "genus": 61, "tau": 61, "signature": -72, "det": 9, "bound": 73, "holds": true}
+{"source": "census", "name": "K8_24", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_32", "crossings": 188, "genus": 90, "tau": 90, "signature": -104, "det": 1, "bound": 105, "holds": true}
+{"source": "census", "name": "K8_40", "crossings": 57, "genus": 26, "tau": 26, "signature": -34, "det": 3, "bound": 35, "holds": true}
+{"source": "census", "name": "K8_48", "L_space": false}
+{"source": "census", "name": "K8_56", "crossings": 149, "genus": 71, "tau": -71, "signature": 86, "det": 11, "bound": 87, "holds": true}
+{"source": "census", "name": "K8_64", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_72", "crossings": 57, "genus": 27, "tau": -27, "signature": 38, "det": 23, "bound": 39, "holds": true}
+{"source": "census", "name": "K8_80", "crossings": 68, "genus": 32, "tau": 32, "signature": -40, "det": 9, "bound": 41, "holds": true}
+{"source": "census", "name": "K8_88", "crossings": 39, "genus": 18, "tau": -18, "signature": 24, "det": 5, "bound": 25, "holds": true}
+{"source": "census", "name": "K8_96", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_104", "crossings": 91, "genus": 43, "tau": -43, "signature": 54, "det": 7, "bound": 55, "holds": true}
+{"source": "census", "name": "K8_32", "crossings": 188, "genus": 90, "tau": 90, "signature": -104, "det": 1, "bound": 105, "holds": true}
+{"source": "census", "name": "K8_112", "crossings": 123, "genus": 58, "tau": -58, "signature": 72, "det": 1, "bound": 73, "holds": true}
+{"source": "census", "name": "K8_40", "crossings": 57, "genus": 26, "tau": 26, "signature": -34, "det": 3, "bound": 35, "holds": true}
+{"source": "census", "name": "K8_48", "L_space": false}
+{"source": "census", "name": "K8_120", "crossings": 92, "genus": 43, "tau": 43, "signature": -52, "det": 5, "bound": 53, "holds": true}
+{"source": "census", "name": "K8_128", "crossings": 78, "genus": 36, "tau": -36, "signature": 44, "det": 5, "bound": 45, "holds": true}
+{"source": "census", "name": "K8_136", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_144", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_152", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_160", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_168", "crossings": 96, "genus": 44, "tau": 44, "signature": -54, "det": 3, "bound": 55, "holds": true}
+{"source": "census", "name": "K8_176", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_184", "crossings": 102, "genus": 48, "tau": 48, "signature": -56, "det": 5, "bound": 57, "holds": true}
+{"source": "census", "name": "K8_192", "crossings": 104, "genus": 48, "tau": 48, "signature": -56, "det": 1, "bound": 57, "holds": true}
+{"source": "census", "name": "K8_200", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_208", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_216", "crossings": 50, "genus": 23, "tau": 23, "signature": -32, "det": 1, "bound": 33, "holds": true}
+{"source": "census", "name": "K8_224", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_232", "L_space": false}
+{"source": "census", "name": "K8_240", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_248", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_256", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_264", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_272", "L_space": false}
+{"source": "census", "name": "K8_280", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_288", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_296", "crossings": 48, "genus": 22, "tau": -22, "signature": 30, "det": 7, "bound": 31, "holds": true}
+{"source": "census", "name": "K9_3", "crossings": 106, "genus": 51, "tau": 51, "signature": -64, "det": 1, "bound": 65, "holds": true}
+{"source": "census", "name": "K9_11", "crossings": 113, "genus": 54, "tau": -54, "signature": 68, "det": 53, "bound": 69, "holds": true}
+{"source": "census", "name": "K9_19", "crossings": 110, "genus": 53, "tau": -53, "signature": 66, "det": 7, "bound": 67, "holds": true}
+{"source": "census", "name": "K8_56", "crossings": 149, "genus": 71, "tau": -71, "signature": 86, "det": 11, "bound": 87, "holds": true}
+{"source": "census", "name": "K8_64", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_72", "crossings": 57, "genus": 27, "tau": -27, "signature": 38, "det": 23, "bound": 39, "holds": true}
+{"source": "census", "name": "K8_80", "crossings": 68, "genus": 32, "tau": 32, "signature": -40, "det": 9, "bound": 41, "holds": true}
+{"source": "census", "name": "K8_88", "crossings": 39, "genus": 18, "tau": -18, "signature": 24, "det": 5, "bound": 25, "holds": true}
+{"source": "census", "name": "K8_96", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_104", "crossings": 91, "genus": 43, "tau": -43, "signature": 54, "det": 7, "bound": 55, "holds": true}
+{"source": "census", "name": "K8_112", "crossings": 123, "genus": 58, "tau": -58, "signature": 72, "det": 1, "bound": 73, "holds": true}
+{"source": "census", "name": "K8_120", "crossings": 92, "genus": 43, "tau": 43, "signature": -52, "det": 5, "bound": 53, "holds": true}
+{"source": "census", "name": "K8_128", "crossings": 78, "genus": 36, "tau": -36, "signature": 44, "det": 5, "bound": 45, "holds": true}
+{"source": "census", "name": "K8_136", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_144", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_152", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_160", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_168", "crossings": 96, "genus": 44, "tau": 44, "signature": -54, "det": 3, "bound": 55, "holds": true}
+{"source": "census", "name": "K8_176", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_184", "crossings": 102, "genus": 48, "tau": 48, "signature": -56, "det": 5, "bound": 57, "holds": true}
+{"source": "census", "name": "K8_192", "crossings": 104, "genus": 48, "tau": 48, "signature": -56, "det": 1, "bound": 57, "holds": true}
+{"source": "census", "name": "K8_200", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_208", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_216", "crossings": 50, "genus": 23, "tau": 23, "signature": -32, "det": 1, "bound": 33, "holds": true}
+{"source": "census", "name": "K8_224", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_232", "L_space": false}
+{"source": "census", "name": "K8_240", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_248", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_256", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_264", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_272", "L_space": false}
+{"source": "census", "name": "K8_280", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_288", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_296", "crossings": 48, "genus": 22, "tau": -22, "signature": 30, "det": 7, "bound": 31, "holds": true}
+{"source": "census", "name": "K9_3", "crossings": 106, "genus": 51, "tau": 51, "signature": -64, "det": 1, "bound": 65, "holds": true}
+{"source": "census", "name": "K9_11", "crossings": 113, "genus": 54, "tau": -54, "signature": 68, "det": 53, "bound": 69, "holds": true}
+{"source": "census", "name": "K9_19", "crossings": 110, "genus": 53, "tau": -53, "signature": 66, "det": 7, "bound": 67, "holds": true}

@@ -1,0 +1,10 @@
+{
+  "candidate": "K33",
+  "family": "twisted torus knots, L-space knots only",
+  "tested": 549,
+  "violations": 0,
+  "det_mismatches": [],
+  "hyperbolic": 171,
+  "non_braid_positive_word": 215,
+  "signature": "exact, congruence diagonalisation over Q of V + V^T"
+}

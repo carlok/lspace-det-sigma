@@ -1,0 +1,682 @@
+[
+ {
+  "knot": "Baker-Kegel K_1",
+  "genus": 6,
+  "sequence": [
+   {
+    "crossings": 15,
+    "genus": 5,
+    "tau": 5,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 13,
+    "genus": 4,
+    "tau": 4,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 12,
+    "genus": 3,
+    "tau": 3,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 5,
+    "genus": 2,
+    "tau": 2,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 3,
+    "genus": 1,
+    "tau": 1,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 0,
+    "genus": 0,
+    "tau": 0,
+    "L_space": true,
+    "fibered": true,
+    "unknot": true
+   }
+  ],
+  "all_L_space": false,
+  "genus_drops_by_one": true
+ },
+ {
+  "knot": "Baker-Kegel K_2",
+  "genus": 10,
+  "sequence": [
+   {
+    "crossings": 23,
+    "genus": 9,
+    "tau": 9,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 21,
+    "genus": 8,
+    "tau": 8,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 19,
+    "genus": 7,
+    "tau": 7,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 17,
+    "genus": 6,
+    "tau": 6,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 15,
+    "genus": 5,
+    "tau": 5,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 13,
+    "genus": 4,
+    "tau": 4,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 11,
+    "genus": 3,
+    "tau": 3,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 5,
+    "genus": 2,
+    "tau": 2,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 3,
+    "genus": 1,
+    "tau": 1,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 0,
+    "genus": 0,
+    "tau": 0,
+    "L_space": true,
+    "fibered": true,
+    "unknot": true
+   }
+  ],
+  "all_L_space": false,
+  "genus_drops_by_one": true
+ },
+ {
+  "knot": "Baker-Kegel K_3",
+  "genus": 14,
+  "sequence": [
+   {
+    "crossings": 31,
+    "genus": 13,
+    "tau": 13,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 29,
+    "genus": 12,
+    "tau": 12,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 27,
+    "genus": 11,
+    "tau": 11,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 25,
+    "genus": 10,
+    "tau": 10,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 23,
+    "genus": 9,
+    "tau": 9,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 21,
+    "genus": 8,
+    "tau": 8,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 21,
+    "genus": 7,
+    "tau": 7,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 21,
+    "genus": 8,
+    "tau": 8,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 19,
+    "genus": 7,
+    "tau": 7,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 17,
+    "genus": 6,
+    "tau": 6,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 15,
+    "genus": 5,
+    "tau": 5,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 13,
+    "genus": 4,
+    "tau": 4,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 11,
+    "genus": 3,
+    "tau": 3,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 5,
+    "genus": 2,
+    "tau": 2,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   }
+  ],
+  "all_L_space": false,
+  "genus_drops_by_one": false
+ },
+ {
+  "knot": "Baker-Kegel K_4",
+  "genus": 18,
+  "sequence": [
+   {
+    "crossings": 39,
+    "genus": 17,
+    "tau": 17,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 37,
+    "genus": 16,
+    "tau": 16,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 35,
+    "genus": 15,
+    "tau": 15,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 35,
+    "genus": 14,
+    "tau": 14,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 33,
+    "genus": 13,
+    "tau": 13,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 33,
+    "genus": 14,
+    "tau": 14,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 33,
+    "genus": 13,
+    "tau": 13,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 33,
+    "genus": 14,
+    "tau": 14,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 31,
+    "genus": 13,
+    "tau": 13,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 29,
+    "genus": 12,
+    "tau": 12,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 27,
+    "genus": 11,
+    "tau": 11,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 25,
+    "genus": 10,
+    "tau": 10,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 23,
+    "genus": 9,
+    "tau": 9,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 21,
+    "genus": 8,
+    "tau": 8,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 19,
+    "genus": 7,
+    "tau": 7,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 17,
+    "genus": 6,
+    "tau": 6,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 15,
+    "genus": 5,
+    "tau": 5,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 12,
+    "genus": 4,
+    "tau": 4,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   }
+  ],
+  "all_L_space": false,
+  "genus_drops_by_one": false
+ },
+ {
+  "knot": "Himeno K_2",
+  "genus": 6,
+  "sequence": [
+   {
+    "crossings": 15,
+    "genus": 5,
+    "tau": 5,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 13,
+    "genus": 4,
+    "tau": 4,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 12,
+    "genus": 3,
+    "tau": 3,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 5,
+    "genus": 2,
+    "tau": 2,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 3,
+    "genus": 1,
+    "tau": 1,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 0,
+    "genus": 0,
+    "tau": 0,
+    "L_space": true,
+    "fibered": true,
+    "unknot": true
+   }
+  ],
+  "all_L_space": false,
+  "genus_drops_by_one": true
+ },
+ {
+  "knot": "Himeno K_3",
+  "genus": 13,
+  "sequence": [
+   {
+    "crossings": 35,
+    "genus": 12,
+    "tau": 12,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 31,
+    "genus": 11,
+    "tau": 11,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 31,
+    "genus": 10,
+    "tau": 10,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 29,
+    "genus": 9,
+    "tau": 9,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 24,
+    "genus": 8,
+    "tau": 8,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 22,
+    "genus": 7,
+    "tau": 7,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 18,
+    "genus": 6,
+    "tau": 6,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 14,
+    "genus": 5,
+    "tau": 5,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 10,
+    "genus": 4,
+    "tau": 4,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 8,
+    "genus": 3,
+    "tau": 3,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 5,
+    "genus": 2,
+    "tau": 2,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 3,
+    "genus": 1,
+    "tau": 1,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 0,
+    "genus": 0,
+    "tau": 0,
+    "L_space": true,
+    "fibered": true,
+    "unknot": true
+   }
+  ],
+  "all_L_space": false,
+  "genus_drops_by_one": true
+ },
+ {
+  "knot": "(2,3)-cable of T(2,3)",
+  "genus": 3,
+  "sequence": [
+   {
+    "crossings": 12,
+    "genus": 2,
+    "tau": 2,
+    "L_space": false,
+    "fibered": false,
+    "unknot": false
+   },
+   {
+    "crossings": 5,
+    "genus": 1,
+    "tau": 1,
+    "L_space": false,
+    "fibered": false,
+    "unknot": false
+   },
+   {
+    "crossings": 3,
+    "genus": 1,
+    "tau": 1,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   }
+  ],
+  "all_L_space": false,
+  "genus_drops_by_one": false
+ },
+ {
+  "knot": "(2,7)-cable of T(2,5)",
+  "genus": 7,
+  "sequence": [
+   {
+    "crossings": 23,
+    "genus": 6,
+    "tau": 6,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 23,
+    "genus": 7,
+    "tau": 7,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 21,
+    "genus": 6,
+    "tau": 6,
+    "L_space": false,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 19,
+    "genus": 5,
+    "tau": 5,
+    "L_space": false,
+    "fibered": false,
+    "unknot": false
+   },
+   {
+    "crossings": 17,
+    "genus": 4,
+    "tau": 4,
+    "L_space": false,
+    "fibered": false,
+    "unknot": false
+   },
+   {
+    "crossings": 15,
+    "genus": 3,
+    "tau": 3,
+    "L_space": true,
+    "fibered": true,
+    "unknot": false
+   },
+   {
+    "crossings": 12,
+    "genus": 2,
+    "tau": 2,
+    "L_space": false,
+    "fibered": false,
+    "unknot": false
+   }
+  ],
+  "all_L_space": false,
+  "genus_drops_by_one": false
+ }
+]

@@ -1,0 +1,14 @@
+{
+  "statement": "every L-space knot with Delta = Delta_{T(2,2g+1)} has sigma = -2g",
+  "hypothesis_as_tested": "det = 2g + 1, which is equivalent for an L-space knot",
+  "l_space_knots_with_det_genus_and_exact_signature": 1523,
+  "satisfying_the_hypothesis": 125,
+  "failures": 0,
+  "failing": [],
+  "by_source": {
+    "one-bridge braids": 48,
+    "twisted torus": 77
+  },
+  "max_genus_in_sample": 145,
+  "max_genus_satisfying_hypothesis": 7
+}

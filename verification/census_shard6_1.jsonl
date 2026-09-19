@@ -1,0 +1,21 @@
+{"source": "census", "name": "K8_131", "crossings": 91, "genus": 42, "tau": 42, "signature": -52, "det": 29, "bound": 53, "holds": true}
+{"source": "census", "name": "K8_143", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_155", "crossings": 58, "genus": 27, "tau": 27, "signature": -34, "det": 3, "bound": 35, "holds": true}
+{"source": "census", "name": "K8_167", "L_space": false}
+{"source": "census", "name": "K8_179", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_191", "crossings": 39, "genus": 18, "tau": -18, "signature": 26, "det": 3, "bound": 27, "holds": true}
+{"source": "census", "name": "K8_197", "crossings": 161, "genus": 77, "tau": -77, "signature": 90, "det": 19, "bound": 91, "holds": true}
+{"source": "census", "name": "K8_203", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_215", "crossings": 42, "genus": 19, "tau": 19, "signature": -26, "det": 7, "bound": 27, "holds": true}
+{"source": "census", "name": "K8_221", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_227", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_239", "crossings": 56, "genus": 26, "tau": -26, "signature": 34, "det": 11, "bound": 35, "holds": true}
+{"source": "census", "name": "K8_245", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_251", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_263", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_269", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_275", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_287", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_293", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K8_299", "L_space": false, "reason": "Alexander polynomial not of L-space form"}
+{"source": "census", "name": "K9_10", "crossings": 97, "genus": 46, "tau": -46, "signature": 56, "det": 45, "bound": 57, "holds": true}

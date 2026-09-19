@@ -1,0 +1,31 @@
+{
+ "families": {
+  "census_lspace_fast.jsonl": {
+   "knots": 632,
+   "congruence_failures": 0,
+   "equalities": 1,
+   "min_positive_margin": 4
+  },
+  "families_fast.jsonl": {
+   "knots": 68,
+   "congruence_failures": 0,
+   "equalities": 62,
+   "min_positive_margin": 8
+  },
+  "onebridge.jsonl": {
+   "knots": 274,
+   "congruence_failures": 0,
+   "equalities": 70,
+   "min_positive_margin": 4
+  },
+  "twisted_torus_sigma.jsonl": {
+   "knots": 549,
+   "congruence_failures": 0,
+   "equalities": 127,
+   "min_positive_margin": 4
+  }
+ },
+ "table": null,
+ "l_space_knots": 1523,
+ "l_space_failures": 0
+}

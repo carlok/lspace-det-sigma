@@ -1,0 +1,21 @@
+{
+ "exact_signatures": {
+  "knots": 632,
+  "violations": 0,
+  "equalities": 1,
+  "agree_with_numeric": 632,
+  "compared_with_sage_exact": 511,
+  "agree_with_sage_exact": 511
+ },
+ "braid_identity": {
+  "knots": 632,
+  "isometric": 631,
+  "resolved_at_high_precision": 1,
+  "failures": 0
+ },
+ "onebridge_lspace": {
+  "sample": 40,
+  "all_L_space": true,
+  "genus_agrees": true
+ }
+}

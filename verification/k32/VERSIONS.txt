@@ -1,0 +1,2 @@
+snappy 3.3.2 spherogram 2.4.1 khoca 1.5
+Python 3.12.12

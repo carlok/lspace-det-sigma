@@ -1,0 +1,632 @@
+{"name": "m016", "matrix_size": 10, "signature_positive_chirality": -8, "det": 1, "bound": 9, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m071", "matrix_size": 22, "signature_positive_chirality": -16, "det": 1, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m082", "matrix_size": 16, "signature_positive_chirality": -12, "det": 5, "bound": 13, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m103", "matrix_size": 30, "signature_positive_chirality": -22, "det": 3, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m118", "matrix_size": 20, "signature_positive_chirality": -16, "det": 1, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m144", "matrix_size": 22, "signature_positive_chirality": -16, "det": 1, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m194", "matrix_size": 26, "signature_positive_chirality": -18, "det": 7, "bound": 19, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m198", "matrix_size": 26, "signature_positive_chirality": -18, "det": 3, "bound": 19, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m211", "matrix_size": 18, "signature_positive_chirality": -14, "det": 11, "bound": 15, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m223", "matrix_size": 12, "signature_positive_chirality": -10, "det": 3, "bound": 11, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m239", "matrix_size": 22, "signature_positive_chirality": -16, "det": 1, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m240", "matrix_size": 24, "signature_positive_chirality": -16, "det": 5, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m270", "matrix_size": 32, "signature_positive_chirality": -22, "det": 3, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m276", "matrix_size": 36, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "m281", "matrix_size": 32, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_00133", "matrix_size": 102, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_00168", "matrix_size": 110, "signature_positive_chirality": -70, "det": 3, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_00644", "matrix_size": 46, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_00797", "matrix_size": 178, "signature_positive_chirality": -104, "det": 1, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_00815", "matrix_size": 188, "signature_positive_chirality": -112, "det": 1, "bound": 113, "holds": true, "matches_numeric": true}
+{"name": "o9_01079", "matrix_size": 92, "signature_positive_chirality": -56, "det": 45, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_01175", "matrix_size": 108, "signature_positive_chirality": -68, "det": 53, "bound": 69, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_01436", "matrix_size": 130, "signature_positive_chirality": -78, "det": 3, "bound": 79, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_01496", "matrix_size": 152, "signature_positive_chirality": -92, "det": 5, "bound": 93, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_01584", "matrix_size": 184, "signature_positive_chirality": -108, "det": 41, "bound": 109, "holds": true, "matches_numeric": true}
+{"name": "o9_01621", "matrix_size": 194, "signature_positive_chirality": -114, "det": 43, "bound": 115, "holds": true, "matches_numeric": true}
+{"name": "o9_01680", "matrix_size": 178, "signature_positive_chirality": -104, "det": 13, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_01765", "matrix_size": 200, "signature_positive_chirality": -118, "det": 15, "bound": 119, "holds": true, "matches_numeric": true}
+{"name": "o9_01936", "matrix_size": 44, "signature_positive_chirality": -30, "det": 3, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_01953", "matrix_size": 106, "signature_positive_chirality": -66, "det": 7, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_01955", "matrix_size": 106, "signature_positive_chirality": -66, "det": 3, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_02255", "matrix_size": 196, "signature_positive_chirality": -112, "det": 41, "bound": 113, "holds": true, "matches_numeric": true}
+{"name": "o9_02340", "matrix_size": 204, "signature_positive_chirality": -116, "det": 33, "bound": 117, "holds": true, "matches_numeric": true}
+{"name": "o9_02350", "matrix_size": 236, "signature_positive_chirality": -136, "det": 49, "bound": 137, "holds": true, "matches_numeric": true}
+{"name": "o9_02383", "matrix_size": 70, "signature_positive_chirality": -46, "det": 3, "bound": 47, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_02386", "matrix_size": 228, "signature_positive_chirality": -132, "det": 37, "bound": 133, "holds": true, "matches_numeric": true}
+{"name": "o9_02655", "matrix_size": 166, "signature_positive_chirality": -96, "det": 1, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "o9_02696", "matrix_size": 178, "signature_positive_chirality": -104, "det": 1, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_02706", "matrix_size": 236, "signature_positive_chirality": -136, "det": 1, "bound": 137, "holds": true, "matches_numeric": true}
+{"name": "o9_02735", "matrix_size": 252, "signature_positive_chirality": -144, "det": 1, "bound": 145, "holds": true, "matches_numeric": true}
+{"name": "o9_02772", "matrix_size": 78, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_02786", "matrix_size": 70, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_02794", "matrix_size": 80, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_02909", "matrix_size": 40, "signature_positive_chirality": -28, "det": 17, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_03032", "matrix_size": 122, "signature_positive_chirality": -74, "det": 7, "bound": 75, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_03108", "matrix_size": 82, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_03118", "matrix_size": 256, "signature_positive_chirality": -144, "det": 1, "bound": 145, "holds": true, "matches_numeric": true}
+{"name": "o9_03133", "matrix_size": 132, "signature_positive_chirality": -80, "det": 5, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_03149", "matrix_size": 274, "signature_positive_chirality": -154, "det": 3, "bound": 155, "holds": true, "matches_numeric": true}
+{"name": "o9_03162", "matrix_size": 252, "signature_positive_chirality": -144, "det": 1, "bound": 145, "holds": true, "matches_numeric": true}
+{"name": "o9_03188", "matrix_size": 278, "signature_positive_chirality": -158, "det": 3, "bound": 159, "holds": true, "matches_numeric": true}
+{"name": "o9_03288", "matrix_size": 134, "signature_positive_chirality": -80, "det": 1, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_03313", "matrix_size": 178, "signature_positive_chirality": -104, "det": 1, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_03412", "matrix_size": 176, "signature_positive_chirality": -104, "det": 5, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_03526", "matrix_size": 70, "signature_positive_chirality": -42, "det": 7, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_03586", "matrix_size": 134, "signature_positive_chirality": -80, "det": 1, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_03622", "matrix_size": 148, "signature_positive_chirality": -88, "det": 9, "bound": 89, "holds": true, "matches_numeric": true}
+{"name": "o9_03802", "matrix_size": 128, "signature_positive_chirality": -76, "det": 17, "bound": 77, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_03833", "matrix_size": 118, "signature_positive_chirality": -70, "det": 11, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_03932", "matrix_size": 112, "signature_positive_chirality": -66, "det": 7, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_04054", "matrix_size": 58, "signature_positive_chirality": -36, "det": 5, "bound": 37, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_04060", "matrix_size": 78, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_04106", "matrix_size": 178, "signature_positive_chirality": -102, "det": 23, "bound": 103, "holds": true, "matches_numeric": true}
+{"name": "o9_04205", "matrix_size": 196, "signature_positive_chirality": -112, "det": 25, "bound": 113, "holds": true, "matches_numeric": true}
+{"name": "o9_04245", "matrix_size": 202, "signature_positive_chirality": -114, "det": 7, "bound": 115, "holds": true, "matches_numeric": true}
+{"name": "o9_04269", "matrix_size": 94, "signature_positive_chirality": -58, "det": 11, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_04313", "matrix_size": 210, "signature_positive_chirality": -120, "det": 1, "bound": 121, "holds": true, "matches_numeric": true}
+{"name": "o9_04431", "matrix_size": 234, "signature_positive_chirality": -134, "det": 3, "bound": 135, "holds": true, "matches_numeric": true}
+{"name": "o9_04435", "matrix_size": 136, "signature_positive_chirality": -80, "det": 1, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_04438", "matrix_size": 242, "signature_positive_chirality": -138, "det": 3, "bound": 139, "holds": true, "matches_numeric": true}
+{"name": "o9_04938", "matrix_size": 82, "signature_positive_chirality": -52, "det": 5, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_05021", "matrix_size": 180, "signature_positive_chirality": -104, "det": 13, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_05177", "matrix_size": 198, "signature_positive_chirality": -118, "det": 15, "bound": 119, "holds": true, "matches_numeric": true}
+{"name": "o9_05229", "matrix_size": 174, "signature_positive_chirality": -98, "det": 11, "bound": 99, "holds": true, "matches_numeric": true}
+{"name": "o9_05287", "matrix_size": 20, "signature_positive_chirality": -18, "det": 11, "bound": 19, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_05357", "matrix_size": 182, "signature_positive_chirality": -106, "det": 3, "bound": 107, "holds": true, "matches_numeric": true}
+{"name": "o9_05426", "matrix_size": 182, "signature_positive_chirality": -106, "det": 3, "bound": 107, "holds": true, "matches_numeric": true}
+{"name": "o9_05483", "matrix_size": 184, "signature_positive_chirality": -108, "det": 13, "bound": 109, "holds": true, "matches_numeric": true}
+{"name": "o9_05562", "matrix_size": 206, "signature_positive_chirality": -118, "det": 19, "bound": 119, "holds": true, "matches_numeric": true}
+{"name": "o9_05618", "matrix_size": 200, "signature_positive_chirality": -116, "det": 13, "bound": 117, "holds": true, "matches_numeric": true}
+{"name": "o9_05860", "matrix_size": 200, "signature_positive_chirality": -116, "det": 5, "bound": 117, "holds": true, "matches_numeric": true}
+{"name": "o9_05970", "matrix_size": 238, "signature_positive_chirality": -136, "det": 1, "bound": 137, "holds": true, "matches_numeric": true}
+{"name": "o9_06060", "matrix_size": 170, "signature_positive_chirality": -98, "det": 19, "bound": 99, "holds": true, "matches_numeric": true}
+{"name": "o9_06128", "matrix_size": 232, "signature_positive_chirality": -132, "det": 5, "bound": 133, "holds": true, "matches_numeric": true}
+{"name": "o9_06154", "matrix_size": 174, "signature_positive_chirality": -102, "det": 3, "bound": 103, "holds": true, "matches_numeric": true}
+{"name": "o9_06248", "matrix_size": 248, "signature_positive_chirality": -140, "det": 21, "bound": 141, "holds": true, "matches_numeric": true}
+{"name": "o9_06301", "matrix_size": 282, "signature_positive_chirality": -160, "det": 1, "bound": 161, "holds": true, "matches_numeric": true}
+{"name": "o9_06956", "matrix_size": 84, "signature_positive_chirality": -52, "det": 5, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_07044", "matrix_size": 116, "signature_positive_chirality": -70, "det": 3, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_07152", "matrix_size": 120, "signature_positive_chirality": -72, "det": 49, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_07167", "matrix_size": 60, "signature_positive_chirality": -36, "det": 33, "bound": 37, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_07195", "matrix_size": 132, "signature_positive_chirality": -76, "det": 53, "bound": 77, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_07401", "matrix_size": 94, "signature_positive_chirality": -58, "det": 51, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_07790", "matrix_size": 126, "signature_positive_chirality": -74, "det": 7, "bound": 75, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_07893", "matrix_size": 172, "signature_positive_chirality": -98, "det": 11, "bound": 99, "holds": true, "matches_numeric": true}
+{"name": "o9_07943", "matrix_size": 132, "signature_positive_chirality": -80, "det": 5, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_07945", "matrix_size": 202, "signature_positive_chirality": -116, "det": 13, "bound": 117, "holds": true, "matches_numeric": true}
+{"name": "o9_08006", "matrix_size": 184, "signature_positive_chirality": -108, "det": 5, "bound": 109, "holds": true, "matches_numeric": true}
+{"name": "o9_08042", "matrix_size": 150, "signature_positive_chirality": -90, "det": 3, "bound": 91, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_08224", "matrix_size": 134, "signature_positive_chirality": -80, "det": 1, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_08302", "matrix_size": 148, "signature_positive_chirality": -88, "det": 1, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_08402", "matrix_size": 66, "signature_positive_chirality": -46, "det": 27, "bound": 47, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_08477", "matrix_size": 72, "signature_positive_chirality": -48, "det": 21, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_08497", "matrix_size": 62, "signature_positive_chirality": -38, "det": 11, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_08647", "matrix_size": 238, "signature_positive_chirality": -134, "det": 47, "bound": 135, "holds": true, "matches_numeric": true}
+{"name": "o9_08765", "matrix_size": 140, "signature_positive_chirality": -84, "det": 5, "bound": 85, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_08771", "matrix_size": 282, "signature_positive_chirality": -158, "det": 55, "bound": 159, "holds": true, "matches_numeric": true}
+{"name": "o9_08776", "matrix_size": 240, "signature_positive_chirality": -136, "det": 25, "bound": 137, "holds": true, "matches_numeric": true}
+{"name": "o9_08828", "matrix_size": 208, "signature_positive_chirality": -120, "det": 5, "bound": 121, "holds": true, "matches_numeric": true}
+{"name": "o9_08831", "matrix_size": 142, "signature_positive_chirality": -86, "det": 11, "bound": 87, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_08852", "matrix_size": 280, "signature_positive_chirality": -156, "det": 29, "bound": 157, "holds": true, "matches_numeric": true}
+{"name": "o9_08875", "matrix_size": 236, "signature_positive_chirality": -136, "det": 1, "bound": 137, "holds": true, "matches_numeric": true}
+{"name": "o9_09052", "matrix_size": 56, "signature_positive_chirality": -38, "det": 7, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_09213", "matrix_size": 116, "signature_positive_chirality": -72, "det": 1, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_09271", "matrix_size": 66, "signature_positive_chirality": -42, "det": 39, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_09372", "matrix_size": 114, "signature_positive_chirality": -66, "det": 43, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_09465", "matrix_size": 188, "signature_positive_chirality": -108, "det": 5, "bound": 109, "holds": true, "matches_numeric": true}
+{"name": "o9_09731", "matrix_size": 52, "signature_positive_chirality": -32, "det": 5, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_09808", "matrix_size": 256, "signature_positive_chirality": -144, "det": 1, "bound": 145, "holds": true, "matches_numeric": true}
+{"name": "o9_10020", "matrix_size": 36, "signature_positive_chirality": -26, "det": 3, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_10192", "matrix_size": 102, "signature_positive_chirality": -60, "det": 5, "bound": 61, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_10213", "matrix_size": 76, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_10696", "matrix_size": 84, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11002", "matrix_size": 88, "signature_positive_chirality": -52, "det": 45, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11100", "matrix_size": 98, "signature_positive_chirality": -58, "det": 15, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11248", "matrix_size": 146, "signature_positive_chirality": -86, "det": 7, "bound": 87, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11467", "matrix_size": 252, "signature_positive_chirality": -142, "det": 3, "bound": 143, "holds": true, "matches_numeric": true}
+{"name": "o9_11537", "matrix_size": 102, "signature_positive_chirality": -62, "det": 47, "bound": 63, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11541", "matrix_size": 42, "signature_positive_chirality": -30, "det": 7, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11556", "matrix_size": 102, "signature_positive_chirality": -62, "det": 7, "bound": 63, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11560", "matrix_size": 278, "signature_positive_chirality": -158, "det": 7, "bound": 159, "holds": true, "matches_numeric": true}
+{"name": "o9_11570", "matrix_size": 134, "signature_positive_chirality": -80, "det": 5, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11658", "matrix_size": 98, "signature_positive_chirality": -62, "det": 51, "bound": 63, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11685", "matrix_size": 112, "signature_positive_chirality": -66, "det": 3, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11795", "matrix_size": 104, "signature_positive_chirality": -60, "det": 17, "bound": 61, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11845", "matrix_size": 106, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_11999", "matrix_size": 222, "signature_positive_chirality": -126, "det": 43, "bound": 127, "holds": true, "matches_numeric": true}
+{"name": "o9_12079", "matrix_size": 138, "signature_positive_chirality": -82, "det": 59, "bound": 83, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12144", "matrix_size": 180, "signature_positive_chirality": -104, "det": 13, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_12230", "matrix_size": 200, "signature_positive_chirality": -114, "det": 7, "bound": 115, "holds": true, "matches_numeric": true}
+{"name": "o9_12253", "matrix_size": 68, "signature_positive_chirality": -42, "det": 3, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12412", "matrix_size": 140, "signature_positive_chirality": -82, "det": 3, "bound": 83, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12459", "matrix_size": 122, "signature_positive_chirality": -72, "det": 1, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12477", "matrix_size": 116, "signature_positive_chirality": -70, "det": 15, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12519", "matrix_size": 100, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12693", "matrix_size": 84, "signature_positive_chirality": -54, "det": 3, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12736", "matrix_size": 152, "signature_positive_chirality": -88, "det": 1, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12757", "matrix_size": 112, "signature_positive_chirality": -70, "det": 3, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12873", "matrix_size": 230, "signature_positive_chirality": -130, "det": 3, "bound": 131, "holds": true, "matches_numeric": true}
+{"name": "o9_12892", "matrix_size": 144, "signature_positive_chirality": -84, "det": 5, "bound": 85, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12919", "matrix_size": 144, "signature_positive_chirality": -84, "det": 5, "bound": 85, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_12971", "matrix_size": 122, "signature_positive_chirality": -74, "det": 3, "bound": 75, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_13052", "matrix_size": 144, "signature_positive_chirality": -88, "det": 1, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_13054", "matrix_size": 80, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_13056", "matrix_size": 190, "signature_positive_chirality": -110, "det": 3, "bound": 111, "holds": true, "matches_numeric": true}
+{"name": "o9_13125", "matrix_size": 150, "signature_positive_chirality": -88, "det": 1, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_13182", "matrix_size": 116, "signature_positive_chirality": -72, "det": 9, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_13188", "matrix_size": 138, "signature_positive_chirality": -86, "det": 15, "bound": 87, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_13400", "matrix_size": 160, "signature_positive_chirality": -96, "det": 1, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "o9_13403", "matrix_size": 166, "signature_positive_chirality": -96, "det": 1, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "o9_13433", "matrix_size": 180, "signature_positive_chirality": -104, "det": 1, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_13508", "matrix_size": 204, "signature_positive_chirality": -116, "det": 5, "bound": 117, "holds": true, "matches_numeric": true}
+{"name": "o9_13537", "matrix_size": 166, "signature_positive_chirality": -96, "det": 1, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "o9_13604", "matrix_size": 144, "signature_positive_chirality": -88, "det": 9, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_13639", "matrix_size": 150, "signature_positive_chirality": -88, "det": 5, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_13649", "matrix_size": 136, "signature_positive_chirality": -80, "det": 1, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_13666", "matrix_size": 164, "signature_positive_chirality": -96, "det": 13, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "o9_13720", "matrix_size": 210, "signature_positive_chirality": -122, "det": 39, "bound": 123, "holds": true, "matches_numeric": true}
+{"name": "o9_13952", "matrix_size": 200, "signature_positive_chirality": -114, "det": 7, "bound": 115, "holds": true, "matches_numeric": true}
+{"name": "o9_14018", "matrix_size": 240, "signature_positive_chirality": -136, "det": 9, "bound": 137, "holds": true, "matches_numeric": true}
+{"name": "o9_14079", "matrix_size": 196, "signature_positive_chirality": -112, "det": 1, "bound": 113, "holds": true, "matches_numeric": true}
+{"name": "o9_14108", "matrix_size": 90, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_14136", "matrix_size": 116, "signature_positive_chirality": -72, "det": 5, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_14359", "matrix_size": 124, "signature_positive_chirality": -74, "det": 7, "bound": 75, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_14364", "matrix_size": 118, "signature_positive_chirality": -70, "det": 23, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_14376", "matrix_size": 222, "signature_positive_chirality": -126, "det": 31, "bound": 127, "holds": true, "matches_numeric": true}
+{"name": "o9_14495", "matrix_size": 148, "signature_positive_chirality": -88, "det": 25, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_14599", "matrix_size": 222, "signature_positive_chirality": -126, "det": 7, "bound": 127, "holds": true, "matches_numeric": true}
+{"name": "o9_14716", "matrix_size": 162, "signature_positive_chirality": -96, "det": 1, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "o9_14831", "matrix_size": 64, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_14974", "matrix_size": 176, "signature_positive_chirality": -104, "det": 1, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_15506", "matrix_size": 174, "signature_positive_chirality": -102, "det": 19, "bound": 103, "holds": true, "matches_numeric": true}
+{"name": "o9_15633", "matrix_size": 194, "signature_positive_chirality": -112, "det": 1, "bound": 113, "holds": true, "matches_numeric": true}
+{"name": "o9_15808", "matrix_size": 54, "signature_positive_chirality": -34, "det": 3, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_15997", "matrix_size": 248, "signature_positive_chirality": -140, "det": 29, "bound": 141, "holds": true, "matches_numeric": true}
+{"name": "o9_16065", "matrix_size": 290, "signature_positive_chirality": -162, "det": 3, "bound": 163, "holds": true, "matches_numeric": true}
+{"name": "o9_16141", "matrix_size": 264, "signature_positive_chirality": -148, "det": 5, "bound": 149, "holds": true, "matches_numeric": true}
+{"name": "o9_16157", "matrix_size": 244, "signature_positive_chirality": -140, "det": 21, "bound": 141, "holds": true, "matches_numeric": true}
+{"name": "o9_16181", "matrix_size": 244, "signature_positive_chirality": -140, "det": 5, "bound": 141, "holds": true, "matches_numeric": true}
+{"name": "o9_16319", "matrix_size": 244, "signature_positive_chirality": -140, "det": 5, "bound": 141, "holds": true, "matches_numeric": true}
+{"name": "o9_16356", "matrix_size": 186, "signature_positive_chirality": -110, "det": 15, "bound": 111, "holds": true, "matches_numeric": true}
+{"name": "o9_16431", "matrix_size": 128, "signature_positive_chirality": -76, "det": 5, "bound": 77, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_16514", "matrix_size": 60, "signature_positive_chirality": -38, "det": 3, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_16527", "matrix_size": 192, "signature_positive_chirality": -112, "det": 13, "bound": 113, "holds": true, "matches_numeric": true}
+{"name": "o9_16642", "matrix_size": 266, "signature_positive_chirality": -150, "det": 31, "bound": 151, "holds": true, "matches_numeric": true}
+{"name": "o9_16685", "matrix_size": 24, "signature_positive_chirality": -20, "det": 13, "bound": 21, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_16748", "matrix_size": 154, "signature_positive_chirality": -92, "det": 5, "bound": 93, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_16920", "matrix_size": 90, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_17382", "matrix_size": 110, "signature_positive_chirality": -66, "det": 7, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_17450", "matrix_size": 154, "signature_positive_chirality": -90, "det": 7, "bound": 91, "holds": true, "matches_numeric": true}
+{"name": "o9_17646", "matrix_size": 40, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_18007", "matrix_size": 132, "signature_positive_chirality": -80, "det": 9, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_18209", "matrix_size": 150, "signature_positive_chirality": -88, "det": 1, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_18341", "matrix_size": 32, "signature_positive_chirality": -24, "det": 9, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_18633", "matrix_size": 156, "signature_positive_chirality": -92, "det": 29, "bound": 93, "holds": true, "matches_numeric": true}
+{"name": "o9_18646", "matrix_size": 52, "signature_positive_chirality": -34, "det": 3, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_18813", "matrix_size": 116, "signature_positive_chirality": -70, "det": 3, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_19130", "matrix_size": 96, "signature_positive_chirality": -58, "det": 11, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_19247", "matrix_size": 92, "signature_positive_chirality": -56, "det": 25, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_19364", "matrix_size": 28, "signature_positive_chirality": -22, "det": 7, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_19396", "matrix_size": 38, "signature_positive_chirality": -26, "det": 11, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_19645", "matrix_size": 90, "signature_positive_chirality": -54, "det": 3, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_19724", "matrix_size": 116, "signature_positive_chirality": -68, "det": 41, "bound": 69, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_20029", "matrix_size": 136, "signature_positive_chirality": -80, "det": 49, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_20219", "matrix_size": 160, "signature_positive_chirality": -92, "det": 29, "bound": 93, "holds": true, "matches_numeric": true}
+{"name": "o9_20305", "matrix_size": 62, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_20364", "matrix_size": 108, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_20472", "matrix_size": 110, "signature_positive_chirality": -66, "det": 11, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_21195", "matrix_size": 110, "signature_positive_chirality": -66, "det": 19, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_21496", "matrix_size": 58, "signature_positive_chirality": -38, "det": 3, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_21513", "matrix_size": 110, "signature_positive_chirality": -66, "det": 3, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_21620", "matrix_size": 102, "signature_positive_chirality": -62, "det": 3, "bound": 63, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_21893", "matrix_size": 72, "signature_positive_chirality": -46, "det": 3, "bound": 47, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_21918", "matrix_size": 74, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_22129", "matrix_size": 102, "signature_positive_chirality": -58, "det": 7, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_22252", "matrix_size": 142, "signature_positive_chirality": -82, "det": 3, "bound": 83, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_22477", "matrix_size": 76, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_22607", "matrix_size": 92, "signature_positive_chirality": -56, "det": 13, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_22663", "matrix_size": 116, "signature_positive_chirality": -70, "det": 11, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_22698", "matrix_size": 160, "signature_positive_chirality": -92, "det": 13, "bound": 93, "holds": true, "matches_numeric": true}
+{"name": "o9_22925", "matrix_size": 96, "signature_positive_chirality": -60, "det": 5, "bound": 61, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_23023", "matrix_size": 184, "signature_positive_chirality": -106, "det": 3, "bound": 107, "holds": true, "matches_numeric": true}
+{"name": "o9_23032", "matrix_size": 42, "signature_positive_chirality": -26, "det": 3, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_23179", "matrix_size": 78, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_23263", "matrix_size": 146, "signature_positive_chirality": -86, "det": 3, "bound": 87, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_23461", "matrix_size": 84, "signature_positive_chirality": -52, "det": 5, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_23660", "matrix_size": 164, "signature_positive_chirality": -96, "det": 9, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "o9_23723", "matrix_size": 104, "signature_positive_chirality": -64, "det": 9, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_23955", "matrix_size": 138, "signature_positive_chirality": -82, "det": 3, "bound": 83, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_23961", "matrix_size": 150, "signature_positive_chirality": -90, "det": 11, "bound": 91, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_23971", "matrix_size": 60, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_23977", "matrix_size": 146, "signature_positive_chirality": -86, "det": 7, "bound": 87, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_24069", "matrix_size": 114, "signature_positive_chirality": -70, "det": 3, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_24126", "matrix_size": 136, "signature_positive_chirality": -80, "det": 41, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_24149", "matrix_size": 144, "signature_positive_chirality": -88, "det": 5, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_24183", "matrix_size": 266, "signature_positive_chirality": -150, "det": 31, "bound": 151, "holds": true, "matches_numeric": true}
+{"name": "o9_24290", "matrix_size": 48, "signature_positive_chirality": -32, "det": 9, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_24401", "matrix_size": 38, "signature_positive_chirality": -26, "det": 3, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_24407", "matrix_size": 94, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_24534", "matrix_size": 108, "signature_positive_chirality": -64, "det": 5, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_24592", "matrix_size": 78, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_24779", "matrix_size": 78, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_24886", "matrix_size": 254, "signature_positive_chirality": -142, "det": 23, "bound": 143, "holds": true, "matches_numeric": true}
+{"name": "o9_24889", "matrix_size": 198, "signature_positive_chirality": -114, "det": 7, "bound": 115, "holds": true, "matches_numeric": true}
+{"name": "o9_24946", "matrix_size": 44, "signature_positive_chirality": -28, "det": 5, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_25110", "matrix_size": 82, "signature_positive_chirality": -50, "det": 31, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_25199", "matrix_size": 50, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_25341", "matrix_size": 48, "signature_positive_chirality": -34, "det": 3, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_25444", "matrix_size": 54, "signature_positive_chirality": -38, "det": 15, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_25595", "matrix_size": 114, "signature_positive_chirality": -66, "det": 7, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_25709", "matrix_size": 26, "signature_positive_chirality": -20, "det": 5, "bound": 21, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_25832", "matrix_size": 54, "signature_positive_chirality": -38, "det": 3, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_26141", "matrix_size": 102, "signature_positive_chirality": -62, "det": 3, "bound": 63, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_26471", "matrix_size": 48, "signature_positive_chirality": -32, "det": 9, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_26570", "matrix_size": 72, "signature_positive_chirality": -46, "det": 3, "bound": 47, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_26604", "matrix_size": 118, "signature_positive_chirality": -72, "det": 1, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_26767", "matrix_size": 30, "signature_positive_chirality": -22, "det": 7, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_26791", "matrix_size": 148, "signature_positive_chirality": -88, "det": 1, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_27107", "matrix_size": 46, "signature_positive_chirality": -30, "det": 11, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_27155", "matrix_size": 138, "signature_positive_chirality": -80, "det": 1, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_27261", "matrix_size": 168, "signature_positive_chirality": -100, "det": 29, "bound": 101, "holds": true, "matches_numeric": true}
+{"name": "o9_27371", "matrix_size": 112, "signature_positive_chirality": -68, "det": 5, "bound": 69, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_27392", "matrix_size": 168, "signature_positive_chirality": -100, "det": 5, "bound": 101, "holds": true, "matches_numeric": true}
+{"name": "o9_27429", "matrix_size": 128, "signature_positive_chirality": -76, "det": 5, "bound": 77, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_27480", "matrix_size": 134, "signature_positive_chirality": -78, "det": 3, "bound": 79, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_27737", "matrix_size": 138, "signature_positive_chirality": -82, "det": 11, "bound": 83, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_27767", "matrix_size": 130, "signature_positive_chirality": -76, "det": 5, "bound": 77, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_28113", "matrix_size": 148, "signature_positive_chirality": -92, "det": 13, "bound": 93, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_28153", "matrix_size": 168, "signature_positive_chirality": -96, "det": 1, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "o9_28284", "matrix_size": 88, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_28529", "matrix_size": 216, "signature_positive_chirality": -124, "det": 5, "bound": 125, "holds": true, "matches_numeric": true}
+{"name": "o9_28592", "matrix_size": 172, "signature_positive_chirality": -104, "det": 1, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_28746", "matrix_size": 162, "signature_positive_chirality": -94, "det": 3, "bound": 95, "holds": true, "matches_numeric": true}
+{"name": "o9_28751", "matrix_size": 102, "signature_positive_chirality": -62, "det": 47, "bound": 63, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_28810", "matrix_size": 176, "signature_positive_chirality": -104, "det": 1, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_29048", "matrix_size": 34, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_29246", "matrix_size": 210, "signature_positive_chirality": -122, "det": 27, "bound": 123, "holds": true, "matches_numeric": true}
+{"name": "o9_29436", "matrix_size": 214, "signature_positive_chirality": -122, "det": 11, "bound": 123, "holds": true, "matches_numeric": true}
+{"name": "o9_29529", "matrix_size": 126, "signature_positive_chirality": -74, "det": 3, "bound": 75, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_29551", "matrix_size": 98, "signature_positive_chirality": -58, "det": 11, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_29648", "matrix_size": 88, "signature_positive_chirality": -54, "det": 3, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_29751", "matrix_size": 54, "signature_positive_chirality": -34, "det": 15, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_29766", "matrix_size": 36, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_30142", "matrix_size": 124, "signature_positive_chirality": -72, "det": 1, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_30150", "matrix_size": 68, "signature_positive_chirality": -42, "det": 11, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_30375", "matrix_size": 172, "signature_positive_chirality": -100, "det": 5, "bound": 101, "holds": true, "matches_numeric": true}
+{"name": "o9_30634", "matrix_size": 14, "signature_positive_chirality": -8, "det": 9, "bound": 9, "holds": true, "matches_numeric": true}
+{"name": "o9_30650", "matrix_size": 42, "signature_positive_chirality": -26, "det": 7, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_30721", "matrix_size": 110, "signature_positive_chirality": -66, "det": 19, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_30790", "matrix_size": 228, "signature_positive_chirality": -128, "det": 1, "bound": 129, "holds": true, "matches_numeric": true}
+{"name": "o9_31165", "matrix_size": 176, "signature_positive_chirality": -104, "det": 9, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "o9_31267", "matrix_size": 68, "signature_positive_chirality": -44, "det": 5, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_31321", "matrix_size": 40, "signature_positive_chirality": -28, "det": 13, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_31440", "matrix_size": 86, "signature_positive_chirality": -52, "det": 13, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_31481", "matrix_size": 60, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_32044", "matrix_size": 28, "signature_positive_chirality": -20, "det": 5, "bound": 21, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_32065", "matrix_size": 86, "signature_positive_chirality": -54, "det": 3, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_32132", "matrix_size": 68, "signature_positive_chirality": -42, "det": 7, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_32150", "matrix_size": 62, "signature_positive_chirality": -42, "det": 35, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_32257", "matrix_size": 78, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_32314", "matrix_size": 62, "signature_positive_chirality": -40, "det": 9, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_32471", "matrix_size": 56, "signature_positive_chirality": -36, "det": 5, "bound": 37, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_32588", "matrix_size": 62, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_32964", "matrix_size": 36, "signature_positive_chirality": -24, "det": 9, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_33189", "matrix_size": 52, "signature_positive_chirality": -36, "det": 29, "bound": 37, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_33284", "matrix_size": 122, "signature_positive_chirality": -74, "det": 3, "bound": 75, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_33380", "matrix_size": 40, "signature_positive_chirality": -26, "det": 3, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_33430", "matrix_size": 50, "signature_positive_chirality": -32, "det": 5, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_33486", "matrix_size": 140, "signature_positive_chirality": -84, "det": 37, "bound": 85, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_33526", "matrix_size": 70, "signature_positive_chirality": -44, "det": 5, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_33585", "matrix_size": 100, "signature_positive_chirality": -60, "det": 21, "bound": 61, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_33801", "matrix_size": 76, "signature_positive_chirality": -48, "det": 9, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_33944", "matrix_size": 52, "signature_positive_chirality": -32, "det": 9, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_33959", "matrix_size": 78, "signature_positive_chirality": -48, "det": 9, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_34000", "matrix_size": 86, "signature_positive_chirality": -54, "det": 7, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_34403", "matrix_size": 92, "signature_positive_chirality": -56, "det": 9, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_34409", "matrix_size": 30, "signature_positive_chirality": -22, "det": 3, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_34689", "matrix_size": 70, "signature_positive_chirality": -44, "det": 5, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_35320", "matrix_size": 94, "signature_positive_chirality": -58, "det": 3, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_35549", "matrix_size": 268, "signature_positive_chirality": -152, "det": 1, "bound": 153, "holds": true, "matches_numeric": true}
+{"name": "o9_35666", "matrix_size": 68, "signature_positive_chirality": -44, "det": 21, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_35682", "matrix_size": 86, "signature_positive_chirality": -54, "det": 19, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_35720", "matrix_size": 60, "signature_positive_chirality": -38, "det": 7, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_35736", "matrix_size": 262, "signature_positive_chirality": -146, "det": 3, "bound": 147, "holds": true, "matches_numeric": true}
+{"name": "o9_35772", "matrix_size": 84, "signature_positive_chirality": -52, "det": 17, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_35928", "matrix_size": 44, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_36114", "matrix_size": 86, "signature_positive_chirality": -54, "det": 3, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_36250", "matrix_size": 64, "signature_positive_chirality": -42, "det": 19, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_36380", "matrix_size": 118, "signature_positive_chirality": -70, "det": 51, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_36544", "matrix_size": 62, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_36809", "matrix_size": 44, "signature_positive_chirality": -28, "det": 21, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_36958", "matrix_size": 44, "signature_positive_chirality": -28, "det": 13, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_37050", "matrix_size": 134, "signature_positive_chirality": -78, "det": 39, "bound": 79, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_37291", "matrix_size": 82, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_37482", "matrix_size": 72, "signature_positive_chirality": -44, "det": 13, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_37551", "matrix_size": 36, "signature_positive_chirality": -24, "det": 9, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_37685", "matrix_size": 44, "signature_positive_chirality": -30, "det": 3, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_37751", "matrix_size": 62, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_37754", "matrix_size": 80, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_37851", "matrix_size": 82, "signature_positive_chirality": -50, "det": 11, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_37941", "matrix_size": 94, "signature_positive_chirality": -58, "det": 11, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_38287", "matrix_size": 58, "signature_positive_chirality": -36, "det": 13, "bound": 37, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_38679", "matrix_size": 106, "signature_positive_chirality": -66, "det": 31, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_38811", "matrix_size": 60, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_38928", "matrix_size": 38, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_38989", "matrix_size": 66, "signature_positive_chirality": -42, "det": 19, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_39162", "matrix_size": 48, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_39394", "matrix_size": 114, "signature_positive_chirality": -70, "det": 3, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_39451", "matrix_size": 82, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_39521", "matrix_size": 104, "signature_positive_chirality": -64, "det": 41, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_39606", "matrix_size": 46, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_39608", "matrix_size": 46, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_39859", "matrix_size": 52, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_39879", "matrix_size": 42, "signature_positive_chirality": -30, "det": 3, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_39981", "matrix_size": 38, "signature_positive_chirality": -26, "det": 3, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_40026", "matrix_size": 38, "signature_positive_chirality": -26, "det": 15, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_40052", "matrix_size": 72, "signature_positive_chirality": -44, "det": 17, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_40075", "matrix_size": 72, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_40179", "matrix_size": 108, "signature_positive_chirality": -64, "det": 5, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_40363", "matrix_size": 66, "signature_positive_chirality": -40, "det": 9, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_40487", "matrix_size": 28, "signature_positive_chirality": -18, "det": 3, "bound": 19, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_40504", "matrix_size": 42, "signature_positive_chirality": -28, "det": 5, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_40582", "matrix_size": 32, "signature_positive_chirality": -22, "det": 7, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_41372", "matrix_size": 68, "signature_positive_chirality": -44, "det": 13, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_42224", "matrix_size": 60, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_42493", "matrix_size": 64, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_42675", "matrix_size": 32, "signature_positive_chirality": -22, "det": 7, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_42961", "matrix_size": 42, "signature_positive_chirality": -28, "det": 5, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_43001", "matrix_size": 92, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_43679", "matrix_size": 116, "signature_positive_chirality": -70, "det": 3, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_43750", "matrix_size": 60, "signature_positive_chirality": -38, "det": 3, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_43857", "matrix_size": 54, "signature_positive_chirality": -34, "det": 11, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_43953", "matrix_size": 96, "signature_positive_chirality": -58, "det": 3, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "o9_44054", "matrix_size": 104, "signature_positive_chirality": -64, "det": 5, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s042", "matrix_size": 42, "signature_positive_chirality": -26, "det": 3, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s068", "matrix_size": 50, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s086", "matrix_size": 28, "signature_positive_chirality": -20, "det": 5, "bound": 21, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s104", "matrix_size": 52, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s114", "matrix_size": 62, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s294", "matrix_size": 34, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s301", "matrix_size": 46, "signature_positive_chirality": -30, "det": 3, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s308", "matrix_size": 46, "signature_positive_chirality": -30, "det": 7, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s336", "matrix_size": 34, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s344", "matrix_size": 48, "signature_positive_chirality": -32, "det": 9, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s346", "matrix_size": 56, "signature_positive_chirality": -36, "det": 13, "bound": 37, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s367", "matrix_size": 44, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s369", "matrix_size": 54, "signature_positive_chirality": -34, "det": 3, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s384", "matrix_size": 14, "signature_positive_chirality": -12, "det": 5, "bound": 13, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s407", "matrix_size": 58, "signature_positive_chirality": -38, "det": 3, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s560", "matrix_size": 30, "signature_positive_chirality": -22, "det": 15, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s582", "matrix_size": 36, "signature_positive_chirality": -24, "det": 9, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s652", "matrix_size": 18, "signature_positive_chirality": -14, "det": 7, "bound": 15, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s665", "matrix_size": 56, "signature_positive_chirality": -36, "det": 13, "bound": 37, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s682", "matrix_size": 18, "signature_positive_chirality": -14, "det": 3, "bound": 15, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s684", "matrix_size": 40, "signature_positive_chirality": -26, "det": 3, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s769", "matrix_size": 58, "signature_positive_chirality": -38, "det": 7, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s800", "matrix_size": 52, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "s849", "matrix_size": 26, "signature_positive_chirality": -18, "det": 11, "bound": 19, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00110", "matrix_size": 82, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00146", "matrix_size": 90, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00324", "matrix_size": 40, "signature_positive_chirality": -28, "det": 5, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00423", "matrix_size": 136, "signature_positive_chirality": -80, "det": 1, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00434", "matrix_size": 146, "signature_positive_chirality": -88, "det": 1, "bound": 89, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00550", "matrix_size": 62, "signature_positive_chirality": -38, "det": 31, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00621", "matrix_size": 78, "signature_positive_chirality": -50, "det": 39, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00729", "matrix_size": 88, "signature_positive_chirality": -52, "det": 5, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00787", "matrix_size": 110, "signature_positive_chirality": -66, "det": 3, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00826", "matrix_size": 128, "signature_positive_chirality": -76, "det": 29, "bound": 77, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00855", "matrix_size": 138, "signature_positive_chirality": -82, "det": 31, "bound": 83, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00873", "matrix_size": 122, "signature_positive_chirality": -72, "det": 9, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t00932", "matrix_size": 144, "signature_positive_chirality": -86, "det": 11, "bound": 87, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01033", "matrix_size": 86, "signature_positive_chirality": -54, "det": 3, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01037", "matrix_size": 86, "signature_positive_chirality": -54, "det": 7, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01125", "matrix_size": 106, "signature_positive_chirality": -62, "det": 23, "bound": 63, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01216", "matrix_size": 114, "signature_positive_chirality": -66, "det": 19, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01268", "matrix_size": 146, "signature_positive_chirality": -86, "det": 31, "bound": 87, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01292", "matrix_size": 138, "signature_positive_chirality": -82, "det": 23, "bound": 83, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01318", "matrix_size": 94, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01368", "matrix_size": 106, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01409", "matrix_size": 164, "signature_positive_chirality": -96, "det": 1, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "t01422", "matrix_size": 58, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01424", "matrix_size": 180, "signature_positive_chirality": -104, "det": 1, "bound": 105, "holds": true, "matches_numeric": true}
+{"name": "t01440", "matrix_size": 68, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01598", "matrix_size": 146, "signature_positive_chirality": -86, "det": 3, "bound": 87, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01636", "matrix_size": 142, "signature_positive_chirality": -82, "det": 3, "bound": 83, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01646", "matrix_size": 164, "signature_positive_chirality": -96, "det": 1, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "t01690", "matrix_size": 168, "signature_positive_chirality": -96, "det": 1, "bound": 97, "holds": true, "matches_numeric": true}
+{"name": "t01757", "matrix_size": 92, "signature_positive_chirality": -56, "det": 9, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01815", "matrix_size": 52, "signature_positive_chirality": -34, "det": 3, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01834", "matrix_size": 106, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01850", "matrix_size": 88, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01863", "matrix_size": 110, "signature_positive_chirality": -66, "det": 3, "bound": 67, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01949", "matrix_size": 104, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t01966", "matrix_size": 58, "signature_positive_chirality": -38, "det": 11, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02099", "matrix_size": 74, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02104", "matrix_size": 98, "signature_positive_chirality": -58, "det": 3, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02238", "matrix_size": 124, "signature_positive_chirality": -72, "det": 9, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02276", "matrix_size": 18, "signature_positive_chirality": -16, "det": 9, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02378", "matrix_size": 138, "signature_positive_chirality": -80, "det": 1, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02398", "matrix_size": 142, "signature_positive_chirality": -86, "det": 11, "bound": 87, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02404", "matrix_size": 102, "signature_positive_chirality": -62, "det": 19, "bound": 63, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02470", "matrix_size": 142, "signature_positive_chirality": -82, "det": 3, "bound": 83, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02537", "matrix_size": 140, "signature_positive_chirality": -84, "det": 13, "bound": 85, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02567", "matrix_size": 142, "signature_positive_chirality": -86, "det": 3, "bound": 87, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t02639", "matrix_size": 172, "signature_positive_chirality": -100, "det": 21, "bound": 101, "holds": true, "matches_numeric": true}
+{"name": "t03106", "matrix_size": 60, "signature_positive_chirality": -38, "det": 11, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t03566", "matrix_size": 90, "signature_positive_chirality": -54, "det": 3, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t03607", "matrix_size": 120, "signature_positive_chirality": -72, "det": 25, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t03709", "matrix_size": 108, "signature_positive_chirality": -64, "det": 5, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t03710", "matrix_size": 54, "signature_positive_chirality": -38, "det": 23, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t03713", "matrix_size": 92, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t03781", "matrix_size": 60, "signature_positive_chirality": -40, "det": 17, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t03843", "matrix_size": 48, "signature_positive_chirality": -32, "det": 9, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t03864", "matrix_size": 106, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t03956", "matrix_size": 76, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t03979", "matrix_size": 94, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04003", "matrix_size": 98, "signature_positive_chirality": -58, "det": 11, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04019", "matrix_size": 64, "signature_positive_chirality": -40, "det": 9, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04102", "matrix_size": 100, "signature_positive_chirality": -60, "det": 5, "bound": 61, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04180", "matrix_size": 96, "signature_positive_chirality": -60, "det": 13, "bound": 61, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04228", "matrix_size": 126, "signature_positive_chirality": -74, "det": 7, "bound": 75, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04244", "matrix_size": 154, "signature_positive_chirality": -90, "det": 31, "bound": 91, "holds": true, "matches_numeric": true}
+{"name": "t04382", "matrix_size": 132, "signature_positive_chirality": -76, "det": 17, "bound": 77, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04449", "matrix_size": 36, "signature_positive_chirality": -24, "det": 5, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04557", "matrix_size": 30, "signature_positive_chirality": -22, "det": 7, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04721", "matrix_size": 120, "signature_positive_chirality": -72, "det": 25, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04756", "matrix_size": 72, "signature_positive_chirality": -44, "det": 33, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t04927", "matrix_size": 68, "signature_positive_chirality": -44, "det": 37, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t05118", "matrix_size": 156, "signature_positive_chirality": -92, "det": 5, "bound": 93, "holds": true, "matches_numeric": true}
+{"name": "t05239", "matrix_size": 142, "signature_positive_chirality": -82, "det": 7, "bound": 83, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t05390", "matrix_size": 86, "signature_positive_chirality": -54, "det": 7, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t05425", "matrix_size": 92, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t05426", "matrix_size": 168, "signature_positive_chirality": -98, "det": 3, "bound": 99, "holds": true, "matches_numeric": true}
+{"name": "t05538", "matrix_size": 80, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t05564", "matrix_size": 108, "signature_positive_chirality": -68, "det": 13, "bound": 69, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t05578", "matrix_size": 142, "signature_positive_chirality": -84, "det": 5, "bound": 85, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t05658", "matrix_size": 90, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t05663", "matrix_size": 116, "signature_positive_chirality": -72, "det": 1, "bound": 73, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t05674", "matrix_size": 114, "signature_positive_chirality": -70, "det": 7, "bound": 71, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t05695", "matrix_size": 92, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t06001", "matrix_size": 108, "signature_positive_chirality": -64, "det": 9, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t06246", "matrix_size": 86, "signature_positive_chirality": -52, "det": 5, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t06440", "matrix_size": 130, "signature_positive_chirality": -78, "det": 11, "bound": 79, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t06463", "matrix_size": 172, "signature_positive_chirality": -100, "det": 5, "bound": 101, "holds": true, "matches_numeric": true}
+{"name": "t06525", "matrix_size": 112, "signature_positive_chirality": -68, "det": 5, "bound": 69, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t06570", "matrix_size": 136, "signature_positive_chirality": -80, "det": 9, "bound": 81, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t06573", "matrix_size": 22, "signature_positive_chirality": -18, "det": 11, "bound": 19, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t06605", "matrix_size": 172, "signature_positive_chirality": -100, "det": 21, "bound": 101, "holds": true, "matches_numeric": true}
+{"name": "t06637", "matrix_size": 72, "signature_positive_chirality": -44, "det": 5, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t06715", "matrix_size": 32, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t06957", "matrix_size": 84, "signature_positive_chirality": -52, "det": 29, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t07070", "matrix_size": 32, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t07104", "matrix_size": 26, "signature_positive_chirality": -20, "det": 5, "bound": 21, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t07348", "matrix_size": 66, "signature_positive_chirality": -42, "det": 3, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t07355", "matrix_size": 28, "signature_positive_chirality": -20, "det": 5, "bound": 21, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t07412", "matrix_size": 48, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t07670", "matrix_size": 38, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t08111", "matrix_size": 54, "signature_positive_chirality": -34, "det": 3, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t08114", "matrix_size": 24, "signature_positive_chirality": -16, "det": 9, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t08184", "matrix_size": 74, "signature_positive_chirality": -46, "det": 7, "bound": 47, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t08201", "matrix_size": 68, "signature_positive_chirality": -42, "det": 3, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t08267", "matrix_size": 112, "signature_positive_chirality": -68, "det": 21, "bound": 69, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t08273", "matrix_size": 42, "signature_positive_chirality": -26, "det": 11, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t08403", "matrix_size": 88, "signature_positive_chirality": -54, "det": 3, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t08532", "matrix_size": 42, "signature_positive_chirality": -30, "det": 11, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t08576", "matrix_size": 74, "signature_positive_chirality": -46, "det": 23, "bound": 47, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t08936", "matrix_size": 46, "signature_positive_chirality": -30, "det": 7, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09016", "matrix_size": 112, "signature_positive_chirality": -68, "det": 13, "bound": 69, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09126", "matrix_size": 58, "signature_positive_chirality": -38, "det": 7, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09267", "matrix_size": 96, "signature_positive_chirality": -56, "det": 5, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09284", "matrix_size": 20, "signature_positive_chirality": -16, "det": 9, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09313", "matrix_size": 126, "signature_positive_chirality": -74, "det": 3, "bound": 75, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09450", "matrix_size": 54, "signature_positive_chirality": -34, "det": 27, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09455", "matrix_size": 102, "signature_positive_chirality": -62, "det": 3, "bound": 63, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09500", "matrix_size": 36, "signature_positive_chirality": -26, "det": 3, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09580", "matrix_size": 96, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09633", "matrix_size": 36, "signature_positive_chirality": -24, "det": 9, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09690", "matrix_size": 80, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09704", "matrix_size": 154, "signature_positive_chirality": -90, "det": 19, "bound": 91, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09847", "matrix_size": 14, "signature_positive_chirality": -10, "det": 7, "bound": 11, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09852", "matrix_size": 56, "signature_positive_chirality": -36, "det": 13, "bound": 37, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09882", "matrix_size": 18, "signature_positive_chirality": -12, "det": 5, "bound": 13, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09912", "matrix_size": 42, "signature_positive_chirality": -30, "det": 3, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t09954", "matrix_size": 64, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10177", "matrix_size": 82, "signature_positive_chirality": -50, "det": 3, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10188", "matrix_size": 42, "signature_positive_chirality": -28, "det": 5, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10215", "matrix_size": 36, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10224", "matrix_size": 32, "signature_positive_chirality": -22, "det": 3, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10230", "matrix_size": 54, "signature_positive_chirality": -34, "det": 11, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10262", "matrix_size": 38, "signature_positive_chirality": -26, "det": 7, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10292", "matrix_size": 46, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10462", "matrix_size": 104, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10496", "matrix_size": 24, "signature_positive_chirality": -16, "det": 9, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10643", "matrix_size": 118, "signature_positive_chirality": -74, "det": 11, "bound": 75, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10681", "matrix_size": 158, "signature_positive_chirality": -94, "det": 3, "bound": 95, "holds": true, "matches_numeric": true}
+{"name": "t10832", "matrix_size": 34, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t10985", "matrix_size": 152, "signature_positive_chirality": -88, "det": 1, "bound": 89, "holds": true, "matches_numeric": true}
+{"name": "t11198", "matrix_size": 52, "signature_positive_chirality": -34, "det": 11, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t11376", "matrix_size": 40, "signature_positive_chirality": -28, "det": 21, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t11548", "matrix_size": 50, "signature_positive_chirality": -34, "det": 27, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t11556", "matrix_size": 50, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t11852", "matrix_size": 64, "signature_positive_chirality": -40, "det": 5, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t11887", "matrix_size": 50, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t11909", "matrix_size": 40, "signature_positive_chirality": -28, "det": 5, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t12288", "matrix_size": 76, "signature_positive_chirality": -48, "det": 25, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t12533", "matrix_size": 24, "signature_positive_chirality": -16, "det": 1, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t12681", "matrix_size": 44, "signature_positive_chirality": -30, "det": 7, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "t12753", "matrix_size": 74, "signature_positive_chirality": -46, "det": 3, "bound": 47, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0082", "matrix_size": 62, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0114", "matrix_size": 70, "signature_positive_chirality": -46, "det": 3, "bound": 47, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0165", "matrix_size": 34, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0220", "matrix_size": 94, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0223", "matrix_size": 104, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0249", "matrix_size": 32, "signature_positive_chirality": -20, "det": 17, "bound": 21, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0319", "matrix_size": 48, "signature_positive_chirality": -32, "det": 25, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0330", "matrix_size": 46, "signature_positive_chirality": -30, "det": 3, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0398", "matrix_size": 68, "signature_positive_chirality": -44, "det": 5, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0407", "matrix_size": 72, "signature_positive_chirality": -44, "det": 17, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0424", "matrix_size": 66, "signature_positive_chirality": -40, "det": 5, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0434", "matrix_size": 82, "signature_positive_chirality": -50, "det": 19, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0497", "matrix_size": 88, "signature_positive_chirality": -54, "det": 7, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0545", "matrix_size": 28, "signature_positive_chirality": -18, "det": 3, "bound": 19, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0554", "matrix_size": 50, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0570", "matrix_size": 66, "signature_positive_chirality": -42, "det": 7, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0573", "matrix_size": 66, "signature_positive_chirality": -42, "det": 3, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0707", "matrix_size": 46, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0709", "matrix_size": 44, "signature_positive_chirality": -30, "det": 3, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0715", "matrix_size": 92, "signature_positive_chirality": -56, "det": 1, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0740", "matrix_size": 56, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0741", "matrix_size": 108, "signature_positive_chirality": -64, "det": 1, "bound": 65, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0759", "matrix_size": 68, "signature_positive_chirality": -40, "det": 5, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0765", "matrix_size": 64, "signature_positive_chirality": -40, "det": 9, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0830", "matrix_size": 38, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0847", "matrix_size": 66, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0912", "matrix_size": 78, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0939", "matrix_size": 54, "signature_positive_chirality": -34, "det": 11, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0945", "matrix_size": 86, "signature_positive_chirality": -54, "det": 7, "bound": 55, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v0959", "matrix_size": 16, "signature_positive_chirality": -14, "det": 7, "bound": 15, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1077", "matrix_size": 98, "signature_positive_chirality": -58, "det": 3, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1109", "matrix_size": 100, "signature_positive_chirality": -60, "det": 13, "bound": 61, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1269", "matrix_size": 42, "signature_positive_chirality": -26, "det": 19, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1300", "matrix_size": 48, "signature_positive_chirality": -32, "det": 5, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1359", "matrix_size": 44, "signature_positive_chirality": -28, "det": 5, "bound": 29, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1392", "matrix_size": 50, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1423", "matrix_size": 38, "signature_positive_chirality": -26, "det": 23, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1425", "matrix_size": 30, "signature_positive_chirality": -22, "det": 7, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1547", "matrix_size": 56, "signature_positive_chirality": -36, "det": 5, "bound": 37, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1565", "matrix_size": 42, "signature_positive_chirality": -30, "det": 19, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1620", "matrix_size": 48, "signature_positive_chirality": -32, "det": 13, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1628", "matrix_size": 66, "signature_positive_chirality": -42, "det": 3, "bound": 43, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1690", "matrix_size": 64, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1709", "matrix_size": 70, "signature_positive_chirality": -44, "det": 5, "bound": 45, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1716", "matrix_size": 58, "signature_positive_chirality": -38, "det": 11, "bound": 39, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1718", "matrix_size": 74, "signature_positive_chirality": -46, "det": 7, "bound": 47, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1728", "matrix_size": 56, "signature_positive_chirality": -36, "det": 5, "bound": 37, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1810", "matrix_size": 76, "signature_positive_chirality": -48, "det": 1, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1832", "matrix_size": 62, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1839", "matrix_size": 100, "signature_positive_chirality": -60, "det": 21, "bound": 61, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1915", "matrix_size": 24, "signature_positive_chirality": -18, "det": 3, "bound": 19, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1921", "matrix_size": 80, "signature_positive_chirality": -48, "det": 5, "bound": 49, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1940", "matrix_size": 84, "signature_positive_chirality": -52, "det": 5, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1966", "matrix_size": 98, "signature_positive_chirality": -58, "det": 11, "bound": 59, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1980", "matrix_size": 34, "signature_positive_chirality": -24, "det": 1, "bound": 25, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v1986", "matrix_size": 78, "signature_positive_chirality": -50, "det": 11, "bound": 51, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2024", "matrix_size": 84, "signature_positive_chirality": -52, "det": 5, "bound": 53, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2090", "matrix_size": 100, "signature_positive_chirality": -60, "det": 5, "bound": 61, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2215", "matrix_size": 60, "signature_positive_chirality": -40, "det": 1, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2217", "matrix_size": 20, "signature_positive_chirality": -14, "det": 3, "bound": 15, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2290", "matrix_size": 38, "signature_positive_chirality": -26, "det": 3, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2325", "matrix_size": 72, "signature_positive_chirality": -46, "det": 3, "bound": 47, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2384", "matrix_size": 20, "signature_positive_chirality": -16, "det": 9, "bound": 17, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2759", "matrix_size": 54, "signature_positive_chirality": -34, "det": 3, "bound": 35, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2871", "matrix_size": 16, "signature_positive_chirality": -12, "det": 5, "bound": 13, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2900", "matrix_size": 46, "signature_positive_chirality": -30, "det": 19, "bound": 31, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2925", "matrix_size": 24, "signature_positive_chirality": -18, "det": 3, "bound": 19, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v2930", "matrix_size": 60, "signature_positive_chirality": -40, "det": 5, "bound": 41, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v3070", "matrix_size": 52, "signature_positive_chirality": -32, "det": 1, "bound": 33, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v3105", "matrix_size": 28, "signature_positive_chirality": -20, "det": 13, "bound": 21, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v3234", "matrix_size": 30, "signature_positive_chirality": -22, "det": 3, "bound": 23, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v3335", "matrix_size": 30, "signature_positive_chirality": -20, "det": 5, "bound": 21, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v3354", "matrix_size": 88, "signature_positive_chirality": -56, "det": 9, "bound": 57, "holds": true, "matches_numeric": true, "matches_sage_exact": true}
+{"name": "v3482", "matrix_size": 38, "signature_positive_chirality": -26, "det": 19, "bound": 27, "holds": true, "matches_numeric": true, "matches_sage_exact": true}

@@ -1,0 +1,66 @@
+[
+ {
+  "knot": "Baker-Kegel K_7",
+  "L_space": true,
+  "crossings": 65,
+  "genus": 30,
+  "u_equals_g": true,
+  "seconds": 8
+ },
+ {
+  "knot": "Baker-Kegel K_8",
+  "L_space": true,
+  "crossings": 73,
+  "genus": 34,
+  "u_equals_g": true,
+  "seconds": 12
+ },
+ {
+  "knot": "Baker-Kegel K_9",
+  "L_space": true,
+  "crossings": 81,
+  "genus": 38,
+  "u_equals_g": true,
+  "seconds": 13
+ },
+ {
+  "knot": "Baker-Kegel K_10",
+  "L_space": true,
+  "crossings": 89,
+  "genus": 42,
+  "u_equals_g": true,
+  "seconds": 25
+ },
+ {
+  "knot": "(2,7)-cable of T(2,5)",
+  "L_space": true,
+  "crossings": 23,
+  "genus": 7,
+  "u_equals_g": true,
+  "seconds": 0
+ },
+ {
+  "knot": "(2,11)-cable of T(2,7)",
+  "L_space": true,
+  "crossings": 31,
+  "genus": 11,
+  "u_equals_g": true,
+  "seconds": 0
+ },
+ {
+  "knot": "(2,15)-cable of T(2,9)",
+  "L_space": true,
+  "crossings": 39,
+  "genus": 15,
+  "u_equals_g": true,
+  "seconds": 1
+ },
+ {
+  "knot": "(2,19)-cable of T(2,11)",
+  "L_space": true,
+  "crossings": 47,
+  "genus": 19,
+  "u_equals_g": true,
+  "seconds": 2
+ }
+]

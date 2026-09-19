@@ -1,0 +1,1955 @@
+{
+  "statement": "every L-space knot computed with Delta = Delta_{T(2,2g+1)} is T(2,2g+1)",
+  "method": "a 2-strand positive braid word of length 2g+1 identifies T(2,2g+1) outright",
+  "tested": 125,
+  "confirmed_T2": 125,
+  "unresolved": 0,
+  "unresolved_all_have_crossing_number_2g_plus_1": true,
+  "not_confirmed": [],
+  "records": [
+    {
+      "source": "twisted torus",
+      "name": "K(3,2;2,2)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,2;2,-1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,2;2,4)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,3;3,-1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,2;2,3)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,2;2,-6)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,2;2,6)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,4;2,-2)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,2;2,2)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,2;2,5)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,3;2,-2)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,3;3,-1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,2;2,-1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,2;2,1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,2;3,-4)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,4;3,-2)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,2;2,4)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,2;2,-7)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,2;2,7)",
+      "genus": 5,
+      "crossings": 11,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,2;2,-3)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,2;2,3)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,5;2,-4)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,2;2,6)",
+      "genus": 5,
+      "crossings": 11,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,2;2,-2)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,2;2,2)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,2;3,-1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,2;2,5)",
+      "genus": 5,
+      "crossings": 11,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(8,2;2,-1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(8,2;2,1)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,3;3,-5)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,5;3,-3)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,3;2,-4)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,3;3,-2)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,3;5,-1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,2;2,4)",
+      "genus": 5,
+      "crossings": 11,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,2;2,7)",
+      "genus": 6,
+      "crossings": 13,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(8,2;2,3)",
+      "genus": 5,
+      "crossings": 11,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(8,2;4,-1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,3;3,-3)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,2;2,6)",
+      "genus": 6,
+      "crossings": 13,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,3;5,-1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(8,2;2,5)",
+      "genus": 6,
+      "crossings": 13,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(3,6;3,-4)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,2;3,-6)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,2;4,-4)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,3;3,-6)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,5;3,-3)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,3;4,-2)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(8,2;2,7)",
+      "genus": 7,
+      "crossings": 15,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,4;3,-3)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,4;4,-2)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,3;3,-7)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,2;5,-4)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,4;5,-2)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,3;7,-1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,2;4,-5)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,2;3,-7)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,3;5,-2)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(8,3;7,-1)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,4;4,-3)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(8,3;3,-5)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,5;5,-3)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,2;6,-4)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(4,7;3,-6)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(8,3;3,-6)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,4;6,-2)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,4;4,-5)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,6;4,-4)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,2;7,-4)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,4;3,-6)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,4;5,-3)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,4;7,-2)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,5;4,-4)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(6,5;5,-3)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(7,3;5,-5)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,4;5,-6)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "source": "twisted torus",
+      "name": "K(5,6;5,-4)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(4,1,2)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(4,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(5,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(6,1,2)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(6,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(6,4,1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(7,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(7,4,1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(8,1,2)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(8,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(8,4,1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(8,6,1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(9,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(9,4,1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(9,6,1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(10,1,2)",
+      "genus": 5,
+      "crossings": 11,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(10,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(10,4,1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(10,6,1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(10,8,1)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(11,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(11,4,1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(11,6,1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(11,8,1)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(12,1,2)",
+      "genus": 6,
+      "crossings": 13,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(12,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(12,4,1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(12,6,1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(12,8,1)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(12,10,1)",
+      "genus": 5,
+      "crossings": 11,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(13,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(13,4,1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(13,6,1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(13,8,1)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(13,10,1)",
+      "genus": 5,
+      "crossings": 11,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(14,1,2)",
+      "genus": 7,
+      "crossings": 15,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(14,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(14,4,1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(14,6,1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(14,8,1)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(14,10,1)",
+      "genus": 5,
+      "crossings": 11,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(14,12,1)",
+      "genus": 6,
+      "crossings": 13,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(15,2,1)",
+      "genus": 1,
+      "crossings": 3,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(15,4,1)",
+      "genus": 2,
+      "crossings": 5,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(15,6,1)",
+      "genus": 3,
+      "crossings": 7,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(15,8,1)",
+      "genus": 4,
+      "crossings": 9,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(15,10,1)",
+      "genus": 5,
+      "crossings": 11,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "one-bridge braid",
+      "name": "B(15,12,1)",
+      "genus": 6,
+      "crossings": 13,
+      "is_T2_2g1": true,
+      "braid_word_found": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

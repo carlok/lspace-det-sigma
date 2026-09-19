@@ -1,0 +1,6 @@
+{"n": 1, "crossings": 17, "genus": 6, "tau": 6, "L_space": true, "fibered": true, "u_equals_g": true, "seconds": 1}
+{"n": 2, "crossings": 25, "genus": 10, "tau": 10, "L_space": true, "fibered": true, "u_equals_g": true, "seconds": 2}
+{"n": 3, "crossings": 33, "genus": 14, "tau": 14, "L_space": true, "fibered": true, "u_equals_g": true, "seconds": 3}
+{"n": 4, "crossings": 41, "genus": 18, "tau": 18, "L_space": true, "fibered": true, "u_equals_g": true, "seconds": 6}
+{"n": 5, "crossings": 49, "genus": 22, "tau": 22, "L_space": true, "fibered": true, "u_equals_g": true, "seconds": 9}
+{"n": 6, "crossings": 57, "genus": 26, "tau": 26, "L_space": true, "fibered": true, "u_equals_g": true, "seconds": 16}
