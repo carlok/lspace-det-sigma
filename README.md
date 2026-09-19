@@ -45,6 +45,11 @@ SnapPy 3.3.2 with `knot_floer_homology`, Sage 10.7, khoca 1.5.
     sage   verification/random_lspace_sigma.sage    # its exact signatures, and the check
     python3 verification/congruence.py          # the mod 4 congruence, on everything computed
     python3 verification/definiteness.py        # the sharp case across all families
+    python3 verification/k32/twisted_torus_ug.py    # unknotting certificates for u = g
+
+`note/make_tex.py` regenerates `note/k33.tex` from the result files, and two `pdflatex` passes give the
+PDF. `note/make_prompts.py` inlines the note into the review prompts in `PROMPTS.md`; its output is
+generated and not tracked.
 
 For the Lean part, see `lean/README.md`: it needs a Mathlib build at the pinned revision, and on a
 machine with several Lean projects that build should be shared rather than repeated.

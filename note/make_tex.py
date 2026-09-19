@@ -29,7 +29,9 @@ tt_minslack = min(r["bound"] - r["det_seifert"] for r in tt_hypr)
 tt_maxg = max(r["genus"] for r in ttr)
 rnd = J("random_lspace_sigma_summary.json"); rndgen = J("random_lspace_summary.json")
 defn = J("definiteness.json"); defid = J("definiteness_identify.json")
-K32 = HERE.parents[1] / "K32" / "verification"
+# the K32 results sit beside this note in the standalone repository, and one level up in the
+# working tree they were produced in
+K32 = V / "k32" if (V / "k32").exists() else HERE.parents[1] / "K32" / "verification"
 ug = json.load(open(K32 / "twisted_torus_ug_summary.json"))
 ugr = [json.loads(l) for l in open(K32 / "twisted_torus_ug.jsonl")]
 ug_hyp = sum(1 for r in ugr if r.get("u_equals_g") and r.get("hyperbolic"))
