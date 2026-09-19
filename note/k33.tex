@@ -74,6 +74,7 @@ census knots, independent route & 271 & 0 & knot Floer homology, Sage signature 
 non-braid-positive families & 68 & 0 & Seifert matrix of the braid word \\
 one-bridge braids $B(w,b,t)$, $w \le 15$ & 274 & 0 & Seifert matrix of the braid word \\
 twisted torus knots $K(p,q;r,s)$ & 549 & 0 & knot Floer homology, then exact Seifert signature \\
+unbiased random search & 14452 & 0 & knot Floer homology, then exact Seifert signature \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -93,6 +94,13 @@ homology rather than by a classification, which leaves 549 $L$-space knots of ge
 hyperbolic and 215 have a non-positive braid word and so fall outside the positive-braid case. There are 0
 violations. On this family the determinant is computed twice over, once from the Alexander polynomial read off the
 knot Floer gradings and once as $|\det(V + V^{\mathsf T})|$ from the Seifert matrix; the two agree on all 549 knots.
+
+\paragraph{An unbiased sample.} Every family above was chosen before it was tested, so a statement can
+survive all of them and still fail on an $L$-space knot nobody thought to parametrise. The last row of the
+table is a search with no family: random braid words, closed, and kept when their own knot Floer homology
+reports an $L$-space knot. Of 339432 words, 47474 gave distinct knots and 14452 of those are $L$-space knots, 5409 of
+them hyperbolic, of genus up to 11. There are 0 violations. Equality holds on 2147 of them and on 0 of the
+hyperbolic ones.
 
 \paragraph{Independent check.} A language model with no access to our computations re-derived the lattice count and
 recomputed, independently: the six torus signatures used here, Lemma~\ref{lem:L} and the bound on $N_<$ for all coprime
@@ -310,7 +318,8 @@ hyperbolic $L$-space knot, and that is exactly what the cabling induction replac
 hyperbolic and not braid positive, which is what makes it the natural place to look for a counterexample. The
 twisted torus family of Section~3 is hyperbolic and not braid positive too, and there equality never occurs: every
 hyperbolic member has slack at least $4$, while the members that do attain equality are exactly the non-hyperbolic
-ones. So equality is not a feature of the hyperbolic $L$-space knots in general, and the question is what
+ones. The unbiased sample says the same and says it louder: of its 14452 $L$-space knots, 2147 attain equality and
+0 of the 5409 hyperbolic ones do. So equality is not a feature of the hyperbolic $L$-space knots in general, and the question is what
 distinguishes the Baker--Kegel family, not what distinguishes the hyperbolic case.
 
 Two further questions. Which $L$-space knots attain equality? The known ones are $T(2,n)$, the $(2,q)$-cables, the
@@ -351,7 +360,8 @@ census), \texttt{exact\_signature.py} and \texttt{exact\_census.py} (exact inert
 \texttt{onebridge\_lspace.py} (the one-bridge braid family), \texttt{twisted\_torus.py} and
 \texttt{twisted\_torus\_sigma.sage} (the twisted torus family and its exact signatures), and
 \texttt{twisted\_torus\_ug.py} (the unknotting certificates of Section~8), \texttt{definiteness.py} and
-\texttt{definiteness\_identify.py} (the sharp case across all families).
+\texttt{definiteness\_identify.py} (the sharp case across all families), \texttt{random\_lspace.py} and
+\texttt{random\_lspace\_sigma.sage} (the unbiased sample).
 Tools: SnapPy 3.3.2 with \texttt{knot\_floer\_homology}, Sage 10.7, khoca 1.5. The Lean formalisation of the
 lattice inequality is \texttt{K33Lattice/Basic.lean}, built against Mathlib at revision
 \texttt{0df444a360eaa60ab8c11dca51a86af692955474} with \texttt{leanprover/lean4:v4.33.1}.

@@ -27,6 +27,7 @@ tt_eq = sum(1 for r in ttr if r["equality"])
 tt_hypr = [r for r in ttr if r.get("hyperbolic")]
 tt_minslack = min(r["bound"] - r["det_seifert"] for r in tt_hypr)
 tt_maxg = max(r["genus"] for r in ttr)
+rnd = J("random_lspace_sigma_summary.json"); rndgen = J("random_lspace_summary.json")
 defn = J("definiteness.json"); defid = J("definiteness_identify.json")
 K32 = HERE.parents[1] / "K32" / "verification"
 ug = json.load(open(K32 / "twisted_torus_ug_summary.json"))
@@ -114,6 +115,7 @@ census knots, independent route & %d & %d & knot Floer homology, Sage signature 
 non-braid-positive families & %d & %d & Seifert matrix of the braid word \\
 one-bridge braids $B(w,b,t)$, $w \le 15$ & %d & %d & Seifert matrix of the braid word \\
 twisted torus knots $K(p,q;r,s)$ & %d & %d & knot Floer homology, then exact Seifert signature \\
+unbiased random search & %d & %d & knot Floer homology, then exact Seifert signature \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -133,6 +135,13 @@ homology rather than by a classification, which leaves %d $L$-space knots of gen
 hyperbolic and %d have a non-positive braid word and so fall outside the positive-braid case. There are %d
 violations. On this family the determinant is computed twice over, once from the Alexander polynomial read off the
 knot Floer gradings and once as $|\det(V + V^{\mathsf T})|$ from the Seifert matrix; the two agree on all %d knots.
+
+\paragraph{An unbiased sample.} Every family above was chosen before it was tested, so a statement can
+survive all of them and still fail on an $L$-space knot nobody thought to parametrise. The last row of the
+table is a search with no family: random braid words, closed, and kept when their own knot Floer homology
+reports an $L$-space knot. Of %d words, %d gave distinct knots and %d of those are $L$-space knots, %d of
+them hyperbolic, of genus up to %d. There are %d violations. Equality holds on %d of them and on %d of the
+hyperbolic ones.
 
 \paragraph{Independent check.} A language model with no access to our computations re-derived the lattice count and
 recomputed, independently: the six torus signatures used here, Lemma~\ref{lem:L} and the bound on $N_<$ for all coprime
@@ -350,7 +359,8 @@ hyperbolic $L$-space knot, and that is exactly what the cabling induction replac
 hyperbolic and not braid positive, which is what makes it the natural place to look for a counterexample. The
 twisted torus family of Section~3 is hyperbolic and not braid positive too, and there equality never occurs: every
 hyperbolic member has slack at least $4$, while the members that do attain equality are exactly the non-hyperbolic
-ones. So equality is not a feature of the hyperbolic $L$-space knots in general, and the question is what
+ones. The unbiased sample says the same and says it louder: of its %d $L$-space knots, %d attain equality and
+%d of the %d hyperbolic ones do. So equality is not a feature of the hyperbolic $L$-space knots in general, and the question is what
 distinguishes the Baker--Kegel family, not what distinguishes the hyperbolic case.
 
 Two further questions. Which $L$-space knots attain equality? The known ones are $T(2,n)$, the $(2,q)$-cables, the
@@ -391,7 +401,8 @@ census), \texttt{exact\_signature.py} and \texttt{exact\_census.py} (exact inert
 \texttt{onebridge\_lspace.py} (the one-bridge braid family), \texttt{twisted\_torus.py} and
 \texttt{twisted\_torus\_sigma.sage} (the twisted torus family and its exact signatures), and
 \texttt{twisted\_torus\_ug.py} (the unknotting certificates of Section~8), \texttt{definiteness.py} and
-\texttt{definiteness\_identify.py} (the sharp case across all families).
+\texttt{definiteness\_identify.py} (the sharp case across all families), \texttt{random\_lspace.py} and
+\texttt{random\_lspace\_sigma.sage} (the unbiased sample).
 Tools: SnapPy 3.3.2 with \texttt{knot\_floer\_homology}, Sage 10.7, khoca 1.5. The Lean formalisation of the
 lattice inequality is \texttt{K33Lattice/Basic.lean}, built against Mathlib at revision
 \texttt{0df444a360eaa60ab8c11dca51a86af692955474} with \texttt{leanprover/lean4:v4.33.1}.
@@ -445,6 +456,7 @@ vals = (
     len(fam), sum(not r["holds"] for r in fam),
     len(ob), sum(not r["holds"] for r in ob),
     tt["tested"], tt["violations"],
+    rnd["tested"], rnd["violations"],
     # section 3 text
     len(fast),
     hard["braid_identity"]["isometric"], hard["braid_identity"]["knots"],
@@ -452,6 +464,9 @@ vals = (
     hard["exact_signatures"]["agree_with_sage_exact"], hard["onebridge_lspace"]["sample"],
     # twisted torus paragraph
     tt["tested"], tt_maxg, tt["hyperbolic"], tt["non_braid_positive_word"], tt["violations"], tt["tested"],
+    # unbiased sample paragraph
+    rndgen["words_tried"], rndgen["distinct_knots"], rnd["tested"], rnd["hyperbolic"], rnd["max_genus"],
+    rnd["violations"], rnd["equalities"], rnd["hyperbolic_equalities"],
     # independent check paragraph
     len(ob), sum(not r["holds"] for r in ob), sum(r["equality"] for r in ob),
     # hypothesis not redundant, sharpness
@@ -471,10 +486,12 @@ vals = (
     # section 7
     max(int(r["name"].split("_")[-1]) for r in bk_eq),
     it["tested"], 11889, 21,
-    # the definiteness paragraph
+    # the definiteness paragraph comes first in the document
     defn["l_space_knots_with_det_genus_and_exact_signature"], defn["max_genus_in_sample"],
     defn["satisfying_the_hypothesis"], defn["max_genus_satisfying_hypothesis"],
     defn["max_genus_in_sample"],
+    # then "sharpness is not typical of the hyperbolic region"
+    rnd["tested"], rnd["equalities"], rnd["hyperbolic_equalities"], rnd["hyperbolic"],
     sum(r["equality"] for r in ob), len(ob),
     # section 8, the second statement
     ug["attempted"], ug["max_genus"], ug_hyp)
