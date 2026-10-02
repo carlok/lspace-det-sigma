@@ -93,7 +93,7 @@ Consequently $|\sigma(K)| \le 2g$ and $\det(K) \le 2g+1$.
 
 The inequality was not conjectured by a person. It is candidate K33 of 42 statements emitted by \texttt{ragusa}, an
 engine that enumerates bounds of the form (property) $\Rightarrow$ (target $\le c \cdot$ feature $+ k$) over a table of
-invariants, here KnotInfo restricted to prime knots with 3 to 13 crossings, and reports what survives its filters
+invariants, here KnotInfo \cite{KnotInfo} restricted to prime knots with 3 to 13 crossings, and reports what survives its filters
 together with the evidence behind each survivor. K33 was found on the \texttt{l\_space} column, where the table
 contains %d knots; those knots were the whole of its initial evidence.
 
@@ -409,8 +409,10 @@ Tools: SnapPy 3.3.2 with \texttt{knot\_floer\_homology}, Sage 10.7, khoca 1.5. T
 lattice inequality is \texttt{K33Lattice/Basic.lean}, built against Mathlib at revision
 \texttt{0df444a360eaa60ab8c11dca51a86af692955474} with \texttt{leanprover/lean4:v4.33.1}.
 
-\paragraph{Data provenance.} The candidate was generated from KnotInfo (\url{https://knotinfo.org}); no KnotInfo data
-is reproduced here. The braid words for census knots are from Baker and Kegel's appendix.
+\paragraph{Data provenance.} The candidate was generated from KnotInfo \cite{KnotInfo}, accessed on 14 September 2026.
+No KnotInfo data is reproduced here: its maintainers ask that the database not be reposted, since copies go out
+of date, so it should be read from \url{https://knotinfo.org}. The braid words for census knots are from Baker and
+Kegel's appendix \cite{BK}.
 
 \begin{thebibliography}{9}
 \bibitem{BK} K. L. Baker, M. Kegel, \emph{Census $L$-space knots are braid positive, except for one that is not},
@@ -425,6 +427,8 @@ Internat. J. Math. 26 (2015); arXiv:1311.1242.
 Ann. Henri Lebesgue 7 (2024), 823--839; arXiv:2308.02275.
 \bibitem{GLM} C. McA. Gordon, R. A. Litherland, K. Murasugi, \emph{Signatures of covering links},
 Canad. J. Math. 33 (1981), 381--394.
+\bibitem{KnotInfo} C. Livingston and A. H. Moore, \emph{KnotInfo: Table of Knot Invariants}, knotinfo.org,
+September 2026 (accessed 14 September 2026).
 \bibitem{Hedden} M. Hedden, \emph{On knot Floer homology and cabling II}, Int. Math. Res. Not. (2009).
 \bibitem{Hedden2} M. Hedden, \emph{Notions of positivity and the Ozsv\'ath--Szab\'o concordance invariant},
 J. Knot Theory Ramifications 19 (2010), 617--629.

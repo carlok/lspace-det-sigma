@@ -60,8 +60,9 @@ Two things were deliberately left out; see `DATA.md` for the detail.
 
 * The braid words for the 632 census L-space knots, which are Baker and Kegel's published table. The
   scripts that use them say where to get them.
-* Anything derived from KnotInfo. The note names KnotInfo as the source of the candidate and follows its
-  sign conventions, and reproduces none of its data.
+* KnotInfo itself. The note cites KnotInfo as the source of the candidate and follows its sign
+  conventions; its maintainers ask that the database not be reposted, so it is read from
+  https://knotinfo.org rather than copied here.
 
 ## Licence
 

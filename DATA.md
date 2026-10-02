@@ -2,17 +2,23 @@
 
 ## The candidate came from KnotInfo, and none of KnotInfo is here
 
-The inequality was found by fitting linear relations to KnotInfo (https://knotinfo.org), restricted to
-prime knots with 3 to 13 crossings. The note says so, and follows KnotInfo's chirality convention: the
-right-handed trefoil has `σ = -2`, `s = 2`, `τ = 1`.
+The inequality was found by fitting linear relations to KnotInfo, restricted to prime knots with 3 to
+13 crossings, accessed on 14 September 2026. Cite it as its maintainers ask:
+
+> C. Livingston and A. H. Moore, *KnotInfo: Table of Knot Invariants*, knotinfo.org, September 2026.
+
+The note follows KnotInfo's chirality convention: the right-handed trefoil has `σ = -2`, `s = 2`,
+`τ = 1`.
 
 No KnotInfo data is reproduced in this repository. Every knot tested here is built from a braid word, a
 cabling formula or a pretzel presentation, and every invariant is computed. Where a script names a
 KnotInfo knot, it is naming a knot, not quoting a row: `iterated.py` compares its output against six
 classical determinant and signature values for torus knots and cables, which are textbook facts.
 
-The reason for the care: KnotInfo's download page states no licence, and the maintainers have been asked
-for reuse terms. Until they answer, nothing derived from the table is published.
+Why none of it is here: KnotInfo carries no copyright, and its maintainers ask two things, that it be
+cited and that the database itself not be reposted (Charles Livingston and Allison Moore, 2 October
+2026). A copy goes out of date, and readers, including AI systems that serve knot invariants from
+whatever copies they find, take it for a mirror. Read it from https://knotinfo.org.
 
 ## The Baker–Kegel braid words are not here
 
