@@ -15,10 +15,8 @@ cabling formula or a pretzel presentation, and every invariant is computed. Wher
 KnotInfo knot, it is naming a knot, not quoting a row: `iterated.py` compares its output against six
 classical determinant and signature values for torus knots and cables, which are textbook facts.
 
-Why none of it is here: KnotInfo carries no copyright, and its maintainers ask two things, that it be
-cited and that the database itself not be reposted (Charles Livingston and Allison Moore, 2 October
-2026). A copy goes out of date, and readers, including AI systems that serve knot invariants from
-whatever copies they find, take it for a mirror. Read it from https://knotinfo.org.
+Why none of it is here: KnotInfo asks to be cited, and a copy of the database goes out of date. Read
+it from https://knotinfo.org.
 
 ## The Baker–Kegel braid words are not here
 
