@@ -182,11 +182,13 @@ What is available:
 - sigma is not determined by the Alexander polynomial in general, not even for fibered knots, so the content of the
   question is whether the L-space condition forces the signature here.
 - For g = 1 and g = 2 the answer is yes, because knot Floer homology detects T(2,3) (Ghiggini) and T(2,5)
-  (Farber-Reinoso-Wang), so K is the torus knot itself. For g >= 3, that detection statement is Problem 1.21(c)(i) of
-  the K3 problem list and is open. The question asked here is weaker than detection: it asks only for the signature.
+  (Farber-Reinoso-Wang with Baldwin-Hu-Sivek), so K is the torus knot itself. For g >= 3, that detection statement is
+  Problem 1.21(c)(i) of the K3 problem list and is open; restricted to L-space knots it is the conjecture that the only
+  thin L-space knots are the T(2,n) (DeYeso, Algebr. Geom. Topol. 25 (2025), section 1). The question asked here is
+  weaker than detection: it asks only for the signature.
 - Computational status, and this matters: among 11,728 L-space iterated torus knots, all 632 census L-space knots, 274
-  one-bridge braids and 68 knots of the Baker-Kegel and Himeno families, every knot satisfying the hypothesis is
-  T(2,2g+1) itself. So there is no non-trivial test data, and any counterexample would also refute detection.
+  one-bridge braid records (195 distinct knots) and 68 knots of the Baker-Kegel and Himeno families, every knot
+  satisfying the hypothesis is T(2,2g+1) itself. So there is no non-trivial test data, and any counterexample would also refute detection.
 
 Directions, not requirements: the Seifert form of a fibered knot has unimodular V, so det(V + V^T) = +-det(I + h) for
 the monodromy h; the branched double cover has H_1 = Z/(2g+1), which connects to A. Moore's conjecture (K3 Problem
@@ -228,11 +230,10 @@ condition), all repaired; contributed the mod 4 congruence, the one-bridge braid
 sharp case to a definiteness statement; excluded cables from that sharp case; and reformulated it as the vanishing of
 the positive Levine-Tristram jumps. None proved or refuted anything, and none found the inequality in the literature.
 
-What is therefore already known about a counterexample in the sharp case: it is not a cable, it is not braid positive
-(the definite positive braid knots in our data are the T(2,n) together with T(3,4) and T(3,5), the knots among the ADE
-singularity links, and neither of the last two has the Alexander polynomial of a T(2,2g+1)), and it must have a
-positive Levine-Tristram jump at one of the g roots of Delta on the upper half circle. It would have to be hyperbolic
-or a satellite with a non-cable pattern.
+What is therefore already known about a counterexample in the sharp case: it has genus g >= 3, it is hyperbolic (a
+torus knot with the Alexander polynomial of T(2,2g+1) is T(2,2g+1), and satellites are excluded by Baldwin-Sivek,
+arXiv:2501.00914, Proposition 6.8), and it must have a positive Levine-Tristram jump at one of the g roots of Delta on
+the upper half circle.
 
 Answer the question of Prompt D in the same format. If your best contribution is to identify which known theorem
 settles it, that is a full answer; say which and quote it.
