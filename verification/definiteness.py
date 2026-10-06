@@ -5,7 +5,7 @@ Section 7 of the note observes that the sharp case of the conjecture carries a r
     every L-space knot with the Alexander polynomial of T(2, 2g+1) has sigma = -2g,
 
 that is, its symmetrised Seifert form is definite. This is a weak form of K3 Problem 1.21(c)(i), known
-for g <= 2 by Ghiggini and by Farber-Reinoso-Wang.
+for g <= 2 by Ghiggini and by Farber-Reinoso-Wang with Baldwin-Hu-Sivek.
 
 For an L-space knot the hypothesis is checkable from the determinant alone. The identity det = |2D + 1|
 with D = #{odd gaps} - #{even gaps} holds for every L-space knot, and D <= g with equality exactly when

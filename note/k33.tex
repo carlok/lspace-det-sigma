@@ -275,8 +275,10 @@ by \eqref{eq:det}, is $|\sigma(K)| \ge 2\bigl(\#\{\text{odd gaps}\} - \#\{\text{
 even numbers, so $\Delta_K = \Delta_{T(2,2g+1)}$, $D = g$ and $\det = 2g+1$; Conjecture~\ref{conj} then forces
 $|\sigma(K)| = 2g$, that is, the symmetrised Seifert form is definite. So the conjecture implies: every $L$-space knot
 with the Alexander polynomial of $T(2,2g+1)$ has $\sigma = -2g$. This is a weak form of Problem 1.21(c)(i) of the K3
-problem list \cite{K3} (knot Floer homology detects $T(2g+1,2)$), known there for $g \le 2$ by Ghiggini and by
-Farber--Reinoso--Wang. Any proof of Conjecture~\ref{conj} therefore proves this definiteness
+problem list \cite{K3} (knot Floer homology detects $T(2g+1,2)$). Restricted to $L$-space knots, that problem is the
+conjecture that the only thin $L$-space knots are the $T(2,n)$ \cite[\S1]{DeYeso}. It is proved for $g = 1$ by
+Ghiggini \cite{Ghiggini}, for $g = 2$ by Farber--Reinoso--Wang \cite{FRW} together with Baldwin--Hu--Sivek \cite{BHS},
+and for no larger $g$ \cite[\S1.1]{BS}. Any proof of Conjecture~\ref{conj} therefore proves this definiteness
 statement.
 
 \paragraph{What is known about the sharp case.} Three further facts, contributed by a fourth reader and checked here
@@ -284,7 +286,8 @@ against the exact data. (i) Such a $K$ is not a nontrivial cable: the staircase 
 $\{ps + qk : s \in S_J,\ 0 \le k \le p-1\}$, whose smallest positive element is $\min(p\,s_{\min}, q) \ge 4$, whereas
 $S_{T(2,2g+1)}$ has smallest positive element $2$; here $s_{\min} \ge 2$ because $1$ is a gap of every nontrivial
 $L$-space knot, which holds on all 11728 iterated torus knots computed. Among those knots, the only ones with
-$\Delta = \Delta_{T(2,2g+1)}$ are the $T(2,2g+1)$ themselves. (ii) The roots of $\Delta_{T(2,2g+1)}$ are simple and on
+$\Delta = \Delta_{T(2,2g+1)}$ are the $T(2,2g+1)$ themselves. Baldwin and Sivek prove more: an $L$-space knot with
+$\Delta = \Delta_{T(2,2g+1)}$ is not a satellite \cite[Proposition 6.8]{BS}. (ii) The roots of $\Delta_{T(2,2g+1)}$ are simple and on
 the unit circle, so the Levine--Tristram function has $g$ jumps of $\pm 2$ on the upper half circle and
 $\sigma(K) = -2g + 4m$, where $m$ counts the positive jumps; the question is exactly $m = 0$, that is, that the
 signature function of $K$ agrees with that of $T(2,2g+1)$. (iii) Definiteness does not by itself force the torus knot:
@@ -301,9 +304,10 @@ none of the census knots is among them. So every thin $L$-space knot found here 
 $L$-space case of Problem 1.21(c)(i) appearing in the data, and on all of them the sharp case of
 Conjecture~\ref{conj} holds.
 
-Together these narrow a counterexample to Conjecture~\ref{conj} in the sharp case: it would have to be hyperbolic or a
-satellite with a non-cable pattern, it could not be braid positive, and it would need a positive Levine--Tristram jump
-at one of the $g$ roots.
+Together these narrow a counterexample to Conjecture~\ref{conj} in the sharp case: it would have genus $g \ge 3$, it
+would be hyperbolic (a torus knot with this Alexander polynomial is $T(2,2g+1)$, and satellites are excluded by
+\cite[Proposition 6.8]{BS}), and it would need a positive Levine--Tristram jump at one of the $g$ roots. The same
+hyperbolic case is the one left open in \cite[Theorem 1.6]{BS}, on detecting $T(2,2g+1)$ by its traces.
 
 \paragraph{Why the induction stops.} For a torus knot the gaps of $\langle p,q \rangle$ satisfy
 $2g - |\sigma| = 4\,\#\{\text{gaps} > pq/2\}$, so Theorem~\ref{thm} for torus knots says
@@ -370,14 +374,23 @@ of date, so it should be read from \url{https://knotinfo.org}. The braid words f
 Kegel's appendix \cite{BK}.
 
 \begin{thebibliography}{9}
+\bibitem{BS} J. A. Baldwin, S. Sivek, \emph{$L$-spaces and knot traces}, arXiv:2501.00914v2 (2026).
+\bibitem{BHS} J. A. Baldwin, Y. Hu, S. Sivek, \emph{Khovanov homology and the cinquefoil}, J. Eur. Math. Soc. 27
+(2025), 2443--2465; arXiv:2105.12102.
 \bibitem{BK} K. L. Baker, M. Kegel, \emph{Census $L$-space knots are braid positive, except for one that is not},
 Algebr. Geom. Topol. 24 (2024); arXiv:2203.12013.
 \bibitem{BBG} M. Boileau, S. Boyer, C. McA. Gordon, \emph{On definite strongly quasipositive links and $L$-space
 branched covers}, Adv. Math. 357 (2019).
+\bibitem{DeYeso} R. DeYeso III, \emph{Thin knots and the Cabling Conjecture}, Algebr. Geom. Topol. 25 (2025),
+4547--4583; arXiv:2112.08074.
 \bibitem{EN} D. Eisenbud, W. Neumann, \emph{Three-dimensional link theory and invariants of plane curve
 singularities}, Ann. of Math. Studies 110, Princeton Univ. Press (1985).
 \bibitem{Feller} P. Feller, \emph{The signature of positive braids is linearly bounded by their genus},
 Internat. J. Math. 26 (2015); arXiv:1311.1242.
+\bibitem{FRW} E. Farber, B. Reinoso, L. Wang, \emph{Fixed-point-free pseudo-Anosov homeomorphisms, knot Floer
+homology and the cinquefoil}, Geom. Topol. 28 (2024), 4337--4381; arXiv:2203.01402.
+\bibitem{Ghiggini} P. Ghiggini, \emph{Knot Floer homology detects genus-one fibred knots}, Amer. J. Math. 130 (2008),
+1151--1169.
 \bibitem{GL} J. E. Greene, L. Liechti, \emph{On the signature of a positive braid},
 Ann. Henri Lebesgue 7 (2024), 823--839; arXiv:2308.02275.
 \bibitem{GLM} C. McA. Gordon, R. A. Litherland, K. Murasugi, \emph{Signatures of covering links},
