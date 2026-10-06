@@ -1,0 +1,112 @@
+[
+  {
+    "family": "twisted torus",
+    "records": 549,
+    "distinct": 87,
+    "distinct_by_kind": {
+      "non-hyperbolic": 45,
+      "hyperbolic": 42
+    },
+    "distinct_hyperbolic_in_census": 42,
+    "distinct_hyperbolic_not_in_census": [],
+    "distinct_thin": 7,
+    "thin_genera": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "unresolved_timeouts": 0,
+    "seconds": 21
+  },
+  {
+    "family": "one-bridge braids",
+    "records": 274,
+    "distinct": 195,
+    "distinct_by_kind": {
+      "non-hyperbolic": 46,
+      "hyperbolic": 149
+    },
+    "distinct_hyperbolic_in_census": 112,
+    "distinct_hyperbolic_not_in_census": [
+      "B(9,6,7)",
+      "B(10,5,8)",
+      "B(10,7,8)",
+      "B(11,4,9)",
+      "B(11,6,9)",
+      "B(11,8,9)",
+      "B(12,3,10)",
+      "B(12,5,10)",
+      "B(12,7,10)",
+      "B(12,9,10)",
+      "B(13,2,11)",
+      "B(13,4,11)",
+      "B(13,6,11)",
+      "B(13,8,10)",
+      "B(13,8,11)",
+      "B(13,10,11)",
+      "B(14,3,12)",
+      "B(14,5,12)",
+      "B(14,6,11)",
+      "B(14,7,12)",
+      "B(14,8,7)",
+      "B(14,9,12)",
+      "B(14,10,11)",
+      "B(14,11,12)",
+      "B(15,2,8)",
+      "B(15,4,12)",
+      "B(15,4,13)",
+      "B(15,6,10)",
+      "B(15,6,13)",
+      "B(15,8,11)",
+      "B(15,8,12)",
+      "B(15,8,13)",
+      "B(15,10,11)",
+      "B(15,10,12)",
+      "B(15,10,13)",
+      "B(15,12,6)",
+      "B(15,12,13)"
+    ],
+    "distinct_thin": 7,
+    "thin_genera": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "unresolved_timeouts": 18,
+    "seconds": 406
+  },
+  {
+    "family": "random search",
+    "records": 14452,
+    "distinct": 46,
+    "distinct_by_kind": {
+      "non-hyperbolic": 29,
+      "hyperbolic": 17
+    },
+    "distinct_hyperbolic_in_census": 17,
+    "distinct_hyperbolic_not_in_census": [],
+    "distinct_thin": 10,
+    "thin_genera": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "unresolved_timeouts": 0,
+    "seconds": 246
+  }
+]

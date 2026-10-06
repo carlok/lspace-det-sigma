@@ -41,10 +41,11 @@ SnapPy 3.3.2 with `knot_floer_homology`, Sage 10.7, khoca 1.5.
     python3 verification/lemma_L.py             # every step of the lattice lemma
     python3 verification/twisted_torus.py       # the twisted torus family, via knot Floer homology
     sage   verification/twisted_torus_sigma.sage    # its exact signatures, and the check
-    python3 verification/random_lspace.py       # an unbiased search for L-space knots
+    python3 verification/random_lspace.py       # a random search for L-space knots
     sage   verification/random_lspace_sigma.sage    # its exact signatures, and the check
     python3 verification/congruence.py          # the mod 4 congruence, on everything computed
     python3 verification/definiteness.py        # the sharp case across all families
+    python3 verification/distinct_knots.py      # distinct knots per generated family, and census lookup
     python3 verification/k32/twisted_torus_ug.py    # unknotting certificates for u = g
 
 `note/make_tex.py` regenerates `note/k33.tex` from the result files, and two `pdflatex` passes give the

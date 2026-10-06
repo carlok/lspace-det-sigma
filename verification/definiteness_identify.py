@@ -73,6 +73,16 @@ def main():
             cases.append(("one-bridge braid", r["name"], r["genus"],
                           onebridge_word(r["w"], r["b"], r["t"])))
 
+    # the random search: every record individually, since knots sharing the knot Floer homology of T(2,2g+1)
+    # are exactly what the question is about, so a representative per homology class would prove nothing
+    rp = HERE / "random_lspace_sigma.jsonl"
+    if rp.exists():
+        words = {json.loads(l)["name"]: json.loads(l)["braid_word"] for l in open(HERE / "random_lspace.jsonl")}
+        for line in open(rp):
+            r = json.loads(line)
+            if r["det_seifert"] == 2 * r["genus"] + 1:
+                cases.append(("random search", r["name"], r["genus"], words[r["name"]]))
+
     out, other = [], []
     for source, name, g, w in cases:
         K = snappy.Link(braid_closure=[int(x) for x in w])
@@ -85,10 +95,19 @@ def main():
                           if k in ("seifert_genus", "tau", "L_space_knot", "total_rank")}
             other.append(rec)
         out.append(rec)
-        print(f"  {name:<18} g={g:<3} c={rec['crossings']:<3} T(2,{2*g+1})? "
-              f"{'yes' if verdict else 'unresolved'}", flush=True)
+        if not verdict:
+            print(f"  {name:<18} g={g:<3} c={rec['crossings']:<3} unresolved", flush=True)
 
+    by_source = {}
+    for r in out:
+        s = by_source.setdefault(r["source"], {"tested": 0, "confirmed": 0, "genera": set()})
+        s["tested"] += 1
+        s["confirmed"] += r["is_T2_2g1"] is True
+        s["genera"].add(r["genus"])
+    for s in by_source.values():
+        s["genera"] = sorted(s["genera"])
     summary = {"statement": "every L-space knot computed with Delta = Delta_{T(2,2g+1)} is T(2,2g+1)",
+               "by_source": by_source, "thin_genera": sorted({r["genus"] for r in out}),
                "method": "a 2-strand positive braid word of length 2g+1 identifies T(2,2g+1) outright",
                "tested": len(out), "confirmed_T2": sum(1 for r in out if r["is_T2_2g1"] is True),
                "unresolved": len(other),

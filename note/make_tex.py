@@ -28,15 +28,23 @@ tt_hypr = [r for r in ttr if r.get("hyperbolic")]
 tt_minslack = min(r["bound"] - r["det_seifert"] for r in tt_hypr)
 tt_maxg = max(r["genus"] for r in ttr)
 rnd = J("random_lspace_sigma_summary.json"); rndgen = J("random_lspace_summary.json")
+dk = {r["family"]: r for r in J("distinct_knots.json")}
 defn = J("definiteness.json"); defid = J("definiteness_identify.json")
 # the K32 results sit beside this note in the standalone repository, and one level up in the
 # working tree they were produced in
 K32 = V / "k32" if (V / "k32").exists() else HERE.parents[1] / "K32" / "verification"
+load_k32 = lambda f: [json.loads(l) for l in open(K32 / f)]
 ug = json.load(open(K32 / "twisted_torus_ug_summary.json"))
 ugr = [json.loads(l) for l in open(K32 / "twisted_torus_ug.jsonl")]
 ug_hyp = sum(1 for r in ugr if r.get("u_equals_g") and r.get("hyperbolic"))
 ug_maxg = max(r["genus"] for r in ugr if r.get("u_equals_g"))
 fam_eq = sum(1 for r in fam if r["det"] == r["bound"])
+# where equality occurs among the hyperbolic knots: census and Himeno
+cen_eq = [r["name"] for r in fast if r["det"] == r["bound"]]
+assert cen_eq == ["o9_30634"], cen_eq          # the text below names this knot
+him = sorted((r for r in fam if r["name"].startswith("Himeno")), key=lambda r: int(r["name"].split("_")[-1]))
+him_eq = [r["name"] for r in him if r["det"] == r["bound"]]
+assert him_eq == ["Himeno K_2"], him_eq        # and this one, which is isometric to o9_30634
 bk_eq = [r for r in fam if r["name"].startswith("Baker-Kegel") and r["det"] == r["bound"]]
 exact_checked = sum(1 for r in fast if "matches_exact_run" in r)
 exact_ok = sum(1 for r in fast if r.get("matches_exact_run") is True)
@@ -64,9 +72,8 @@ We consider the inequality $\det(K) \le 1 + |\sigma(K)|$ for $L$-space knots. It
 linear inequalities to the KnotInfo database and discards what its automatic checks refute. It survived those checks
 and the computations of Section 3. We prove it for every $L$-space knot that is an iterated torus knot, in
 particular for all algebraic knots. The hyperbolic case is open, and it is where the inequality is sharp:
-equality holds on every member tested of an infinite family of hyperbolic, non-braid-positive $L$-space knots.
-In a second hyperbolic family, added after four rounds of review, equality never occurs and the slack is bounded
-below, so sharpness is a property of the first family rather than of the hyperbolic case in general.
+equality holds on every member tested of an infinite family of hyperbolic $L$-space knots, the first of which is not
+braid positive. Among the @@CENSUS_N@@ census $L$-space knots it holds only on that first member.
 Sections 2 and 3 give the provenance and the computations, so that the proof in Sections 5 and 6 can be checked
 without our files; the one lemma we prove from scratch rather than cite is additionally formalised in Lean 4
 with no \texttt{sorry}.
@@ -114,10 +121,10 @@ family of $L$-space knots & tested & viol. & how the invariants are known \\
 iterated torus knots & %d & %d & exact: cabled Alexander polynomial, Litherland's formula \\
 SnapPy census $L$-space knots (all) & %d & %d & Seifert matrix of a positive braid word \\
 census knots, independent route & %d & %d & knot Floer homology, Sage signature \\
-non-braid-positive families & %d & %d & Seifert matrix of the braid word \\
-one-bridge braids $B(w,b,t)$, $w \le 15$ & %d & %d & Seifert matrix of the braid word \\
-twisted torus knots $K(p,q;r,s)$ & %d & %d & knot Floer homology, then exact Seifert signature \\
-unbiased random search & %d & %d & knot Floer homology, then exact Seifert signature \\
+Baker--Kegel, Himeno, $(2,q)$-cables & %d & %d & Seifert matrix of the braid word \\
+one-bridge braids $B(w,b,t)$, $w \le 15$ (parameter triples) & %d & %d & Seifert matrix of the braid word \\
+twisted torus knots $K(p,q;r,s)$ (distinct knots) & @@TT_D@@ & @@TT_V@@ & knot Floer homology, then exact Seifert signature \\
+random braid words (distinct knots) & @@RND_D@@ & @@RND_V@@ & knot Floer homology, then exact Seifert signature \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -130,20 +137,18 @@ floating-point computation on all %d knots and with Sage's own exact signature o
 The one-bridge braids are $L$-space knots by \cite{GLV}; for the %d smallest this was also confirmed directly by knot
 Floer homology, with the genus matching the braid-surface genus.
 
-\paragraph{Twisted torus knots.} The family $K(p,q;r,s)$, the closure of
-$(\sigma_1 \cdots \sigma_{p-1})^q (\sigma_1 \cdots \sigma_{r-1})^s$, was added after four rounds of review and meets
-none of the families above. Membership of the $L$-space class was decided for each knot by its own knot Floer
-homology rather than by a classification, which leaves %d $L$-space knots of genus up to %d, of which %d are
-hyperbolic and %d have a non-positive braid word and so fall outside the positive-braid case. There are %d
-violations. On this family the determinant is computed twice over, once from the Alexander polynomial read off the
-knot Floer gradings and once as $|\det(V + V^{\mathsf T})|$ from the Seifert matrix; the two agree on all %d knots.
-
-\paragraph{An unbiased sample.} Every family above was chosen before it was tested, so a statement can
-survive all of them and still fail on an $L$-space knot nobody thought to parametrise. The last row of the
-table is a search with no family: random braid words, closed, and kept when their own knot Floer homology
-reports an $L$-space knot. Of %d words, %d gave distinct knots and %d of those are $L$-space knots, %d of
-them hyperbolic, of genus up to %d. There are %d violations. Equality holds on %d of them and on %d of the
-hyperbolic ones.
+\paragraph{Generated families, counted by knot.} Three rows of the table come from parameters or words rather than
+from a list: the one-bridge braids, the twisted torus knots $K(p,q;r,s)$, the closures of
+$(\sigma_1 \cdots \sigma_{p-1})^q (\sigma_1 \cdots \sigma_{r-1})^s$, and the closures of random braid words. Different
+parameters often close to the same knot, and an earlier version of this note counted diagrams, which overstated these
+families several times over. Counted by knot type, exactly for hyperbolic knots through the isometry signature of the
+complement and approximately otherwise, the @@OB_REC@@ one-bridge parameter triples give @@OB_D@@ knots, @@OB_H@@ of them
+hyperbolic and at least @@OB_NEW@@ of those outside the SnapPy census; the @@TT_REC@@ twisted torus records give @@TT_D@@
+knots, @@TT_H@@ hyperbolic; and the @@RND_REC@@ random records give @@RND_D@@ knots, @@RND_H@@ hyperbolic. Every hyperbolic
+knot in the last two families is a census knot, so they confirm the census rows rather than extend them; the hyperbolic
+evidence beyond the census is the one-bridge braids and the Baker--Kegel and Himeno families. In the twisted torus and
+random families the $L$-space property was decided by each knot's own knot Floer homology, and the determinant was
+computed twice, from the knot Floer gradings and from the Seifert matrix, agreeing on all @@DET_AGREE@@ records.
 
 \paragraph{Independent check.} A language model with no access to our computations re-derived the lattice count and
 recomputed, independently: the six torus signatures used here, Lemma~\ref{lem:L} and the bound on $N_<$ for all coprime
@@ -155,7 +160,7 @@ equivalence that is only a sufficient condition, and asked for the hypotheses an
 the identity $\sigma = 4N_{<} - 2g$ was verified on all coprime $p \le 15$, $q < 50$, where $N_{<}/g \le 0.234$, so
 the branch proved here is the operative one. A second
 model, asked to attack the open case, contributed the congruence of Section~5, the one-bridge braid family of the
-table, and the rigidity observation of Section~7; its computations of the one-bridge braids (%d knots, %d violations,
+table, and the rigidity observation of Section~7; its computations of the one-bridge braids (%d parameter triples, %d violations,
 %d equalities) and of the Baker--Kegel invariants were reproduced independently here.
 
 \paragraph{The hypothesis is not redundant.} Evaluating the same inequality on census knots whose braid word is
@@ -164,9 +169,9 @@ the work; this is unlike several of the 42 candidates, whose hypotheses turned o
 
 \paragraph{Sharpness.} Equality $\det = 1 + |\sigma|$ holds for $T(2,n)$, for the $(2,q)$-cables of the trefoil, and,
 among the families tested beyond the census, for %d of %d knots, including every Baker--Kegel $K_n$ with
-$n = 1, \dots, %d$. These are hyperbolic $L$-space knots that are not braid positive. The twisted torus family
-behaves differently: %d of its %d $L$-space knots attain equality and not one of them is hyperbolic, and over its
-%d hyperbolic members the slack $1 + |\sigma| - \det$ is at least %d.
+$n = 1, \dots, %d$. These are hyperbolic: $K_1$ is the census knot o9\_30634, the one census $L$-space knot that is
+not braid positive, and $K_n$ for $n \ge 2$ is not known to be braid positive. Of the @@CENSUS_N@@ census $L$-space knots,
+exactly @@CENSUS_EQ@@ attains equality, and it is $K_1$.
 
 \section{A reformulation}
 
@@ -338,15 +343,14 @@ among the %d $L$-space iterated torus knots computed, exactly %d are definite, n
 $T(3,4)$ and $T(3,5)$ (the knots among the $ADE$ singularity links). Neither of the last two has the Alexander
 polynomial of a $T(2,2g+1)$, so on this restricted class definiteness and detection still coincide.
 
-\paragraph{The hypothesis of the sharp case is never met by anything else.} Across every $L$-space knot
-for which a determinant, a genus and an exact signature were computed here --- %d of them, from the
-census, the one-bridge braids, the families beyond the census and the twisted torus knots, reaching genus
-%d --- exactly %d satisfy $\det = 2g+1$, equivalently $\Delta = \Delta_{T(2,2g+1)}$. Every one of them has
-$\sigma = -2g$, as Conjecture~\ref{conj} requires, and every one of them \emph{is} a $T(2,2g+1)$: each was
-put into braid form and found to be the closure of $\sigma_1^{2g+1}$ in $B_2$, which identifies the knot
-outright. The largest genus meeting the hypothesis is %d, against %d in the sample. So on everything
-computed, the sharp case is not merely consistent with the conjecture, its hypothesis is empty outside the
-torus knots --- which is the detection phenomenon of Problem 1.21(c)(i) appearing directly in the data.
+\paragraph{The hypothesis of the sharp case is met only by $T(2,2g+1)$.} For an $L$-space knot, $\det = 2g+1$ exactly
+when every gap is odd, that is when $\Delta = \Delta_{T(2,2g+1)}$, which is also exactly when the knot is thin. Across the
+census, the families beyond it, the one-bridge braids, the twisted torus knots and the random search, reaching genus
+@@MAXG@@ in all, @@THIN_REC@@ records meet this hypothesis. Each was put into braid form and found, individually, to be the
+closure of $\sigma_1^{2g+1}$ in $B_2$, which identifies it as $T(2,2g+1)$; together they cover $g \le @@THIN_G@@$, and
+none of the census knots is among them. So every thin $L$-space knot found here is a $T(2,2g+1)$, which is the
+$L$-space case of Problem 1.21(c)(i) appearing in the data, and on all of them the sharp case of
+Conjecture~\ref{conj} holds.
 
 Together these narrow a counterexample to Conjecture~\ref{conj} in the sharp case: it would have to be hyperbolic or a
 satellite with a non-cable pattern, it could not be braid positive, and it would need a positive Levine--Tristram jump
@@ -357,16 +361,14 @@ $2g - |\sigma| = 4\,\#\{\text{gaps} > pq/2\}$, so Theorem~\ref{thm} for torus kn
 $\#\{\text{gaps} > pq/2\} \le \#\{\text{even gaps}\}$. No analogue of the half-conductor $pq/2$ is available for a
 hyperbolic $L$-space knot, and that is exactly what the cabling induction replaces.
 
-\paragraph{Sharpness is not typical of the hyperbolic region.} The Baker--Kegel family attains equality and is
-hyperbolic and not braid positive, which is what makes it the natural place to look for a counterexample. The
-twisted torus family of Section~3 is hyperbolic and not braid positive too, and there equality never occurs: every
-hyperbolic member has slack at least $4$, while the members that do attain equality are exactly the non-hyperbolic
-ones. The unbiased sample says the same and says it louder: of its %d $L$-space knots, %d attain equality and
-%d of the %d hyperbolic ones do. So equality is not a feature of the hyperbolic $L$-space knots in general, and the question is what
-distinguishes the Baker--Kegel family, not what distinguishes the hyperbolic case.
+\paragraph{Where equality occurs.} Among the hyperbolic $L$-space knots tested, equality occurs exactly on the
+Baker--Kegel family: on every $K_n$ tested, and on no other census knot (Himeno's $K_2$ is the same knot as $K_1$). Failing
+to be braid positive does not force it: Himeno's $K_3, \dots, K_{@@HIM_MAX@@}$ provably are not braid positive and none of them
+attains equality, the last having $\det = @@HIM_LAST_DET@@$ against $1 + |\sigma| = @@HIM_LAST_BOUND@@$. The question is
+what distinguishes the Baker--Kegel family.
 
 Two further questions. Which $L$-space knots attain equality? The known ones are $T(2,n)$, the $(2,q)$-cables, the
-Baker--Kegel family, and %d of the %d one-bridge braids computed here. Does the inequality follow from a property of
+Baker--Kegel family, and %d of the %d one-bridge parameter triples computed here. Does the inequality follow from a property of
 the symmetrised Seifert form of an $L$-space knot, its determinant being bounded by its signature? Definite strongly
 quasipositive links are studied in \cite{BBG}.
 
@@ -381,10 +383,13 @@ positive; by Baker and Kegel \cite{BK} that is all but one of the census $L$-spa
 non-braid-positive case, and there the only evidence is explicit unknottings.
 
 Each certificate is a sequence of $g$ crossing changes ending at the unknot, found by a search that keeps only the
-changes lowering $|\tau|$ by exactly one, which is necessary for an unknotting of that length. Certificates were
-produced for the census exceptions, for the Baker--Kegel and Himeno families up to genus $42$, and, in this version,
-for the twisted torus knots: all %d of those that are $L$-space knots with a non-positive braid word and genus at
-most %d were certified, %d of them hyperbolic, with no failure and no counterexample.
+changes lowering $|\tau|$ by exactly one, which is necessary for an unknotting of that length. Certificates exist
+for every knot tested where the statement has content: o9\_30634 (Baker--Kegel $K_1$, also Himeno $K_2$), which is not
+braid positive; Baker--Kegel $K_2, \dots, K_{@@BK_MAX@@}$, not known to be braid positive, up to genus @@BK_MAXG@@; and
+Himeno $K_3$ and $K_4$, which provably are not. That is @@K32_N@@ knots, @@K32_PROVEN@@ of them provably outside
+Rudolph's theorem, with no failure. Certificates were also produced for @@K32_CENSUS@@ census knots and for the $L$-space
+twisted torus knots with a non-positive braid word, but the hyperbolic ones among those are braid positive census
+knots and the rest are not hyperbolic, so they test the search rather than the statement.
 
 Unlike the inequality, this statement has not been shown to need its hypothesis. The half we can prove, $u \ge g$,
 uses the $L$-space property only through $g = g_4$, which already holds for every fibered strongly quasipositive
@@ -404,7 +409,8 @@ census), \texttt{exact\_signature.py} and \texttt{exact\_census.py} (exact inert
 \texttt{twisted\_torus\_sigma.sage} (the twisted torus family and its exact signatures), and
 \texttt{twisted\_torus\_ug.py} (the unknotting certificates of Section~8), \texttt{definiteness.py} and
 \texttt{definiteness\_identify.py} (the sharp case across all families), \texttt{random\_lspace.py} and
-\texttt{random\_lspace\_sigma.sage} (the unbiased sample).
+\texttt{random\_lspace\_sigma.sage} (the random search), and \texttt{distinct\_knots.py} (how many distinct knots each
+generated family contains, and which of its hyperbolic knots are in the census).
 Tools: SnapPy 3.3.2 with \texttt{knot\_floer\_homology}, Sage 10.7, khoca 1.5. The Lean formalisation of the
 lattice inequality is \texttt{K33Lattice/Basic.lean}, built against Mathlib at revision
 \texttt{0df444a360eaa60ab8c11dca51a86af692955474} with \texttt{leanprover/lean4:v4.33.1}.
@@ -461,24 +467,16 @@ vals = (
     hfk_n, hfk_bad,
     len(fam), sum(not r["holds"] for r in fam),
     len(ob), sum(not r["holds"] for r in ob),
-    tt["tested"], tt["violations"],
-    rnd["tested"], rnd["violations"],
     # section 3 text
     len(fast),
     hard["braid_identity"]["isometric"], hard["braid_identity"]["knots"],
     hard["exact_signatures"]["knots"], hard["exact_signatures"]["agree_with_numeric"],
     hard["exact_signatures"]["agree_with_sage_exact"], hard["onebridge_lspace"]["sample"],
-    # twisted torus paragraph
-    tt["tested"], tt_maxg, tt["hyperbolic"], tt["non_braid_positive_word"], tt["violations"], tt["tested"],
-    # unbiased sample paragraph
-    rndgen["words_tried"], rndgen["distinct_knots"], rnd["tested"], rnd["hyperbolic"], rnd["max_genus"],
-    rnd["violations"], rnd["equalities"], rnd["hyperbolic_equalities"],
     # independent check paragraph
     len(ob), sum(not r["holds"] for r in ob), sum(r["equality"] for r in ob),
     # hypothesis not redundant, sharpness
     len(native),
     fam_eq, len(fam), max(int(r["name"].split("_")[-1]) for r in bk_eq),
-    tt_eq, tt["tested"], tt["hyperbolic"], tt_minslack,
     # section 4
     steps["knots"], steps["det_formula_mismatches"],
     401, steps["knots"],
@@ -492,14 +490,40 @@ vals = (
     # section 7
     max(int(r["name"].split("_")[-1]) for r in bk_eq),
     it["tested"], 11889, 21,
-    # the definiteness paragraph comes first in the document
-    defn["l_space_knots_with_det_genus_and_exact_signature"], defn["max_genus_in_sample"],
-    defn["satisfying_the_hypothesis"], defn["max_genus_satisfying_hypothesis"],
-    defn["max_genus_in_sample"],
-    # then "sharpness is not typical of the hyperbolic region"
-    rnd["tested"], rnd["equalities"], rnd["hyperbolic_equalities"], rnd["hyperbolic"],
     sum(r["equality"] for r in ob), len(ob),
-    # section 8, the second statement
-    ug["attempted"], ug["max_genus"], ug_hyp)
-(HERE / "k33.tex").write_text(tex % vals)
+)
+bkg = {r["n"]: r for r in load_k32("bk_family.jsonl")}
+for r in json.load(open(K32 / "hunt.json")):
+    if r["knot"].startswith("Baker-Kegel K_"):
+        bkg[int(r["knot"].split("_")[-1])] = r
+himc = {r["n"]: r for r in load_k32("himeno.jsonl")}
+assert all(r["u_equals_g"] for r in list(bkg.values()) + list(himc.values()))
+assert himc[2]["isometric_to_o9_30634"] is True
+k32_census = load_k32("census_lspace.jsonl")
+tt_d, rnd_d, ob_d = dk["twisted torus"], dk["random search"], dk["one-bridge braids"]
+assert not tt_d["distinct_hyperbolic_not_in_census"] and not rnd_d["distinct_hyperbolic_not_in_census"]
+tokens = {
+    "CENSUS_N": len(fast), "CENSUS_EQ": len(cen_eq),
+    "TT_REC": tt_d["records"], "TT_D": tt_d["distinct"], "TT_H": tt_d["distinct_by_kind"].get("hyperbolic", 0),
+    "TT_V": tt["violations"],
+    "RND_REC": rnd_d["records"], "RND_D": rnd_d["distinct"], "RND_H": rnd_d["distinct_by_kind"].get("hyperbolic", 0),
+    "RND_V": rnd["violations"],
+    "OB_REC": ob_d["records"], "OB_D": ob_d["distinct"], "OB_H": ob_d["distinct_by_kind"].get("hyperbolic", 0),
+    "OB_NEW": len(ob_d["distinct_hyperbolic_not_in_census"]),
+    "DET_AGREE": tt["tested"] + rnd["tested"] if not tt["det_mismatches"] and not rnd["det_mismatches"] else None,
+    "MAXG": defn["max_genus_in_sample"], "THIN_REC": defid["tested"] if defid["unresolved"] == 0 else None,
+    "THIN_G": max(defid["thin_genera"]),
+    "HIM_MAX": max(int(r["name"].split("_")[-1]) for r in him),
+    "HIM_LAST_DET": him[-1]["det"], "HIM_LAST_BOUND": him[-1]["bound"],
+    "BK_MAX": max(bkg), "BK_MAXG": max(r["genus"] for r in bkg.values()),
+    "K32_N": len(bkg) + len([n for n in himc if n != 2]),
+    "K32_PROVEN": 1 + len([n for n in himc if n != 2]),
+    "K32_CENSUS": sum(1 for r in k32_census if r.get("u_equals_g")),
+}
+assert all(v is not None for v in tokens.values()), tokens
+text = tex % vals
+for k, v in tokens.items():
+    text = text.replace(f"@@{k}@@", str(v))
+assert "@@" not in text
+(HERE / "k33.tex").write_text(text)
 print("wrote k33.tex")

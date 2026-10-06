@@ -38,7 +38,7 @@ paper's appendix.
 
 ## Everything else is computed here
 
-The twisted torus family, the unbiased random search, the one-bridge braids, the iterated torus knots,
+The twisted torus family, the random search, the one-bridge braids, the iterated torus knots,
 the Baker–Kegel and Himeno families as *generated from their published braid word formulas* (a formula,
 not a table), and the alternating pretzels: all built and measured by the scripts in `verification/`.
 Where a family's membership of the L-space class matters, it is decided by each knot's own knot Floer
