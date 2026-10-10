@@ -1,0 +1,149 @@
+{
+ "rows": [
+  {
+   "k": 1,
+   "q": 5,
+   "genus": 4,
+   "L_space": true,
+   "flips": 4,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 1,
+   "q": 3,
+   "genus": 3,
+   "L_space": true,
+   "flips": 3,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 2,
+   "q": 9,
+   "genus": 8,
+   "L_space": true,
+   "flips": 8,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 2,
+   "q": 7,
+   "genus": 7,
+   "L_space": true,
+   "flips": 7,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 3,
+   "q": 13,
+   "genus": 12,
+   "L_space": true,
+   "flips": 12,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 3,
+   "q": 11,
+   "genus": 11,
+   "L_space": true,
+   "flips": 11,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 4,
+   "q": 17,
+   "genus": 16,
+   "L_space": true,
+   "flips": 16,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 4,
+   "q": 15,
+   "genus": 15,
+   "L_space": true,
+   "flips": 15,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 5,
+   "q": 21,
+   "genus": 20,
+   "L_space": true,
+   "flips": 20,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 5,
+   "q": 19,
+   "genus": 19,
+   "L_space": true,
+   "flips": 19,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 6,
+   "q": 25,
+   "genus": 24,
+   "L_space": true,
+   "flips": 24,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 6,
+   "q": 23,
+   "genus": 23,
+   "L_space": true,
+   "flips": 23,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 7,
+   "q": 29,
+   "genus": 28,
+   "L_space": true,
+   "flips": 28,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 7,
+   "q": 27,
+   "genus": 27,
+   "L_space": true,
+   "flips": 27,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 8,
+   "q": 33,
+   "genus": 32,
+   "L_space": true,
+   "flips": 32,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  },
+  {
+   "k": 8,
+   "q": 31,
+   "genus": 31,
+   "L_space": true,
+   "flips": 31,
+   "flips_equal_genus": true,
+   "flipped_is_unknot": true
+  }
+ ],
+ "all_ok": true
+}

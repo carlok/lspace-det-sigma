@@ -1,0 +1,11 @@
+{
+ "knot": "12n_642",
+ "genus": 2,
+ "tau": -2,
+ "fibered": true,
+ "L_space": false,
+ "hfk_rank": 37,
+ "det": 27,
+ "nullity_mod_3": 3,
+ "unknotting_lower_bound": 3
+}

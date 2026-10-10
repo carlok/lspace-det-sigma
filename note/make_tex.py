@@ -59,11 +59,12 @@ tex = r"""\documentclass[11pt]{article}
 \newtheorem{lemma}{Lemma}
 \newtheorem{conjecture}{Conjecture}
 \newtheorem{question}{Question}
+\newtheorem{proposition}{Proposition}
 \theoremstyle{definition}
 \newtheorem{remark}{Remark}
 \title{An inequality between determinant and signature for $L$-space knots\\[2mm]
 \large Machine-generated conjecture, its checks, a partial proof, and the open case}
-\date{2026-09-19}
+\date{2026-09-19, revised 2026-10-10}
 \begin{document}
 \maketitle
 
@@ -72,8 +73,10 @@ We consider the inequality $\det(K) \le 1 + |\sigma(K)|$ for $L$-space knots. It
 linear inequalities to the KnotInfo database and discards what its automatic checks refute. It survived those checks
 and the computations of Section 3. We prove it for every $L$-space knot that is an iterated torus knot, in
 particular for all algebraic knots. The hyperbolic case is open, and it is where the inequality is sharp:
-equality holds on every member tested of an infinite family of hyperbolic $L$-space knots, the first of which is not
-braid positive. Among the @@CENSUS_N@@ census $L$-space knots it holds only on that first member.
+equality holds on the Baker--Kegel knots $K_k$, an infinite family of hyperbolic $L$-space knots, for which we prove
+$\det(K_k) = 4k+5$ and compute $\sigma(K_k) = -(4k+4)$ for $k \le @@BKK@@$. Each $K_k$ has the Alexander polynomial, hence
+the knot Floer complex, of an $L$-space cable that attains equality as well. Among the @@CENSUS_N@@ census $L$-space knots
+equality holds only on $K_1$.
 Sections 2 and 3 give the provenance and the computations, so that the proof in Sections 5 and 6 can be checked
 without our files; the one lemma we prove from scratch rather than cite is additionally formalised in Lean 4
 with no \texttt{sorry}.
@@ -122,6 +125,8 @@ iterated torus knots & %d & %d & exact: cabled Alexander polynomial, Litherland'
 SnapPy census $L$-space knots (all) & %d & %d & Seifert matrix of a positive braid word \\
 census knots, independent route & %d & %d & knot Floer homology, Sage signature \\
 Baker--Kegel, Himeno, $(2,q)$-cables & %d & %d & Seifert matrix of the braid word \\
+Baker--Kegel $K_k$, $k \le @@BKK@@$ & @@BKK@@ & 0 & Seifert matrix of the braid word, certified \\
+$H(n,m)$ (Section 7), outside the census & @@HNM_N@@ & 0 & Seifert matrix of the braid word, certified \\
 one-bridge braids $B(w,b,t)$, $w \le 15$ (parameter triples) & %d & %d & Seifert matrix of the braid word \\
 twisted torus knots $K(p,q;r,s)$ (distinct knots) & @@TT_D@@ & @@TT_V@@ & knot Floer homology, then exact Seifert signature \\
 random braid words (distinct knots) & @@RND_D@@ & @@RND_V@@ & knot Floer homology, then exact Seifert signature \\
@@ -168,8 +173,8 @@ positive or negative but which are \emph{not} $L$-space knots produces %d violat
 the work; this is unlike several of the 42 candidates, whose hypotheses turned out to be irrelevant.
 
 \paragraph{Sharpness.} Equality $\det = 1 + |\sigma|$ holds for $T(2,n)$, for the $(2,q)$-cables of the trefoil, and,
-among the families tested beyond the census, for %d of %d knots, including every Baker--Kegel $K_n$ with
-$n = 1, \dots, %d$. These are hyperbolic: $K_1$ is the census knot o9\_30634, the one census $L$-space knot that is
+among the families tested beyond the census, for %d of %d knots, including every Baker--Kegel $K_n$ computed there,
+$n \le %d$ (Section 7 extends this to $n \le @@BKK@@$). These are hyperbolic: $K_1$ is the census knot o9\_30634, the one census $L$-space knot that is
 not braid positive, and $K_n$ for $n \ge 2$ is not known to be braid positive. Of the @@CENSUS_N@@ census $L$-space knots,
 exactly @@CENSUS_EQ@@ attains equality, and it is $K_1$.
 
@@ -315,7 +320,30 @@ Theorem~\ref{thm} does not reach the hyperbolic $L$-space knots, and that is whe
 Kegel (arXiv:2203.12013) construct hyperbolic $L$-space knots $K_n$, the closures of the braid words
 \[ [(2,1,3,2)^{2n+1},\, -1,\, 2,\, 1,\, 1,\, 2], \]
 which are not braid positive for $n=1$ and are not known to be braid positive for $n \ge 2$; Himeno (arXiv:2506.22934) constructs infinitely many hyperbolic $L$-space knots that are provably not braid
-positive. Equality $\det = 1 + |\sigma|$ holds for every Baker--Kegel $K_n$ we tested, $n = 1,\dots,%d$.
+positive. Equality $\det = 1 + |\sigma|$ holds for every Baker--Kegel $K_n$ tested in Section 3 ($n \le %d$), and more is true.
+
+\begin{proposition}\label{prop:bk}
+For every $k \ge 0$, $\Delta_{K_k} = \Delta_{C_k}$, where $C_k$ is the $(2,4k+5)$-cable of $T(2,2k+1)$, and
+$\det(K_k) = 4k+5$.
+\end{proposition}
+
+\begin{proof}
+Let $\rho$ be the reduced Burau representation of $B_4$, $P = \sigma_2\sigma_1\sigma_3\sigma_2$ and $W$ the tail of the
+word, so that $\Delta_{K_k} \doteq \det(I - \rho(P)^{2k+1}\rho(W))\,(1-t)/(1-t^4)$. Expanding the $3 \times 3$ determinant,
+the right side is a sum of traces of powers of $A = \rho(P)^2$, of its second exterior power and of $\det A$, so by
+Cayley--Hamilton it satisfies a monic linear recurrence in $k$ of order $8$ over $\mathbb{Q}(t)$. So does
+$\Delta_{C_k}(t) = \Delta_{T(2,2k+1)}(t^2)\,\Delta_{T(2,4k+5)}(t)$, with characteristic roots $1, t^4, t^8$; the
+difference satisfies a recurrence of order $11$ and vanishes for $k = 0, \dots, 10$, hence for all $k$. At $t = -1$ the
+order-$8$ recurrence becomes $(x-1)^8$, which $4k+5$ also satisfies, and the two agree for $k = 0, \dots, 7$.
+\texttt{bk\_alex.sage} and \texttt{bk\_det.sage} carry out these computations exactly.
+\end{proof}
+
+Both $K_k$ and $C_k$ are $L$-space knots ($C_k$ by (F4)), so they have the same knot Floer complex. $C_k$ is an iterated
+torus knot and attains equality in Theorem~\ref{thm}: $\det(C_k) = 4k+5$ and $\sigma(C_k) = \sigma(T(2,4k+5)) = -(4k+4)$
+by (F1)--(F3). For $K_k$ we computed $\sigma(K_k) = -(4k+4)$ for $k \le @@BKK@@$, from the Seifert matrix of the braid
+word (sizes up to @@BKSIZE@@, every eigenvalue certified away from zero), in agreement with \cite[Remark 4.6]{BK}, which
+states $|\sigma(K_k)| = g + 2$. On this family the hyperbolic knot and the cable share the Floer complex, the determinant
+and the signature.
 
 \begin{question}
 Does $\det(K) \le 1 + |\sigma(K)|$ hold for every $L$-space knot, in particular for the hyperbolic ones? Equivalently,
@@ -367,9 +395,32 @@ hyperbolic $L$-space knot, and that is exactly what the cabling induction replac
 
 \paragraph{Where equality occurs.} Among the hyperbolic $L$-space knots tested, equality occurs exactly on the
 Baker--Kegel family: on every $K_n$ tested, and on no other census knot (Himeno's $K_2$ is the same knot as $K_1$). Failing
-to be braid positive does not force it: Himeno's $K_3, \dots, K_{@@HIM_MAX@@}$ provably are not braid positive and none of them
-attains equality, the last having $\det = @@HIM_LAST_DET@@$ against $1 + |\sigma| = @@HIM_LAST_BOUND@@$. The question is
-what distinguishes the Baker--Kegel family.
+to be braid positive does not force it: Himeno's $K_n$ with $n$ even provably are not braid positive, and none of
+$K_3, \dots, K_{@@HIM_MAX@@}$ attains equality, the last having $\det = @@HIM_LAST_DET@@$ against $1 + |\sigma| = @@HIM_LAST_BOUND@@$.
+Proposition~\ref{prop:bk} locates the equality: each $K_k$ has the knot Floer complex and the signature of a cable
+that attains it. (None of the @@OB_EQ@@ one-bridge parameter triples with equality closes to a hyperbolic knot.)
+
+\paragraph{The family $H(n,m)$.} Both families are members of a two-parameter family of closed $2n$-braids, $H(n,m)$, the
+closure of $X_n^m T_n$ with $X_n$ the $n$-cable of a positive crossing of two $n$-strand bundles and
+$T_n = \sigma_1^{-1}\cdots\sigma_{n-1}^{-1}\sigma_n\cdots\sigma_1\sigma_1\cdots\sigma_n$; $H(2,2k+1) = K_k$ and $H(n,3)$ is
+Himeno's $K_n$ (the companion note \texttt{k32.pdf} gives the details). Knot Floer homology shows every $H(n,m)$ we could
+compute to be an $L$-space knot, and for $m \ge 3$ the volumes exceed every census volume, so they extend the
+hyperbolic test set beyond the census: @@HNM_N@@ such knots satisfy the inequality, none with equality, the smallest margin
+$1 + |\sigma| - \det$ being @@HNM_MARGIN@@.
+
+\paragraph{The signature is not determined by the Floer complex.} For an $L$-space knot the Alexander polynomial
+determines the knot Floer complex, but not the signature. Grouping the @@SBA_KNOTS@@ $L$-space knots of this note by their
+Alexander polynomials gives @@SBA_POLYS@@ polynomials; @@SBA_SHARED@@ are shared by more than one knot, and @@SBA_CONFL@@ of
+those carry two different signatures. The smallest case is classical: $T(3,4)$ and the $(2,3)$-cable of the trefoil have
+the same Alexander polynomial and signatures $-6$ and $-2$. A hyperbolic case: the census knot t09847 has the Alexander
+polynomial of the $(2,7)$-cable of $T(2,5)$, and signature $-10$ against $-6$. So the agreement
+$\sigma(K_k) = \sigma(C_k)$ of Proposition~\ref{prop:bk} is a property of the Baker--Kegel knots, not of their Floer
+complex, and Conjecture~\ref{conj} is not a statement about knot Floer homology alone. Within every group the inequality
+holds for each member. The $(2,q)$-cables attain equality whatever the companion $J$: $\det(J_{2,q}) = q$ and
+$\sigma(J_{2,q}) = -(q-1)$ by (F1)--(F3).
+
+The sharp case would follow from $\sigma = -2\tau$ for knots with thin knot Floer homology, which is open
+\cite[\S 8.1]{HM}.
 
 Two further questions. Which $L$-space knots attain equality? The known ones are $T(2,n)$, the $(2,q)$-cables, the
 Baker--Kegel family, and %d of the %d one-bridge parameter triples computed here. Does the inequality follow from a property of
@@ -381,24 +432,14 @@ quasipositive links are studied in \cite{BBG}.
 The program produced one other statement that its checks could not refute and that we could not place in the
 literature: for every $L$-space knot, $u(K) = g(K)$, where $u$ is the unknotting number.
 
-Half of it is immediate. For an $L$-space knot $g = g_4$, and $u \ge g_4$ always, so $u \ge g$. The content is
-$u \le g$, which holds for braid positive knots by Rudolph, hence for every $L$-space knot known to be braid
-positive; by Baker and Kegel \cite{BK} that is all but one of the census $L$-space knots. What is open is the
-non-braid-positive case, and there the only evidence is explicit unknottings.
-
-Each certificate is a sequence of $g$ crossing changes ending at the unknot, found by a search that keeps only the
-changes lowering $|\tau|$ by exactly one, which is necessary for an unknotting of that length. Certificates exist
-for every knot tested where the statement has content: o9\_30634 (Baker--Kegel $K_1$, also Himeno $K_2$), which is not
-braid positive; Baker--Kegel $K_2, \dots, K_{@@BK_MAX@@}$, not known to be braid positive, up to genus @@BK_MAXG@@; and
-Himeno $K_3$ and $K_4$, which provably are not. That is @@K32_N@@ knots, @@K32_PROVEN@@ of them provably outside
-Rudolph's theorem, with no failure. Certificates were also produced for @@K32_CENSUS@@ census knots and for the $L$-space
-twisted torus knots with a non-positive braid word, but the hyperbolic ones among those are braid positive census
-knots and the rest are not hyperbolic, so they test the search rather than the statement.
-
-Unlike the inequality, this statement has not been shown to need its hypothesis. The half we can prove, $u \ge g$,
-uses the $L$-space property only through $g = g_4$, which already holds for every fibered strongly quasipositive
-knot; and we know of no fibered strongly quasipositive knot with $u > g$. Whether $u = g$ is really a statement
-about $L$-space knots, or about a wider class, is part of the question.
+Since $u \ge g_4 = g$ for an $L$-space knot, the content is $u \le g$, which holds for braid positive knots by Rudolph,
+hence for every $L$-space knot known to be braid positive; by Baker and Kegel \cite{BK} that is all but one of the census
+$L$-space knots. The companion note \texttt{k32.pdf} proves $u = g$ for the whole family $H(n,m)$ of Section 7, by an
+explicit unknotting matched against the slice--Bennequin bound, so for every Baker--Kegel knot and every Himeno knot,
+including those that are provably not braid positive. It also shows that the hypothesis is needed: the mirror of
+$12n_{642}$ is fibered and strongly quasipositive, with $g = 2$ and $u \ge 3$. An earlier version of this section listed
+unknottings found by search for a few of these knots, and counted Himeno's $K_3$ among the knots known not to be braid
+positive; Himeno proves that for even $n$ only.
 
 \section{Reproducibility}\label{sec:repro}
 
@@ -411,10 +452,15 @@ census), \texttt{exact\_signature.py} and \texttt{exact\_census.py} (exact inert
 \texttt{braid\_identity.py} (the closures are the named census knots), \texttt{onebridge.sage} and
 \texttt{onebridge\_lspace.py} (the one-bridge braid family), \texttt{twisted\_torus.py} and
 \texttt{twisted\_torus\_sigma.sage} (the twisted torus family and its exact signatures), and
-\texttt{twisted\_torus\_ug.py} (the unknotting certificates of Section~8), \texttt{definiteness.py} and
+\texttt{twisted\_torus\_ug.py} (unknotting certificates of an earlier version of Section~8), \texttt{definiteness.py} and
 \texttt{definiteness\_identify.py} (the sharp case across all families), \texttt{random\_lspace.py} and
 \texttt{random\_lspace\_sigma.sage} (the random search), and \texttt{distinct\_knots.py} (how many distinct knots each
-generated family contains, and which of its hyperbolic knots are in the census).
+generated family contains, and which of its hyperbolic knots are in the census). In \texttt{families}: \texttt{bk\_det.sage} and
+\texttt{bk\_alex.sage} (Proposition~\ref{prop:bk}), \texttt{seifert\_dump.py} and \texttt{signatures.sage} (the family
+$H(n,m)$ and $K_k$ for $k \le @@BKK@@$), \texttt{lspace.py} (which $H(n,m)$ are $L$-space knots, and their volumes),
+\texttt{sigma\_by\_alex.sage} (signatures grouped by Alexander polynomial), \texttt{onebridge\_equality.py} (the one-bridge braids with
+equality are not hyperbolic), and for the companion note
+\texttt{unknotting.py}, \texttt{cables.py} and \texttt{fibered\_sqp.py}.
 Tools: SnapPy 3.3.2 with \texttt{knot\_floer\_homology}, Sage 10.7, khoca 1.5. The Lean formalisation of the
 lattice inequality is \texttt{K33Lattice/Basic.lean}, built against Mathlib at revision
 \texttt{0df444a360eaa60ab8c11dca51a86af692955474} with \texttt{leanprover/lean4:v4.33.1}.
@@ -448,6 +494,8 @@ Ann. Henri Lebesgue 7 (2024), 823--839; arXiv:2308.02275.
 Canad. J. Math. 33 (1981), 381--394.
 \bibitem{KnotInfo} C. Livingston and A. H. Moore, \emph{KnotInfo: Table of Knot Invariants}, knotinfo.org,
 September 2026 (accessed 14 September 2026).
+\bibitem{HM} K. Hendricks, C. Manolescu, \emph{Involutive Heegaard Floer homology}, Duke Math. J. 166 (2017),
+1211--1299; arXiv:1507.00383.
 \bibitem{Hedden} M. Hedden, \emph{On knot Floer homology and cabling II}, Int. Math. Res. Not. (2009).
 \bibitem{Hedden2} M. Hedden, \emph{Notions of positivity and the Ozsv\'ath--Szab\'o concordance invariant},
 J. Knot Theory Ramifications 19 (2010), 617--629.
@@ -515,7 +563,27 @@ assert himc[2]["isometric_to_o9_30634"] is True
 k32_census = load_k32("census_lspace.jsonl")
 tt_d, rnd_d, ob_d = dk["twisted torus"], dk["random search"], dk["one-bridge braids"]
 assert not tt_d["distinct_hyperbolic_not_in_census"] and not rnd_d["distinct_hyperbolic_not_in_census"]
+FAMD = V / "families"
+fsig = {(r["n"], r["m"]): r for r in (json.loads(l) for l in open(FAMD / "signatures.jsonl"))}
+flsp = {(r["n"], r["m"]): r for r in (json.loads(l) for l in open(FAMD / "lspace.jsonl"))}
+assert all(r["certified"] for r in fsig.values()) and all(r["K33"] for r in fsig.values())
+bk_rows = sorted((r for (n, m), r in fsig.items() if n == 2), key=lambda r: r["m"])
+assert all(r["det"] == 2 * r["m"] + 3 and r["sigma"] == -(2 * r["m"] + 2) for r in bk_rows)   # 4k+5, -(4k+4), m = 2k+1
+BKK = (bk_rows[-1]["m"] - 1) // 2
+hnm_new = [fsig[k] for k, r in flsp.items() if k in fsig and k[0] >= 3 and k[1] >= 3
+           and r.get("L_space") is True and r["outside_census"]]
+assert all(not r["equality"] for r in hnm_new)
+sba = json.load(open(FAMD / "sigma_by_alex.json"))
+names = [{m[1] for m in g} for g in sba["conflicts"]]
+assert any({"T(3,4)", "T(2,3);2,3"} <= g for g in names)          # the text names these two groups
+assert any({"T(2,5);2,7", "t09847"} <= g for g in names)
+sig_of = {m[1]: m[2] for g in sba["conflicts"] for m in g}
+assert (sig_of["T(3,4)"], sig_of["T(2,3);2,3"], sig_of["T(2,5);2,7"], sig_of["t09847"]) == (-6, -2, -6, -10)
 tokens = {
+    "BKK": BKK, "BKSIZE": bk_rows[-1]["letters"] - 4 + 1,
+    "HNM_N": len(hnm_new), "HNM_MARGIN": min(1 + abs(r["sigma"]) - r["det"] for r in hnm_new),
+    "SBA_KNOTS": sba["knots"], "SBA_POLYS": sba["polynomials"], "SBA_SHARED": sba["polynomials_with_several_knots"],
+    "SBA_CONFL": len(sba["conflicts"]), "OB_EQ": J("families/onebridge_equality.json")["equality_triples"] if not J("families/onebridge_equality.json")["hyperbolic_equality_triples"] else None,
     "CENSUS_N": len(fast), "CENSUS_EQ": len(cen_eq),
     "TT_REC": tt_d["records"], "TT_D": tt_d["distinct"], "TT_H": tt_d["distinct_by_kind"].get("hyperbolic", 0),
     "TT_V": tt["violations"],

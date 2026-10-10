@@ -1,0 +1,4255 @@
+{
+ "knots": 13223,
+ "polynomials": 12340,
+ "polynomials_with_several_knots": 274,
+ "polynomials_shared_beyond_iterated": 186,
+ "polynomials_shared_across_families": 183,
+ "conflicts": [
+  [
+   [
+    "iterated torus",
+    "T(3,4)",
+    -6
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(3,2;3,2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,3;3,1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,2;4,1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,5;2,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,5;3,-1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(5,3;2,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,4;4,-1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,2;3,-6)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,6;3,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(6,3;3,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,3;3,-7)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,7;3,-3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,2;4,-5)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,5;4,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(5,2;3,-7)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,8;3,-4)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,3;3,-3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,3;4,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,3;4,-6)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,6;4,-3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,9;3,-5)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(8,3;5,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,10;3,-6)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,2;5,-5)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,4;4,-7)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,7;4,-4)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,11;3,-7)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,4;4,-4)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,8;4,-5)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(6,3;5,-6)",
+    -6
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6",
+    -18
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10",
+    -18
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15",
+    -14
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,5);2,7",
+    -6
+   ],
+   [
+    "census",
+    "t09847",
+    -10
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);3,16",
+    -28
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;3,16",
+    -24
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);3,17",
+    -30
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;3,17",
+    -26
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);3,19",
+    -30
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;3,19",
+    -26
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);3,20",
+    -32
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;3,20",
+    -28
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);3,22",
+    -36
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;3,22",
+    -32
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);3,23",
+    -38
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;3,23",
+    -34
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);3,25",
+    -38
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;3,25",
+    -34
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);3,26",
+    -40
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;3,26",
+    -36
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);5,26",
+    -70
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;5,26",
+    -66
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);5,27",
+    -70
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;5,27",
+    -66
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);5,28",
+    -74
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;5,28",
+    -70
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);5,29",
+    -78
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;5,29",
+    -74
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);5,31",
+    -78
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;5,31",
+    -74
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);5,32",
+    -82
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;5,32",
+    -78
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);5,33",
+    -86
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;5,33",
+    -82
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);5,34",
+    -86
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;5,34",
+    -82
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4);5,36",
+    -94
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3;5,36",
+    -90
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;3,88",
+    -136
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;3,88",
+    -136
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;3,88",
+    -132
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;3,89",
+    -138
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;3,89",
+    -138
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;3,89",
+    -134
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;3,91",
+    -138
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;3,91",
+    -138
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;3,91",
+    -134
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;3,92",
+    -140
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;3,92",
+    -140
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;3,92",
+    -136
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;3,94",
+    -144
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;3,94",
+    -144
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;3,94",
+    -140
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;3,95",
+    -146
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;3,95",
+    -146
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;3,95",
+    -142
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;3,97",
+    -146
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;3,97",
+    -146
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;3,97",
+    -142
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;3,98",
+    -148
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;3,98",
+    -148
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;3,98",
+    -144
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;5,146",
+    -370
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;5,146",
+    -370
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;5,146",
+    -366
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;5,147",
+    -370
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;5,147",
+    -370
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;5,147",
+    -366
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;5,148",
+    -374
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;5,148",
+    -374
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;5,148",
+    -370
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;5,149",
+    -378
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;5,149",
+    -378
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;5,149",
+    -374
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;5,151",
+    -378
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;5,151",
+    -378
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;5,151",
+    -374
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;5,152",
+    -382
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;5,152",
+    -382
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;5,152",
+    -378
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;5,153",
+    -386
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;5,153",
+    -386
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;5,153",
+    -382
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;5,154",
+    -386
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;5,154",
+    -386
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;5,154",
+    -382
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);5,6;5,156",
+    -394
+   ],
+   [
+    "iterated torus",
+    "T(2,5);3,10;5,156",
+    -394
+   ],
+   [
+    "iterated torus",
+    "T(3,5);2,15;5,156",
+    -390
+   ]
+  ]
+ ],
+ "shared_examples": [
+  [
+   [
+    "iterated torus",
+    "T(2,3)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(4,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(5,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(6,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(7,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(8,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(9,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(10,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(11,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(12,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(13,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(14,2,1)",
+    -2
+   ],
+   [
+    "one-bridge",
+    "B(15,2,1)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(4,2;2,-1)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(3,3;3,-1)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(3,2;2,-6)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(3,2;3,-4)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(3,4;3,-2)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(4,2;2,-7)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(6,2;2,-3)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(3,3;3,-5)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(3,5;3,-3)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(5,3;3,-3)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(3,6;3,-4)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(5,2;4,-4)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(4,3;3,-6)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(8,3;3,-6)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(6,4;4,-5)",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(7,3;5,-5)",
+    -2
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,5)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(4,1,2)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(6,4,1)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(7,4,1)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(8,4,1)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(9,4,1)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(10,4,1)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(11,4,1)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(12,4,1)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(13,4,1)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(14,4,1)",
+    -4
+   ],
+   [
+    "one-bridge",
+    "B(15,4,1)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(3,2;2,2)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(3,4;2,-2)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(4,3;2,-2)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(4,3;3,-1)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(6,2;2,-1)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(3,5;2,-4)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(7,2;2,-2)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(7,2;3,-1)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(5,3;2,-4)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(5,3;3,-2)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(5,3;5,-1)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(8,2;4,-1)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(5,2;3,-6)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(6,3;4,-2)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(4,3;3,-7)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(5,2;5,-4)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(5,4;5,-2)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(6,2;4,-5)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(7,2;3,-7)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(7,3;5,-2)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(8,3;3,-5)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(5,5;5,-3)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(7,2;6,-4)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(5,4;5,-6)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(5,6;5,-4)",
+    -4
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,7)",
+    -6
+   ],
+   [
+    "one-bridge",
+    "B(6,1,2)",
+    -6
+   ],
+   [
+    "one-bridge",
+    "B(8,6,1)",
+    -6
+   ],
+   [
+    "one-bridge",
+    "B(9,6,1)",
+    -6
+   ],
+   [
+    "one-bridge",
+    "B(10,6,1)",
+    -6
+   ],
+   [
+    "one-bridge",
+    "B(11,6,1)",
+    -6
+   ],
+   [
+    "one-bridge",
+    "B(12,6,1)",
+    -6
+   ],
+   [
+    "one-bridge",
+    "B(13,6,1)",
+    -6
+   ],
+   [
+    "one-bridge",
+    "B(14,6,1)",
+    -6
+   ],
+   [
+    "one-bridge",
+    "B(15,6,1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,2;2,4)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,2;2,3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(5,2;2,2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(6,2;2,1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(8,2;2,-1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(6,3;5,-1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,5;3,-3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(5,4;3,-3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(5,4;4,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,3;7,-1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(6,4;4,-3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,7;3,-6)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,2;7,-4)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,4;3,-6)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,4;5,-3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,4;7,-2)",
+    -6
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,9)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(8,1,2)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(10,8,1)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(11,8,1)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(12,8,1)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(13,8,1)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(14,8,1)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(15,8,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,2;2,6)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,2;2,5)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,2;2,4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(6,2;2,3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,2;2,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(8,2;2,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(8,3;7,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,4;6,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,6;4,-4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(6,5;4,-4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(6,5;5,-3)",
+    -8
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,11)",
+    -10
+   ],
+   [
+    "one-bridge",
+    "B(10,1,2)",
+    -10
+   ],
+   [
+    "one-bridge",
+    "B(12,10,1)",
+    -10
+   ],
+   [
+    "one-bridge",
+    "B(13,10,1)",
+    -10
+   ],
+   [
+    "one-bridge",
+    "B(14,10,1)",
+    -10
+   ],
+   [
+    "one-bridge",
+    "B(15,10,1)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(4,2;2,7)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(5,2;2,6)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(6,2;2,5)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(7,2;2,4)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(8,2;2,3)",
+    -10
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,13)",
+    -12
+   ],
+   [
+    "one-bridge",
+    "B(12,1,2)",
+    -12
+   ],
+   [
+    "one-bridge",
+    "B(14,12,1)",
+    -12
+   ],
+   [
+    "one-bridge",
+    "B(15,12,1)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(6,2;2,7)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(7,2;2,6)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(8,2;2,5)",
+    -12
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,15)",
+    -14
+   ],
+   [
+    "one-bridge",
+    "B(14,1,2)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(8,2;2,7)",
+    -14
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,4)",
+    -6
+   ],
+   [
+    "iterated torus",
+    "T(2,3);2,3",
+    -2
+   ],
+   [
+    "twisted torus",
+    "K(3,2;3,2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,3;3,1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,2;4,1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,5;2,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,5;3,-1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(5,3;2,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,4;4,-1)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,2;3,-6)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,6;3,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(6,3;3,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,3;3,-7)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,7;3,-3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,2;4,-5)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,5;4,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(5,2;3,-7)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,8;3,-4)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,3;3,-3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,3;4,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,3;4,-6)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,6;4,-3)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,9;3,-5)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(8,3;5,-2)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,10;3,-6)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,2;5,-5)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,4;4,-7)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,7;4,-4)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(3,11;3,-7)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(7,4;4,-4)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,8;4,-5)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(6,3;5,-6)",
+    -6
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,5)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(6,3,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,2;3,3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,3;3,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,4;2,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,4;3,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,3;2,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,2;3,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,2;5,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(6,2;4,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,6;3,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(6,3;3,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,2;3,-7)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,7;3,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,5;3,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,4;5,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,8;3,-3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,9;3,-4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(8,3;3,-3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,2;5,-5)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,5;5,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,10;3,-5)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,11;3,-6)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,4;3,-5)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,3;5,-6)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,6;5,-3)",
+    -8
+   ],
+   [
+    "H(n,m)",
+    "H(3,1)",
+    -8
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,7)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(6,2,3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,2;3,5)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,3;3,4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,4;3,3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,5;3,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,6;3,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,3;3,3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(6,3;3,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,8;2,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,8;3,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,2;7,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,9;3,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(6,4;4,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(8,3;2,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,10;3,-3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,11;3,-4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,4;4,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,4;7,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(6,5;5,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,7;4,-4)",
+    -8
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,8)",
+    -10
+   ],
+   [
+    "one-bridge",
+    "B(9,6,2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,2;3,6)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,3;3,5)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,4;3,4)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,5;3,3)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,6;3,2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,7;2,2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,7;3,1)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(5,2;3,5)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(5,3;3,3)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(6,3;3,2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,9;3,-1)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(7,3;2,2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(8,2;8,1)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,10;3,-2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,11;3,-3)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(8,4;8,-1)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(7,5;6,-2)",
+    -10
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,10)",
+    -14
+   ],
+   [
+    "one-bridge",
+    "B(9,2,3)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(3,3;3,7)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(3,4;3,6)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(3,5;3,5)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(3,6;3,4)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(3,7;3,3)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(3,8;3,2)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(3,9;3,1)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,3;3,6)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(6,3;3,4)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(3,11;2,-2)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(3,11;3,-1)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(7,3;3,3)",
+    -14
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,11)",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(12,9,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,4;3,7)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,5;3,6)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,6;3,5)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,7;3,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,8;3,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,9;3,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,10;2,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,10;3,1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,3;3,6)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(6,3;3,5)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(8,3;3,3)",
+    -16
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,13)",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(12,2,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,6;3,7)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,7;3,6)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,8;3,5)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,9;3,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,10;3,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,11;3,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(6,3;3,7)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,3;3,6)",
+    -16
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,14)",
+    -18
+   ],
+   [
+    "one-bridge",
+    "B(15,12,2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(3,7;3,7)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(3,8;3,6)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(3,9;3,5)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(3,10;3,4)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(3,11;3,3)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(8,3;3,6)",
+    -18
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,16)",
+    -22
+   ],
+   [
+    "one-bridge",
+    "B(15,2,3)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(3,9;3,7)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(3,10;3,6)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(3,11;3,5)",
+    -22
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(3,17)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(3,10;3,7)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(3,11;3,6)",
+    -24
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(4,5)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,2;4,3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,3;4,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,4;4,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,2;5,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,3;5,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,6;4,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,5;5,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,2;4,-7)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,7;3,-3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,7;4,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,4;3,-3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,2;5,-6)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,6;5,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,8;4,-3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(8,4;4,-3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,9;4,-4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,3;5,-7)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,7;5,-3)",
+    -8
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(4,7)",
+    -14
+   ],
+   [
+    "one-bridge",
+    "B(8,4,3)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,2;4,5)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,3;4,4)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,4;4,3)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,5;3,3)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,5;4,2)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,6;4,1)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(5,4;3,3)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(7,2;7,2)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(7,3;4,2)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(7,3;7,1)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(8,3;5,1)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,8;4,-1)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(8,4;4,-1)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,9;4,-2)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(7,5;7,-1)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,10;4,-3)",
+    -14
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(4,9)",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(8,3,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,2;4,7)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,3;4,6)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,4;4,5)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,5;4,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,6;4,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,7;4,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,8;4,1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,4;4,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(8,4;4,1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,10;4,-1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,11;3,-3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,11;4,-2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(8,5;5,-1)",
+    -16
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(4,11)",
+    -22
+   ],
+   [
+    "one-bridge",
+    "B(12,8,3)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(4,4;4,7)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(4,5;4,6)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(4,6;4,5)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(4,7;4,4)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(4,8;4,3)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(4,9;3,3)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(4,9;4,2)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(4,10;4,1)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(7,3;4,6)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(7,4;4,4)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(8,4;4,3)",
+    -22
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(4,13)",
+    -24
+   ],
+   [
+    "one-bridge",
+    "B(12,3,4)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(4,6;4,7)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(4,7;4,6)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(4,8;4,5)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(4,9;4,4)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(4,10;4,3)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(4,11;4,2)",
+    -24
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(5,6)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,2;5,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,3;5,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,4;5,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,5;5,1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(6,2;6,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(6,3;6,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(6,4;6,1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,7;5,-1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(6,6;6,-1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,8;5,-2)",
+    -16
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(5,7)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,2;5,5)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,3;5,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,4;5,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,5;5,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,6;5,1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(6,5;3,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,2;7,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,3;5,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,3;7,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,4;7,1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,8;3,-2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,8;5,-1)",
+    -16
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(5,8)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(5,2;5,6)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(5,3;5,5)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(5,4;5,4)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(5,5;5,3)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(5,6;5,2)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(5,7;3,2)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(5,7;5,1)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(8,2;8,3)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(8,3;8,2)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(8,4;8,1)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(5,9;5,-1)",
+    -20
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(5,9)",
+    -24
+   ],
+   [
+    "one-bridge",
+    "B(10,5,4)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,2;5,7)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,3;5,6)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,4;5,5)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,5;5,4)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,6;4,4)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,6;5,3)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,7;5,2)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,8;5,1)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(6,5;4,4)",
+    -24
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(5,11)",
+    -24
+   ],
+   [
+    "one-bridge",
+    "B(10,4,5)",
+    -24
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(5,14)",
+    -32
+   ],
+   [
+    "one-bridge",
+    "B(15,10,4)",
+    -32
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(5,16)",
+    -40
+   ],
+   [
+    "one-bridge",
+    "B(15,4,5)",
+    -40
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(6,7)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(6,2;6,5)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(6,3;6,4)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(6,4;6,3)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(6,5;6,2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(6,6;6,1)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(7,2;7,4)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(7,3;7,3)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(7,4;7,2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(7,5;7,1)",
+    -18
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(6,11)",
+    -34
+   ],
+   [
+    "one-bridge",
+    "B(12,6,5)",
+    -34
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(6,13)",
+    -36
+   ],
+   [
+    "one-bridge",
+    "B(12,5,6)",
+    -36
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(7,13)",
+    -48
+   ],
+   [
+    "one-bridge",
+    "B(14,7,6)",
+    -48
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(7,15)",
+    -48
+   ],
+   [
+    "one-bridge",
+    "B(14,6,7)",
+    -48
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);2,5",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(4,6;2,-7)",
+    -4
+   ],
+   [
+    "twisted torus",
+    "K(6,4;2,-7)",
+    -4
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);2,7",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(4,6;2,-5)",
+    -6
+   ],
+   [
+    "twisted torus",
+    "K(6,4;2,-5)",
+    -6
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);2,9",
+    -8
+   ],
+   [
+    "iterated torus",
+    "T(2,3);3,4",
+    -8
+   ],
+   [
+    "census",
+    "o9_30634",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,6;2,-3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(6,4;2,-3)",
+    -8
+   ],
+   [
+    "Baker-Kegel",
+    "K_1",
+    -8
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);2,11",
+    -10
+   ],
+   [
+    "one-bridge",
+    "B(6,4,3)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(4,5;2,2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(4,5;3,1)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(5,4;2,2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(4,6;2,-1)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(6,2;4,3)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(6,3;5,1)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(7,2;5,2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(6,4;2,-1)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(7,4;3,-2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(5,6;4,-2)",
+    -10
+   ],
+   [
+    "H(n,m)",
+    "H(4,1)",
+    -10
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,3);2,13",
+    -12
+   ],
+   [
+    "one-bridge",
+    "B(6,1,4)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(4,6;2,1)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(5,2;4,4)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(5,4;3,2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(6,3;4,2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(6,4;2,1)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(7,2;6,2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(4,7;2,-2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(4,7;3,-1)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(7,4;2,-2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(5,6;3,-2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(6,5;5,-1)",
+    -12
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,5);2,7",
+    -6
+   ],
+   [
+    "census",
+    "t09847",
+    -10
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,5);2,13",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(4,10;2,-7)",
+    -12
+   ],
+   [
+    "Baker-Kegel",
+    "K_2",
+    -12
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,5);2,15",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,10;2,-5)",
+    -14
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,5);2,17",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,10;2,-3)",
+    -16
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,7);2,17",
+    -16
+   ],
+   [
+    "Baker-Kegel",
+    "K_3",
+    -16
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,9);2,21",
+    -20
+   ],
+   [
+    "Baker-Kegel",
+    "K_4",
+    -20
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,11);2,25",
+    -24
+   ],
+   [
+    "Baker-Kegel",
+    "K_5",
+    -24
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,13);2,29",
+    -28
+   ],
+   [
+    "Baker-Kegel",
+    "K_6",
+    -28
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,15);2,33",
+    -32
+   ],
+   [
+    "Baker-Kegel",
+    "K_7",
+    -32
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,17);2,37",
+    -36
+   ],
+   [
+    "Baker-Kegel",
+    "K_8",
+    -36
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,19);2,41",
+    -40
+   ],
+   [
+    "Baker-Kegel",
+    "K_9",
+    -40
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,21);2,45",
+    -44
+   ],
+   [
+    "Baker-Kegel",
+    "K_10",
+    -44
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,23);2,49",
+    -48
+   ],
+   [
+    "Baker-Kegel",
+    "K_11",
+    -48
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,25);2,53",
+    -52
+   ],
+   [
+    "Baker-Kegel",
+    "K_12",
+    -52
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,27);2,57",
+    -56
+   ],
+   [
+    "Baker-Kegel",
+    "K_13",
+    -56
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,29);2,61",
+    -60
+   ],
+   [
+    "Baker-Kegel",
+    "K_14",
+    -60
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,31);2,65",
+    -64
+   ],
+   [
+    "Baker-Kegel",
+    "K_15",
+    -64
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,33);2,69",
+    -68
+   ],
+   [
+    "Baker-Kegel",
+    "K_16",
+    -68
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,35);2,73",
+    -72
+   ],
+   [
+    "Baker-Kegel",
+    "K_17",
+    -72
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,37);2,77",
+    -76
+   ],
+   [
+    "Baker-Kegel",
+    "K_18",
+    -76
+   ]
+  ],
+  [
+   [
+    "iterated torus",
+    "T(2,39);2,81",
+    -80
+   ],
+   [
+    "Baker-Kegel",
+    "K_19",
+    -80
+   ]
+  ],
+  [
+   [
+    "census",
+    "m016",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(5,2,3)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(7,4,2)",
+    -8
+   ],
+   [
+    "one-bridge",
+    "B(8,3,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,4;2,4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,5;2,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,3;2,4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,3;3,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,2;3,3)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,3;2,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,3;3,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,7;2,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,2;3,2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,2;5,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,5;2,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(8,2;4,1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,4;2,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(5,4;3,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(3,8;2,-4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,3;2,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,3;3,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(8,3;2,-4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(8,3;3,-2)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(8,3;5,-1)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(4,7;3,-4)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(6,2;4,-7)",
+    -8
+   ],
+   [
+    "twisted torus",
+    "K(7,2;5,-6)",
+    -8
+   ]
+  ],
+  [
+   [
+    "census",
+    "m071",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,6;2,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,6;3,1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(6,5;2,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,2;5,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,3;6,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(8,2;6,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,7;2,-2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,7;3,-1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,5;2,-2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,8;3,-3)",
+    -16
+   ],
+   [
+    "H(n,m)",
+    "H(5,1)",
+    -16
+   ]
+  ],
+  [
+   [
+    "census",
+    "m082",
+    -12
+   ],
+   [
+    "one-bridge",
+    "B(8,2,3)",
+    -12
+   ],
+   [
+    "one-bridge",
+    "B(10,7,2)",
+    -12
+   ],
+   [
+    "one-bridge",
+    "B(11,6,2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(3,7;2,4)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(3,8;2,2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(4,3;3,5)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(5,2;3,6)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(5,3;3,4)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(3,10;2,-2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(7,2;3,5)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(7,3;2,4)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(7,3;3,2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(8,3;2,2)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(8,3;3,1)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(3,11;2,-4)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(8,4;6,-1)",
+    -12
+   ],
+   [
+    "twisted torus",
+    "K(7,5;5,-2)",
+    -12
+   ]
+  ],
+  [
+   [
+    "census",
+    "m103",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(5,7;3,3)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(5,8;2,2)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(5,8;3,1)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(7,2;5,6)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(7,5;3,3)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(8,3;5,4)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(8,5;2,2)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(5,9;2,-2)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(5,9;3,-1)",
+    -22
+   ]
+  ],
+  [
+   [
+    "census",
+    "m118",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(7,2,4)",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(9,4,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,5;3,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,7;2,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,3;4,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(6,2;4,5)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,4;2,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,4;3,1)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,9;3,-2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,5;3,-2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,5;5,-1)",
+    -16
+   ]
+  ],
+  [
+   [
+    "census",
+    "m144",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(11,2,3)",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(13,10,2)",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(14,9,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,10;2,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(3,11;2,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,3;3,7)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,3;3,5)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(8,3;3,4)",
+    -16
+   ]
+  ],
+  [
+   [
+    "census",
+    "m194",
+    -18
+   ],
+   [
+    "one-bridge",
+    "B(8,5,4)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(5,6;3,3)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(5,6;4,2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(6,5;3,3)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(8,3;5,3)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(8,4;6,1)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(5,8;2,-2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(8,5;2,-2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(8,5;3,-1)",
+    -18
+   ]
+  ],
+  [
+   [
+    "census",
+    "m198",
+    -18
+   ],
+   [
+    "one-bridge",
+    "B(7,2,5)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(5,7;2,2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(6,3;5,4)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(6,5;4,2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(7,2;5,5)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(7,4;5,2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(7,5;2,2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(7,5;3,1)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(6,7;3,-2)",
+    -18
+   ],
+   [
+    "twisted torus",
+    "K(7,6;5,-1)",
+    -18
+   ]
+  ],
+  [
+   [
+    "census",
+    "m211",
+    -14
+   ],
+   [
+    "one-bridge",
+    "B(6,3,4)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(5,4;4,2)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(6,4;4,1)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(5,6;2,-2)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(6,5;2,-2)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(6,5;3,-1)",
+    -14
+   ],
+   [
+    "twisted torus",
+    "K(4,9;3,-3)",
+    -14
+   ]
+  ],
+  [
+   [
+    "census",
+    "m223",
+    -10
+   ],
+   [
+    "one-bridge",
+    "B(9,4,2)",
+    -10
+   ],
+   [
+    "one-bridge",
+    "B(10,3,2)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,4;2,6)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(3,5;2,4)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(4,3;2,6)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(5,3;2,4)",
+    -10
+   ],
+   [
+    "twisted torus",
+    "K(7,2;3,3)",
+    -10
+   ]
+  ],
+  [
+   [
+    "census",
+    "m239",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(9,6,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,7;3,2)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,4;3,5)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,9;2,-2)",
+    -16
+   ]
+  ],
+  [
+   [
+    "census",
+    "m240",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(10,6,3)",
+    -16
+   ],
+   [
+    "one-bridge",
+    "B(11,4,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,5;3,6)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(4,7;3,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(5,4;3,6)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(6,4;4,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,3;4,4)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,4;3,3)",
+    -16
+   ],
+   [
+    "twisted torus",
+    "K(7,4;4,2)",
+    -16
+   ]
+  ],
+  [
+   [
+    "census",
+    "m270",
+    -22
+   ],
+   [
+    "one-bridge",
+    "B(8,4,5)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(6,5;5,3)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(7,3;5,5)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(8,5;3,2)",
+    -22
+   ],
+   [
+    "twisted torus",
+    "K(8,5;5,1)",
+    -22
+   ]
+  ],
+  [
+   [
+    "census",
+    "m276",
+    -24
+   ],
+   [
+    "one-bridge",
+    "B(9,4,5)",
+    -24
+   ],
+   [
+    "one-bridge",
+    "B(11,6,4)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,7;4,4)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,9;3,2)",
+    -24
+   ]
+  ],
+  [
+   [
+    "census",
+    "m281",
+    -24
+   ],
+   [
+    "one-bridge",
+    "B(11,2,4)",
+    -24
+   ],
+   [
+    "one-bridge",
+    "B(13,8,3)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(4,9;3,4)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(4,11;2,2)",
+    -24
+   ]
+  ],
+  [
+   [
+    "census",
+    "s086",
+    -20
+   ],
+   [
+    "one-bridge",
+    "B(14,2,3)",
+    -20
+   ],
+   [
+    "twisted torus",
+    "K(8,3;3,7)",
+    -20
+   ]
+  ],
+  [
+   [
+    "census",
+    "s294",
+    -24
+   ],
+   [
+    "one-bridge",
+    "B(9,2,5)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(5,9;2,2)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(6,3;5,6)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(7,2;5,7)",
+    -24
+   ]
+  ],
+  [
+   [
+    "census",
+    "s301",
+    -30
+   ],
+   [
+    "one-bridge",
+    "B(13,10,4)",
+    -30
+   ]
+  ],
+  [
+   [
+    "census",
+    "s308",
+    -30
+   ],
+   [
+    "one-bridge",
+    "B(12,2,5)",
+    -30
+   ]
+  ],
+  [
+   [
+    "census",
+    "s336",
+    -24
+   ],
+   [
+    "one-bridge",
+    "B(13,10,3)",
+    -24
+   ],
+   [
+    "twisted torus",
+    "K(4,11;3,2)",
+    -24
+   ]
+  ]
+ ]
+}
