@@ -28,9 +28,12 @@ strongly quasipositive, with $g = 2$ and $u \ge 3$.
 An $L$-space knot is fibered and strongly quasipositive, and $g = g_4 = \tau$ \cite{OS, Ni, Hedden2}. Since
 $u \ge g_4$ for every knot, $u \ge g$, and the statement $u = g$ for every $L$-space knot is the statement $u \le g$.
 It was produced as candidate K32 by a program that fits inequalities to the KnotInfo table \cite{KnotInfo}; the
-companion note on $\det \le 1 + |\sigma|$ describes the program. We have not found the statement in the literature.
+companion note on $\det \le 1 + |\sigma|$ describes the program. We have not found the statement in the literature;
+the K3 problem list asks about genus and unknotting number for positive fibered and for alternating fibered knots
+\cite[Problem 1.5]{K3}, not for $L$-space knots.
 
-It holds for braid positive knots: $u \le g$ is due to Rudolph \cite{Rud83}, and Kegel, Lewark, Manikandan, Misev,
+It holds for braid positive knots, where braid relations give an unknotting sequence of length $g$
+\cite{BW84, Rud83}, and Kegel, Lewark, Manikandan, Misev,
 Mousseau and Silvero show that every positive braid diagram of a genus $g$ knot has $g$ crossings whose change gives
 the unknot \cite{KLMMMS}. This covers the torus knots, the $(1,1)$ $L$-space knots, which are closures of positive
 braids \cite[Theorem 2]{Nie}, and all $L$-space knots of the SnapPy census but one \cite{BK}. It also holds for
@@ -150,8 +153,8 @@ by Wendt \cite{Wendt} this is a lower bound for the unknotting number.
 \end{proof}
 
 \noindent KnotInfo lists $u(12n_{642}) \in \{3, 4\}$. So $u = g$ fails for fibered strongly quasipositive knots, holds
-for braid positive ones, and for fibered positive knots is Stoimenow's conjecture, open, with a likely counterexample
-of genus $7$ in \cite{KLMMMS}.
+for braid positive ones, and for fibered positive knots is a conjecture of Murasugi and Przytycki \cite[Problem 1.5(a)]{K3},
+still open, for which \cite{KLMMMS} propose a likely counterexample of genus $7$.
 
 \section{Computations}
 
@@ -173,6 +176,8 @@ Besides the two families above and some iterated torus knots, which $L$-space kn
 \end{question}
 
 \begin{thebibliography}{9}
+\bibitem{BW84} M. Boileau, C. Weber, \emph{Le probl\`eme de J. Milnor sur le nombre gordien des n\oe uds alg\'ebriques},
+Enseign. Math. (2) 30 (1984), 173--222.
 \bibitem{BT} B. Bode, P. Tru\"ol, \emph{On $\mathcal{T}$-positive links}, arXiv:2605.10502.
 \bibitem{BK} K. L. Baker, M. Kegel, \emph{Census $L$-space knots are braid positive, except for one that is not},
 Algebr. Geom. Topol. 24 (2024); arXiv:2203.12013.
@@ -181,6 +186,8 @@ Algebr. Geom. Topol. 24 (2024); arXiv:2203.12013.
 \bibitem{Hedden2} M. Hedden, \emph{Notions of positivity and the Ozsv\'ath--Szab\'o concordance invariant},
 J. Knot Theory Ramifications 19 (2010), 617--629.
 \bibitem{Himeno} K. Himeno, \emph{Non-braid positive hyperbolic $L$-space knots}, arXiv:2506.22934.
+\bibitem{K3} R. \.I. Baykur, R. Kirby, D. Ruberman (eds.), \emph{K3: A New Problem List in Low-Dimensional Topology},
+AMS Math. Surveys and Monographs 295 (2026); preliminary copy on R. Kirby's Berkeley web page.
 \bibitem{KLMMMS} M. Kegel, L. Lewark, N. Manikandan, F. Misev, L. Mousseau, M. Silvero, \emph{On unknotting fibered
 positive knots and braids}, arXiv:2312.07339.
 \bibitem{KnotInfo} C. Livingston and A. H. Moore, \emph{KnotInfo: Table of Knot Invariants}, knotinfo.org
