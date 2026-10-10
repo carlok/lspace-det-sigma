@@ -18,6 +18,8 @@ him_odd = [n for n in (3, 5) if lsp.get((n, 3), {}).get("L_space") is True]
 assert him_odd == [3, 5], him_odd
 him_odd_g = {n: lsp[(n, 3)]["genus"] for n in him_odd}
 assert all(him_odd_g[n] == (3 * n * n - n + 2) // 2 for n in him_odd)
+assert all(r["genus"] == (r["m"] * r["n"] ** 2 - r["n"] + 2) // 2 for r in ls)
+LS_N = len(ls)
 
 tex = r"""\documentclass[11pt]{article}
 \usepackage[margin=2.4cm]{geometry}
@@ -38,10 +40,10 @@ tex = r"""\documentclass[11pt]{article}
 \begin{abstract}
 For an $L$-space knot $u \ge g_4 = g$. We show $u = g$ for two infinite families of hyperbolic $L$-space knots that
 are not braid positive, or not known to be: the knots $K_k$ of Baker and Kegel and the knots $K_n$ of Himeno. Both are
-members of a two-parameter family $H(n,m)$ of closed $2n$-braids, and $u(H(n,m)) = g_4(H(n,m)) = (mn^2-n+2)/2$ by an
-explicit unknotting. The same argument settles the $L$-space $(2,q)$-cables of $T(2,2k+1)$ that are not positive braids.
-The $L$-space hypothesis is not superfluous: the mirror of $12n_{642}$ is fibered and strongly quasipositive, with
-$g = 2$ and $u \ge 3$.
+members of a two-parameter family $H(n,m)$ of closed $2n$-braids, and $u = g = g_4 = (mn^2-n+2)/2$ for every
+$H(n,m)$, by an explicit unknotting and a braided Seifert surface. The same argument settles the $L$-space $(2,q)$-cables of $T(2,2k+1)$ that are not positive braids.
+The $L$-space hypothesis is not superfluous: as Bode and Tru\"ol observe, the mirror of $12n_{642}$ is fibered and
+strongly quasipositive, with $g = 2$ and $u \ge 3$.
 \end{abstract}
 
 \section{Context}
@@ -49,7 +51,7 @@ $g = 2$ and $u \ge 3$.
 An $L$-space knot is fibered and strongly quasipositive, and $g = g_4 = \tau$ \cite{OS, Ni, Hedden2}. Since
 $u \ge g_4$ for every knot, $u \ge g$, and the statement $u = g$ for every $L$-space knot is the statement $u \le g$.
 It was produced as candidate K32 by a program that fits inequalities to the KnotInfo table \cite{KnotInfo}; the
-companion note on $\det \le 1 + |\sigma|$ describes the program. We did not find the statement in the literature.
+companion note on $\det \le 1 + |\sigma|$ describes the program. We have not found the statement in the literature.
 
 It holds for braid positive knots: $u \le g$ is due to Rudolph \cite{Rud83}, and Kegel, Lewark, Manikandan, Misev,
 Mousseau and Silvero show that every positive braid diagram of a genus $g$ knot has $g$ crossings whose change gives
@@ -78,25 +80,30 @@ knot of genus $(3n^2-n)/2+1$ that is not braid positive.
 \section{The theorem}
 
 \begin{theorem}\label{thm}
-For $n \ge 2$ and odd $m \ge 1$, \quad $u(H(n,m)) = g_4(H(n,m)) = (mn^2-n+2)/2$.
+For $n \ge 2$ and odd $m \ge 1$, \quad $u(H(n,m)) = g(H(n,m)) = g_4(H(n,m)) = (mn^2-n+2)/2$.
 \end{theorem}
 
 \begin{corollary}
-$u = g$ for every Baker--Kegel knot $K_k$ and every Himeno knot $K_n$ that is an $L$-space knot: all $K_k$
-\cite{BK}, all $K_n$ with $n$ even \cite{Himeno}, and $K_@@HIMODD@@$, which knot Floer homology shows to be $L$-space knots.
+$u = g$ for every Baker--Kegel knot $K_k$ and every Himeno knot $K_n$. These are $L$-space knots for all $k$
+\cite{BK}, for even $n$ \cite{Himeno}, and for $n = 3, 5$ by knot Floer homology, so for them this is an instance of
+the statement $u = g$ for $L$-space knots.
 \end{corollary}
-
-\begin{proof}[Proof of the corollary]
-For an $L$-space knot $g = g_4$.
-\end{proof}
 
 \begin{proof}[Proof of Theorem~\ref{thm}]
 \emph{Lower bound.} The word $X_n^m T_n$ has $mn^2 + 2n$ positive and $n-1$ negative letters, so writhe
 $w = mn^2+n+1$, on $2n$ strands. Rudolph's slice--Bennequin inequality \cite{Rud93} gives
 $g_4 \ge (w - 2n + 1)/2 = (mn^2-n+2)/2$, and $u \ge g_4$.
 
+\emph{Genus.} $T_n = a\,\sigma_1\cdots\sigma_n$ with $a = (\sigma_n\cdots\sigma_2)\,\sigma_1\,(\sigma_n\cdots\sigma_2)^{-1}$
+(Step 4 below), a positive half-twisted band joining the first and the $(n+1)$-st strand that passes on one side of the
+strands between them. So $X_n^m T_n$ is a product of $mn^2+n+1$ positive bands, and its closure bounds the braided
+surface with one disk per strand and one band per factor \cite{Rud83}, a Seifert surface of genus
+$(mn^2+n+1-2n+1)/2 = (mn^2-n+2)/2$. Hence $g \le (mn^2-n+2)/2 \le g_4 \le g$.
+
 \emph{Upper bound.} A crossing change in the closed braid replaces a letter $\sigma_i^{\pm 1}$ by $\sigma_i^{\mp 1}$. We
-make $(mn^2-n+2)/2$ of them and reach the unknot.
+make $(mn^2-n+2)/2$ of them and reach the unknot. Matching explicit crossing changes against the slice--Bennequin bound
+is a standard way to compute unknotting numbers of closed braids \cite[\S 4]{Stoimenow}, \cite[\S 2]{KLMMMS}; what is
+specific here is the cancellation of the palindromic blocks.
 
 \emph{Step 1.} Read backwards, $X_n$ is $L_0 \cdots L_{n-2} L_{n-1} L_{n-2} \cdots L_0$ with the letters of each layer
 permuted, so it represents the same braid; hence the word obtained from $X_n$ by inverting every letter represents
@@ -150,10 +157,12 @@ trefoil, which three changes unknot (its first three letters); $g = 4k-1$.
 
 \section{The hypothesis is needed}
 
-\begin{proposition}
+\begin{proposition}[Bode--Tru\"ol \cite{BT}]
 The mirror of $12n_{642}$ is fibered and strongly quasipositive, has genus $2$, is not an $L$-space knot, and has
 unknotting number at least $3$.
 \end{proposition}
+
+\noindent This is \cite[\S 2.7.2 and Example 6.1]{BT}; we include the computation as a check.
 
 \begin{proof}
 Knot Floer homology gives genus $2$, fiberedness and $|\tau| = 2$; the chirality with $\tau = g$ is strongly
@@ -174,7 +183,7 @@ All in \texttt{verification/families}. \texttt{unknotting.py}: for $2 \le n \le 
 closes to the unknot (SnapPy simplification to no crossings, or knot Floer homology of total rank $1$).
 \texttt{cables.py}: the two non-positive cases for $1 \le k \le @@KMAX@@$ (@@CABN@@ cables), with the genus from knot Floer
 homology. \texttt{fibered\_sqp.py}: the proposition. \texttt{lspace.py}: which $H(n,m)$ are $L$-space knots by knot Floer
-homology. Tools: SnapPy 3.3.2 with \texttt{knot\_floer\_homology}.
+homology; for the @@LS_N@@ members computed, the genus it gives equals $(mn^2-n+2)/2$. Tools: SnapPy 3.3.2 with \texttt{knot\_floer\_homology}.
 
 \section{Questions}
 
@@ -187,6 +196,7 @@ Besides the two families above and some iterated torus knots, which $L$-space kn
 \end{question}
 
 \begin{thebibliography}{9}
+\bibitem{BT} B. Bode, P. Tru\"ol, \emph{On $\mathcal{T}$-positive links}, arXiv:2605.10502.
 \bibitem{BK} K. L. Baker, M. Kegel, \emph{Census $L$-space knots are braid positive, except for one that is not},
 Algebr. Geom. Topol. 24 (2024); arXiv:2203.12013.
 \bibitem{Hedden} M. Hedden, \emph{On knot Floer homology and cabling II}, Int. Math. Res. Not. (2009).
@@ -209,6 +219,8 @@ arXiv:2102.10891.
 (1983), 1--37.
 \bibitem{Rud93} L. Rudolph, \emph{Quasipositivity as an obstruction to sliceness}, Bull. Amer. Math. Soc. 29 (1993),
 51--59.
+\bibitem{Stoimenow} A. Stoimenow, \emph{Positive knots, closed braids and the Jones polynomial}, Ann. Sc. Norm. Super.
+Pisa Cl. Sci. (5) 2 (2003), 237--285; arXiv:math/9805078.
 \bibitem{Wendt} H. Wendt, \emph{Die gordische Aufl\"osung von Knoten}, Math. Z. 42 (1937), 680--696.
 \end{thebibliography}
 \end{document}
@@ -216,7 +228,7 @@ arXiv:2102.10891.
 
 for tok, val in {"HIMODD": "$ and $K_".join(map(str, him_odd)), "HFKRANK": sqp["hfk_rank"], "NMAX": N_MAX,
                  "MLIST": ", ".join(map(str, M_LIST)), "NCASES": N_CASES, "MAXFLIPS": MAX_FLIPS, "KMAX": K_MAX,
-                 "CABN": CAB_N}.items():
+                 "CABN": CAB_N, "LS_N": LS_N}.items():
     tex = tex.replace(f"@@{tok}@@", str(val))
 assert "@@" not in tex
 (HERE / "k32.tex").write_text(tex)

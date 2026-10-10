@@ -46,7 +46,8 @@ For every $L$-space knot $K$, \[ \det(K) \;\le\; 1 + |\sigma(K)| . \]
 We use the following standard facts. An $L$-space knot is fibered, strongly quasipositive, and satisfies
 $g = g_4 = \tau$ (Ozsv\'ath--Szab\'o, Ni, Hedden); its Alexander polynomial has the form
 $\Delta_K(t) = \sum_{k=0}^{2n} (-1)^k t^{a_k}$ with $a_0 = g > a_1 > \dots > a_{2n} = -g$ (Ozsv\'ath--Szab\'o).
-Consequently $|\sigma(K)| \le 2g$ and $\det(K) \le 2g+1$.
+Consequently $|\sigma(K)| \le 2g$ and $\det(K) \le 2g+1$. The second is the determinant--genus inequality for
+$L$-space knots \cite[Lemma 5]{LM}, \cite[\S 3.1]{BaM}; Conjecture~\ref{conj} would sharpen it.
 
 \section{Provenance}
 
@@ -271,10 +272,14 @@ Kegel (arXiv:2203.12013) construct hyperbolic $L$-space knots $K_n$, the closure
 which are not braid positive for $n=1$ and are not known to be braid positive for $n \ge 2$; Himeno (arXiv:2506.22934) constructs infinitely many hyperbolic $L$-space knots that are provably not braid
 positive. Equality $\det = 1 + |\sigma|$ holds for every Baker--Kegel $K_n$ tested in Section 3 ($n \le 25$), and more is true.
 
-\begin{proposition}\label{prop:bk}
+\begin{proposition}[Baker--Kegel]\label{prop:bk}
 For every $k \ge 0$, $\Delta_{K_k} = \Delta_{C_k}$, where $C_k$ is the $(2,4k+5)$-cable of $T(2,2k+1)$, and
 $\det(K_k) = 4k+5$.
 \end{proposition}
+
+\noindent Baker and Kegel compute $\Delta_{K_k}$ \cite[proof of Theorem 4.4]{BK} and note that a satellite with this
+polynomial would have to be $C_k$ \cite[\S 2, second proof of Lemma 2.3]{BK}; the determinant follows. We rechecked
+both independently.
 
 \begin{proof}
 Let $\rho$ be the reduced Burau representation of $B_4$, $P = \sigma_2\sigma_1\sigma_3\sigma_2$ and $W$ the tail of the
@@ -361,8 +366,10 @@ $1 + |\sigma| - \det$ being 8.
 determines the knot Floer complex, but not the signature. Grouping the 13223 $L$-space knots of this note by their
 Alexander polynomials gives 12340 polynomials; 274 are shared by more than one knot, and 37 of
 those carry two different signatures. The smallest case is classical: $T(3,4)$ and the $(2,3)$-cable of the trefoil have
-the same Alexander polynomial and signatures $-6$ and $-2$. A hyperbolic case: the census knot t09847 has the Alexander
-polynomial of the $(2,7)$-cable of $T(2,5)$, and signature $-10$ against $-6$. So the agreement
+the same knot Floer homology \cite[\S 1.1.3]{Hedden}, and signatures $-6$ and $-2$. A hyperbolic case: the census knot
+t09847 (a braid word due to Teragaito is in \cite[Remark 4.2]{BK}) has the Alexander polynomial of the $(2,7)$-cable of
+$T(2,5)$, and signature $-10$ against $-6$. Borodzik, Liu and Zemke give examples of the same phenomenon in the
+Poincar\'e sphere \cite[Proposition 3.20, Remark 3.21]{BLZ}. So the agreement
 $\sigma(K_k) = \sigma(C_k)$ of Proposition~\ref{prop:bk} is a property of the Baker--Kegel knots, not of their Floer
 complex, and Conjecture~\ref{conj} is not a statement about knot Floer homology alone. Within every group the inequality
 holds for each member. The $(2,q)$-cables attain equality whatever the companion $J$: $\det(J_{2,q}) = q$ and
@@ -423,6 +430,10 @@ Kegel's appendix \cite{BK}.
 \bibitem{BS} J. A. Baldwin, S. Sivek, \emph{$L$-spaces and knot traces}, arXiv:2501.00914v2 (2026).
 \bibitem{BHS} J. A. Baldwin, Y. Hu, S. Sivek, \emph{Khovanov homology and the cinquefoil}, J. Eur. Math. Soc. 27
 (2025), 2443--2465; arXiv:2105.12102.
+\bibitem{BaM} K. L. Baker, A. H. Moore, \emph{Montesinos knots, Hopf plumbings, and $L$-space surgeries},
+arXiv:1404.7585.
+\bibitem{BLZ} M. Borodzik, B. Liu, I. Zemke, \emph{Lattice homology, formality, and plumbed $L$-space links},
+arXiv:2210.15792.
 \bibitem{BK} K. L. Baker, M. Kegel, \emph{Census $L$-space knots are braid positive, except for one that is not},
 Algebr. Geom. Topol. 24 (2024); arXiv:2203.12013.
 \bibitem{BBG} M. Boileau, S. Boyer, C. McA. Gordon, \emph{On definite strongly quasipositive links and $L$-space
@@ -448,6 +459,7 @@ September 2026 (accessed 14 September 2026).
 \bibitem{Hedden} M. Hedden, \emph{On knot Floer homology and cabling II}, Int. Math. Res. Not. (2009).
 \bibitem{Hedden2} M. Hedden, \emph{Notions of positivity and the Ozsv\'ath--Szab\'o concordance invariant},
 J. Knot Theory Ramifications 19 (2010), 617--629.
+\bibitem{LM} T. Lidman, A. H. Moore, \emph{Pretzel knots with $L$-space surgeries}, arXiv:1306.6707.
 \bibitem{Ni} Y. Ni, \emph{Knot Floer homology detects fibred knots}, Invent. Math. 170 (2007), 577--608.
 \bibitem{GLV} J. E. Greene, S. Lewallen, F. Vafaee, \emph{$(1,1)$ $L$-space knots},
 Compos. Math. 154 (2018), 918--933.

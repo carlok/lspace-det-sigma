@@ -20,13 +20,13 @@ It is a conjecture, not a theorem, except where stated.
 * **Machine-checked.** The combinatorial core of that lemma — `N_< ≤ (p-1)(q-1)/8` for all integers
   `2 ≤ p < q` — is formalised in Lean 4 against Mathlib in `lean/`, with no `sorry`. `#print axioms`
   reports only `propext`, `Classical.choice` and `Quot.sound`.
-* **Baker-Kegel family.** For their hyperbolic L-space knots `K_k`: the Alexander polynomial is that of the
-  (2,4k+5)-cable of T(2,2k+1), and `det(K_k) = 4k+5`, for every k (exact Burau recurrences). `σ(K_k) = -(4k+4)`
+* **Baker-Kegel family.** For their hyperbolic L-space knots `K_k`, their formula for the Alexander polynomial is
+  that of the (2,4k+5)-cable of T(2,2k+1), so `det(K_k) = 4k+5` for every k (rechecked by exact Burau recurrences). `σ(K_k) = -(4k+4)`
   is computed for k ≤ 60, so equality holds there, as it does for the cable.
 * **Unknotting number (second note).** `u = g_4` for a two-parameter family of closed braids that contains the
   Baker-Kegel and Himeno knots, by an explicit unknotting. So `u = g` holds for both families, including the
-  knots that are provably not braid positive. Fibered and strongly quasipositive is not enough: the mirror of
-  12n_642 has `g = 2` and `u ≥ 3`.
+  knots that are provably not braid positive. Fibered and strongly quasipositive is not enough: as Bode and Truöl
+  observe, the mirror of 12n_642 has `g = 2` and `u ≥ 3`.
 * **Open.** The hyperbolic case of the inequality, where it is sharp, and `u = g` for L-space knots in general.
   The signature of an L-space knot is not determined by its knot Floer complex (T(3,4) and the (2,3)-cable of
   the trefoil), so the inequality is not a statement about knot Floer homology alone.
