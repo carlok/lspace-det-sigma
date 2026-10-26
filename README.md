@@ -34,6 +34,7 @@ It is a conjecture, not a theorem, except where stated.
 ## Layout
 
     note/           the notes (k33.tex/pdf on the inequality, k32.tex/pdf on u = g), their generators, proof.md
+    note/figures/   the two figures of k32 (H(2,3) with its unknotting; one bundle crossing), drawn from the same words
     verification/   every computation, each writing the JSON or JSONL its numbers are read from
     verification/k32/       earlier unknotting searches for u = g
     verification/families/  the family H(n,m) (Baker-Kegel, Himeno), the u = g proof checks, 12n_642
@@ -61,6 +62,8 @@ SnapPy 3.3.2 with `knot_floer_homology`, Sage 10.7, khoca 1.5.
     sage   verification/families/bk_det.sage         # det(K_k) = 4k+5 for every k
     sage   verification/families/bk_alex.sage        # Delta(K_k) = Delta of the cable, for every k
     python3 verification/families/unknotting.py 12  # the explicit unknotting of H(n,m), n <= 12
+    python3 note/figures/make_figures.py            # the k32 figures (pdflatex, pdftoppm)
+    python3 note/figures/check_figures.py           # SnapPy: drawn H(2,3) is o9_30634, circled changes unknot it
     python3 verification/families/cables.py 8       # the non-positive L-space (2,q)-cables
     python3 verification/families/fibered_sqp.py    # 12n_642: fibered, SQP, u >= 3
     python3 verification/families/lspace.py         # which H(n,m) are L-space knots, and their volumes
@@ -68,7 +71,8 @@ SnapPy 3.3.2 with `knot_floer_homology`, Sage 10.7, khoca 1.5.
     python3 verification/families/alex_inputs.py BK_BRAIDS && sage verification/families/sigma_by_alex.sage
 
 `note/make_tex.py` and `note/make_k32.py` regenerate `note/k33.tex` and `note/k32.tex` from the result
-files, and two `pdflatex` passes give each PDF. The families scripts run from their own directory. `note/make_prompts.py` inlines the note into the review prompts in `PROMPTS.md`; its output is
+files, and two `pdflatex` passes give each PDF (k32 after `make_figures.py`). The version of k32.pdf sent
+on 2026-10-11 is tagged `k32-v1`. The families scripts run from their own directory. `note/make_prompts.py` inlines the note into the review prompts in `PROMPTS.md`; its output is
 generated and not tracked.
 
 For the Lean part, see `lean/README.md`: it needs a Mathlib build at the pinned revision, and on a

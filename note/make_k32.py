@@ -25,6 +25,7 @@ tex = r"""\documentclass[11pt]{article}
 \usepackage[margin=2.4cm]{geometry}
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage[T1]{fontenc}
+\usepackage{graphicx}
 \usepackage{hyperref}
 \sloppy
 \newtheorem{theorem}{Theorem}
@@ -33,7 +34,7 @@ tex = r"""\documentclass[11pt]{article}
 \newtheorem{lemma}{Lemma}
 \newtheorem{question}{Question}
 \title{Unknotting number equals genus for the Baker--Kegel and Himeno $L$-space knots}
-\date{2026-10-10}
+\date{2026-10-10, revised 2026-10-26 (figures)}
 \begin{document}
 \maketitle
 
@@ -124,17 +125,17 @@ $R = a^{-1}\sigma_1\cdots\sigma_n \in B_{n+1}$.
 \emph{Step 4: the closure of $C L_{n-1} C^{-1} R$ is the unknot.} It is the closure of the conjugate
 $L_{n-1}\cdot C^{-1} R\, C$. Call the strands at the top of $X_n$ $A_1, \dots, A_n$ (positions $1, \dots, n$) and
 $B_1, \dots, B_n$ (positions $n+1, \dots, 2n$). Every crossing of $X_n$ is between an $A$ strand and a $B$ strand, with
-the $A$ strand on the same side, say over, every time. $C$ performs the crossings of $A_i$ with $B_j$ for $j < i$, after
+the $B$ strand over every time in the right-handed drawing of Figure~\ref{fig:grid}. $C$ performs the crossings of $A_i$ with $B_j$ for $j < i$, after
 which $A_i$ is at position $2i-1$ and $B_i$ at $2i$, and $L_{n-1}$ crosses $A_i$ with $B_i$. In the conjugate, after
 $L_{n-1}$ the strand $B_i$ is at position $2i-1$ and $A_i$ at $2i$. The word $C^{-1}$ moves the strands at odd positions
 back to positions $1, \dots, n$ and those at even positions to $n+1, \dots, 2n$; since $C^{-1}$ undoes $C$, the strand
-coming from an even position passes under every strand it meets, in $C^{-1}$ and again in $C$. So $R$ acts on
+coming from an even position passes over every strand it meets, in $C^{-1}$ and again in $C$. So $R$ acts on
 $B_1, \dots, B_n, A_1$ and leaves $A_2, \dots, A_n$ alone, and each $A_i$ with $i \ge 2$, followed from its crossing in
-$L_{n-1}$ once around the closed braid back to that crossing, lies under every strand it meets. Pushing that arc below
+$L_{n-1}$ once around the closed braid back to that crossing, lies over every strand it meets. Lifting that arc above
 the diagram and shrinking it removes the strand and its crossing. After doing so for $i = n, \dots, 2$ the closure is
 that of
 \[ \sigma_1\cdot(\sigma_2^{-1}\cdots\sigma_n^{-1})\cdot R\cdot(\sigma_n\cdots\sigma_2) \in B_{n+1}, \]
-where $\sigma_1$ is the crossing of $A_1$ with $B_1$, the factor before $R$ moves $A_1$ to position $n+1$ under
+where $\sigma_1$ is the crossing of $A_1$ with $B_1$, the factor before $R$ moves $A_1$ to position $n+1$ over
 $B_2, \dots, B_n$, and the factor after $R$ moves the strand then in position $n+1$ back in the same way. Conjugating by $\sigma_n\cdots\sigma_2$ and using
 $\sigma_n\cdots\sigma_2\,\sigma_1\,\sigma_2^{-1}\cdots\sigma_n^{-1} = (\sigma_{n-1}\cdots\sigma_1)^{-1}\sigma_n(\sigma_{n-1}\cdots\sigma_1) = a$,
 which follows by induction from $\sigma_{i+1}\sigma_i\sigma_{i+1}^{-1} = \sigma_i^{-1}\sigma_{i+1}\sigma_i$, the closure is
@@ -143,6 +144,32 @@ that of $a R = \sigma_1\sigma_2\cdots\sigma_n \in B_{n+1}$, the unknot.
 
 \noindent Without the change in Step 3 the same reduction gives the closure of $a^2\sigma_1\cdots\sigma_n$, a knot of
 genus one (its braided surface has $n+2$ bands on $n+1$ disks); the change in Step 3 unknots it.
+
+Figure~\ref{fig:h23} shows Steps 1--3 on the smallest case, $H(2,3)$, and Figure~\ref{fig:grid} shows the triangle of
+Step 2 for $n = 3$. Both are drawn by \texttt{note/figures/make\_figures.py} from the same words as the computations, and
+\texttt{check\_figures.py} confirms with SnapPy that the drawn $H(2,3)$ is o9\_30634 with $\tau = g$, that changing the
+circled crossings gives the unknot, and that in this drawing each $A_i$ with $i \ge 2$ lies over every strand it meets in
+Step 4. The braids run from left to right, with position $1$ at the bottom and every letter $\sigma_i$ a right-handed
+crossing.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_h23_note.pdf}
+\caption{$H(2,3)$, the Baker--Kegel knot $K_1$ (census o9\_30634): the closure of $X_2^3 T_2$ with
+$X_2 = \sigma_2\sigma_1\sigma_3\sigma_2$ and $T_2 = \sigma_1^{-1}\sigma_2\sigma_1\sigma_1\sigma_2$. The six circled
+crossings are the changes of Steps 1--3: all of the second copy of $X_2$, which then cancels the first; the last
+crossing of the third copy ($\bar C = \sigma_2$); and the $\sigma_2$ inside $a$ in $T_2$. Six is $g$.}
+\label{fig:h23}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/fig_grid_note.pdf}
+\caption{One copy of $X_3$, with the strands $A_i$ blue and $B_j$ orange and, under each crossing, its pair $(i,j)$.
+$B$ is over $A$ at every crossing. The circled crossings form $\bar C$, the pairs with $j > i$, which Step 2 changes.
+Right: the same pairs as a grid, $C$ for $j < i$ and $L$ for the middle layer $L_2$.}
+\label{fig:grid}
+\end{figure}
 
 \section{Cables}
 
